@@ -1,0 +1,1404 @@
+{"passage_seq": 2, "entity_key": "moscow", "surface": "Москву"}
+{"passage_seq": 2, "entity_key": "petrov-aa", "surface": "Птрв"}
+{"passage_seq": 2, "entity_key": "shakespeare", "surface": "Шекспир"}
+{"passage_seq": 2, "entity_key": "tver", "surface": "Твери"}
+{"passage_seq": 3, "entity_key": "gdansk", "surface": "Данциг"}
+{"passage_seq": 3, "entity_key": "riga", "surface": "Ригу"}
+{"passage_seq": 3, "entity_key": "saint-petersburg", "surface": "Петербурге"}
+{"passage_seq": 3, "entity_key": "summer-garden", "surface": "Летнем саду"}
+{"passage_seq": 4, "entity_key": "hotel-de-petersbourg-riga", "surface": "Hotel de Petersbourg"}
+{"passage_seq": 4, "entity_key": "ilya-servant", "surface": "Илья"}
+{"passage_seq": 4, "entity_key": "ilya-servant", "surface": "Илью"}
+{"passage_seq": 4, "entity_key": "ivangorod", "surface": "Иван-город"}
+{"passage_seq": 4, "entity_key": "kaliningrad", "surface": "Кенигсберг"}
+{"passage_seq": 4, "entity_key": "kaliningrad", "surface": "Кенигсберга"}
+{"passage_seq": 4, "entity_key": "kingisepp", "surface": "Ямбурге"}
+{"passage_seq": 4, "entity_key": "klopstock", "surface": "Клопшток"}
+{"passage_seq": 4, "entity_key": "klopstock", "surface": "Клопштоком"}
+{"passage_seq": 4, "entity_key": "kramer-narva", "surface": "Крамера"}
+{"passage_seq": 4, "entity_key": "kramer-narva", "surface": "Крамеру"}
+{"passage_seq": 4, "entity_key": "lenz", "surface": "Ленца"}
+{"passage_seq": 4, "entity_key": "lenz", "surface": "Л*"}
+{"passage_seq": 4, "entity_key": "moscow", "surface": "Москву"}
+{"passage_seq": 4, "entity_key": "munnich", "surface": "Миниха"}
+{"passage_seq": 4, "entity_key": "narva", "surface": "Нарве"}
+{"passage_seq": 4, "entity_key": "narva", "surface": "Нарвы"}
+{"passage_seq": 4, "entity_key": "narva", "surface": "Нарва"}
+{"passage_seq": 4, "entity_key": "riga", "surface": "Ригу"}
+{"passage_seq": 4, "entity_key": "riga", "surface": "Риги"}
+{"passage_seq": 4, "entity_key": "saint-petersburg", "surface": "Петербурга"}
+{"passage_seq": 4, "entity_key": "shakespeare", "surface": "Шекспир"}
+{"passage_seq": 4, "entity_key": "shakespeare", "surface": "Шекспиром"}
+{"passage_seq": 4, "entity_key": "tartu", "surface": "Дерптом"}
+{"passage_seq": 4, "entity_key": "tartu", "surface": "Дерпт"}
+{"passage_seq": 5, "entity_key": "courland", "surface": "Курляндию"}
+{"passage_seq": 5, "entity_key": "ilya-servant", "surface": "Илье"}
+{"passage_seq": 5, "entity_key": "ilya-servant", "surface": "Ильею"}
+{"passage_seq": 5, "entity_key": "jelgava", "surface": "Митава"}
+{"passage_seq": 5, "entity_key": "jelgava", "surface": "Митавы"}
+{"passage_seq": 5, "entity_key": "jelgava-palace", "surface": "дворец герцога курляндского"}
+{"passage_seq": 5, "entity_key": "kaliningrad", "surface": "Кенигсберга"}
+{"passage_seq": 5, "entity_key": "lielupe", "surface": "реки Аа"}
+{"passage_seq": 5, "entity_key": "petrov-aa", "surface": "Пт."}
+{"passage_seq": 5, "entity_key": "riga", "surface": "Риги"}
+{"passage_seq": 6, "entity_key": "courland", "surface": "Курляндиею"}
+{"passage_seq": 6, "entity_key": "klaipeda", "surface": "Мемеле"}
+{"passage_seq": 7, "entity_key": "curonian-lagoon", "surface": "Курляндский гаф"}
+{"passage_seq": 7, "entity_key": "kaliningrad", "surface": "Кенигсберг"}
+{"passage_seq": 7, "entity_key": "kaliningrad", "surface": "Кенигсберга"}
+{"passage_seq": 7, "entity_key": "kaliningrad", "surface": "Кенигсберге"}
+{"passage_seq": 7, "entity_key": "klaipeda", "surface": "Мемель"}
+{"passage_seq": 7, "entity_key": "klaipeda", "surface": "Мемеля"}
+{"passage_seq": 7, "entity_key": "sovetsk", "surface": "Тильзит"}
+{"passage_seq": 7, "entity_key": "sovetsk", "surface": "Тильзитом"}
+{"passage_seq": 8, "entity_key": "courland", "surface": "Курляндии"}
+{"passage_seq": 8, "entity_key": "frankfurt", "surface": "Франкфурте"}
+{"passage_seq": 8, "entity_key": "kaliningrad", "surface": "Кенигсберга"}
+{"passage_seq": 8, "entity_key": "kaliningrad", "surface": "Кенингсберг"}
+{"passage_seq": 8, "entity_key": "klaipeda", "surface": "Мемеля"}
+{"passage_seq": 8, "entity_key": "klaipeda", "surface": "Мемеле"}
+{"passage_seq": 8, "entity_key": "main-river", "surface": "Майне"}
+{"passage_seq": 8, "entity_key": "saint-petersburg", "surface": "Петербурга"}
+{"passage_seq": 8, "entity_key": "siege-of-ochakov-1788", "surface": "Очакова"}
+{"passage_seq": 8, "entity_key": "sovetsk", "surface": "Тильзит"}
+{"passage_seq": 8, "entity_key": "sovetsk", "surface": "Тильзите"}
+{"passage_seq": 8, "entity_key": "trenck", "surface": "Тренк"}
+{"passage_seq": 9, "entity_key": "berlin", "surface": "Берлин"}
+{"passage_seq": 9, "entity_key": "berlin", "surface": "Берлина"}
+{"passage_seq": 9, "entity_key": "berlin", "surface": "Берлине"}
+{"passage_seq": 9, "entity_key": "bonnet", "surface": "Боннета"}
+{"passage_seq": 9, "entity_key": "kaliningrad", "surface": "Кенигсберг"}
+{"passage_seq": 9, "entity_key": "kant", "surface": "Канта"}
+{"passage_seq": 9, "entity_key": "kant", "surface": "Кант"}
+{"passage_seq": 9, "entity_key": "kant", "surface": "Канту"}
+{"passage_seq": 9, "entity_key": "kant-house-koenigsberg", "surface": "Домик у него маленький"}
+{"passage_seq": 9, "entity_key": "koenigsberg-castle", "surface": "В старинном замке"}
+{"passage_seq": 9, "entity_key": "koenigsberg-castle", "surface": "Московская зала"}
+{"passage_seq": 9, "entity_key": "koenigsberg-cathedral", "surface": "кафедральная церковь"}
+{"passage_seq": 9, "entity_key": "lavater", "surface": "Лафатера"}
+{"passage_seq": 9, "entity_key": "lavater", "surface": "Лафатер"}
+{"passage_seq": 9, "entity_key": "leibniz", "surface": "Лейбница"}
+{"passage_seq": 9, "entity_key": "mendelssohn", "surface": "Мендельзон"}
+{"passage_seq": 9, "entity_key": "moscow", "surface": "Москве"}
+{"passage_seq": 9, "entity_key": "moscow", "surface": "Москвы"}
+{"passage_seq": 9, "entity_key": "moscow", "surface": "Москву"}
+{"passage_seq": 9, "entity_key": "saint-petersburg", "surface": "Петербурге"}
+{"passage_seq": 9, "entity_key": "schenk-inn-koenigsberg", "surface": "у Шенка"}
+{"passage_seq": 9, "entity_key": "schenk-inn-koenigsberg", "surface": "к Шенку"}
+{"passage_seq": 9, "entity_key": "strasbourg-cathedral", "surface": "кафедральная церковь"}
+{"passage_seq": 10, "entity_key": "braniewo", "surface": "Браунсберг"}
+{"passage_seq": 10, "entity_key": "copernicus", "surface": "Коперник"}
+{"passage_seq": 10, "entity_key": "copernicus", "surface": "Коперника"}
+{"passage_seq": 10, "entity_key": "elblag", "surface": "Эльбинг"}
+{"passage_seq": 10, "entity_key": "frombork", "surface": "Фрауенберг"}
+{"passage_seq": 10, "entity_key": "gdansk", "surface": "Данцига"}
+{"passage_seq": 10, "entity_key": "heiligenbeil", "surface": "Генлигенбейль"}
+{"passage_seq": 10, "entity_key": "heiligenbeil", "surface": "Heiligenbeil"}
+{"passage_seq": 10, "entity_key": "kaliningrad", "surface": "Кенигсберга"}
+{"passage_seq": 10, "entity_key": "malbork", "surface": "Мариенбурге"}
+{"passage_seq": 10, "entity_key": "malbork-castle", "surface": "древний его замок"}
+{"passage_seq": 11, "entity_key": "gdansk", "surface": "Данцига"}
+{"passage_seq": 11, "entity_key": "gdansk", "surface": "Данциг"}
+{"passage_seq": 11, "entity_key": "gdansk", "surface": "Данциге"}
+{"passage_seq": 11, "entity_key": "gdansk-town-hall", "surface": "ратуша"}
+{"passage_seq": 11, "entity_key": "hagelsberg-gdansk", "surface": "Гагелсберге"}
+{"passage_seq": 11, "entity_key": "last-judgment-memling", "surface": "Эйхелеву картину"}
+{"passage_seq": 11, "entity_key": "munnich", "surface": "Миних"}
+{"passage_seq": 11, "entity_key": "siege-of-danzig-1734", "surface": "в 1734 году"}
+{"passage_seq": 11, "entity_key": "st-mary-gdansk", "surface": "главной лютеранской церкви"}
+{"passage_seq": 11, "entity_key": "stolzenberg-gdansk", "surface": "Штоценберге"}
+{"passage_seq": 11, "entity_key": "stolzenberg-gdansk", "surface": "Штоценберг"}
+{"passage_seq": 11, "entity_key": "trendelenburg", "surface": "Тренделенбурга"}
+{"passage_seq": 12, "entity_key": "gdansk", "surface": "Данциге"}
+{"passage_seq": 12, "entity_key": "gdansk", "surface": "Данцига"}
+{"passage_seq": 12, "entity_key": "ring-magister", "surface": "Ринге"}
+{"passage_seq": 12, "entity_key": "saint-petersburg", "surface": "Петербурге"}
+{"passage_seq": 13, "entity_key": "berlin", "surface": "Берлине"}
+{"passage_seq": 13, "entity_key": "frederick-ii", "surface": "Фридриха"}
+{"passage_seq": 13, "entity_key": "frederick-ii", "surface": "Фридрих"}
+{"passage_seq": 13, "entity_key": "fw1-statue-koszalin", "surface": "статуею Фридриха Вильгельма"}
+{"passage_seq": 13, "entity_key": "fw1-statue-koszalin", "surface": "статую Фридриха Вильгельма"}
+{"passage_seq": 13, "entity_key": "karlino", "surface": "Керлин"}
+{"passage_seq": 13, "entity_key": "karlino", "surface": "Керлине"}
+{"passage_seq": 13, "entity_key": "koszalin", "surface": "Кеслин"}
+{"passage_seq": 13, "entity_key": "lupawa", "surface": "Лупове"}
+{"passage_seq": 13, "entity_key": "slupsk", "surface": "Штолпе"}
+{"passage_seq": 13, "entity_key": "st-mary-stargard", "surface": "церковь Марии"}
+{"passage_seq": 13, "entity_key": "stargard", "surface": "Штаргард"}
+{"passage_seq": 13, "entity_key": "stargard", "surface": "Штаргарде"}
+{"passage_seq": 14, "entity_key": "bellevue-palace", "surface": "Сад принца Фердинанда"}
+{"passage_seq": 14, "entity_key": "berlin", "surface": "Берлин"}
+{"passage_seq": 14, "entity_key": "berlin", "surface": "Берлина"}
+{"passage_seq": 14, "entity_key": "berlin", "surface": "Берлину"}
+{"passage_seq": 14, "entity_key": "berlin", "surface": "Берлине"}
+{"passage_seq": 14, "entity_key": "biester", "surface": "Бистер"}
+{"passage_seq": 14, "entity_key": "blum-innkeeper", "surface": "Блум"}
+{"passage_seq": 14, "entity_key": "blum-innkeeper", "surface": "Блума"}
+{"passage_seq": 14, "entity_key": "bruderstrasse-berlin", "surface": "Братской улице"}
+{"passage_seq": 14, "entity_key": "charlottenburg", "surface": "Шарлотенбурга"}
+{"passage_seq": 14, "entity_key": "frankfurt", "surface": "Франкфурте"}
+{"passage_seq": 14, "entity_key": "frederick-ii", "surface": "Фридрих"}
+{"passage_seq": 14, "entity_key": "frederick-ii", "surface": "Фридриха"}
+{"passage_seq": 14, "entity_key": "gendarmenmarkt", "surface": "Жандармская"}
+{"passage_seq": 14, "entity_key": "great-elector-statue", "surface": "монумент Фридриха Вильгельма Великого"}
+{"passage_seq": 14, "entity_key": "kaliningrad", "surface": "Кенигсберге"}
+{"passage_seq": 14, "entity_key": "keith-james", "surface": "Кейта"}
+{"passage_seq": 14, "entity_key": "keith-james", "surface": "Кейт"}
+{"passage_seq": 14, "entity_key": "koenig-von-england-berlin", "surface": "трактирщик английского короля"}
+{"passage_seq": 14, "entity_key": "kutuzov-am", "surface": "Кутузова"}
+{"passage_seq": 14, "entity_key": "long-bridge-berlin", "surface": "Длинном мосту"}
+{"passage_seq": 14, "entity_key": "luther", "surface": "Лютеров"}
+{"passage_seq": 14, "entity_key": "main-river", "surface": "Майне"}
+{"passage_seq": 14, "entity_key": "nicolai", "surface": "Николаево"}
+{"passage_seq": 14, "entity_key": "potsdam", "surface": "Потсдама"}
+{"passage_seq": 14, "entity_key": "prince-ferdinand-prussia", "surface": "принца Фердинанда"}
+{"passage_seq": 14, "entity_key": "prince-ferdinand-prussia", "surface": "сам принц"}
+{"passage_seq": 14, "entity_key": "riga", "surface": "Риги"}
+{"passage_seq": 14, "entity_key": "royal-library-berlin", "surface": "Королевскую библиотеку"}
+{"passage_seq": 14, "entity_key": "saint-petersburg", "surface": "Петербурге"}
+{"passage_seq": 14, "entity_key": "schwerin-kc", "surface": "Шверина"}
+{"passage_seq": 14, "entity_key": "schwerin-kc", "surface": "Шверин"}
+{"passage_seq": 14, "entity_key": "seydlitz", "surface": "Зейдлица"}
+{"passage_seq": 14, "entity_key": "seydlitz", "surface": "Зейдлиц"}
+{"passage_seq": 14, "entity_key": "stargard", "surface": "Штаргарда"}
+{"passage_seq": 14, "entity_key": "tiergarten", "surface": "зверинец"}
+{"passage_seq": 14, "entity_key": "tiergarten", "surface": "зверинце"}
+{"passage_seq": 14, "entity_key": "tiergarten", "surface": "зверинца"}
+{"passage_seq": 14, "entity_key": "trenck", "surface": "Тренка"}
+{"passage_seq": 14, "entity_key": "unter-den-linden", "surface": "Липовую улицу"}
+{"passage_seq": 14, "entity_key": "wilhelmina-of-prussia-orange", "surface": "штатгальтерши"}
+{"passage_seq": 14, "entity_key": "wilhelmplatz-berlin", "surface": "Вилъгелъмова"}
+{"passage_seq": 14, "entity_key": "winterfeldt", "surface": "Винтерфельда"}
+{"passage_seq": 15, "entity_key": "battle-of-kunersdorf", "surface": "Куммерсдорфе"}
+{"passage_seq": 15, "entity_key": "berlin", "surface": "Берлин"}
+{"passage_seq": 15, "entity_key": "berlin", "surface": "Берлине"}
+{"passage_seq": 15, "entity_key": "berlin", "surface": "Берлинский"}
+{"passage_seq": 15, "entity_key": "berlin", "surface": "Берлинского"}
+{"passage_seq": 15, "entity_key": "biester", "surface": "Бистером"}
+{"passage_seq": 15, "entity_key": "biester", "surface": "Бистера"}
+{"passage_seq": 15, "entity_key": "biester", "surface": "Бистер"}
+{"passage_seq": 15, "entity_key": "blum-innkeeper", "surface": "Блума"}
+{"passage_seq": 15, "entity_key": "blum-innkeeper", "surface": "Блум"}
+{"passage_seq": 15, "entity_key": "bruderstrasse-berlin", "surface": "Bruderstrasse"}
+{"passage_seq": 15, "entity_key": "cagliostro", "surface": "Калиостро"}
+{"passage_seq": 15, "entity_key": "frankfurt", "surface": "Франкфурт"}
+{"passage_seq": 15, "entity_key": "frederick-ii", "surface": "Фридрих"}
+{"passage_seq": 15, "entity_key": "garrison-church-berlin", "surface": "гарнизонной церкви"}
+{"passage_seq": 15, "entity_key": "garve", "surface": "Гарве"}
+{"passage_seq": 15, "entity_key": "kleist-ec", "surface": "Клейст"}
+{"passage_seq": 15, "entity_key": "kleist-ec", "surface": "Клейста"}
+{"passage_seq": 15, "entity_key": "lavater", "surface": "Лафатер"}
+{"passage_seq": 15, "entity_key": "lavater", "surface": "Лафатеру"}
+{"passage_seq": 15, "entity_key": "mendelssohn", "surface": "Мендельзонова"}
+{"passage_seq": 15, "entity_key": "nicolai", "surface": "Николаем"}
+{"passage_seq": 15, "entity_key": "nicolai", "surface": "Николаи"}
+{"passage_seq": 15, "entity_key": "nicolai", "surface": "Николаевой"}
+{"passage_seq": 15, "entity_key": "saint-petersburg", "surface": "Петербурга"}
+{"passage_seq": 15, "entity_key": "schwerin-kc", "surface": "Шверина"}
+{"passage_seq": 15, "entity_key": "starck", "surface": "Штарк"}
+{"passage_seq": 15, "entity_key": "thomson", "surface": "Томсон"}
+{"passage_seq": 15, "entity_key": "winterfeldt", "surface": "Винтерфельда"}
+{"passage_seq": 16, "entity_key": "fleck", "surface": "Флек"}
+{"passage_seq": 16, "entity_key": "frederick-william-ii", "surface": "прусского короля"}
+{"passage_seq": 16, "entity_key": "goethe", "surface": "Гете"}
+{"passage_seq": 16, "entity_key": "kotzebue", "surface": "Коцебу"}
+{"passage_seq": 16, "entity_key": "menschenhass-und-reue", "surface": "Ненависть к людям"}
+{"passage_seq": 16, "entity_key": "schiller", "surface": "Шиллера"}
+{"passage_seq": 16, "entity_key": "shakespeare", "surface": "Шекспира"}
+{"passage_seq": 16, "entity_key": "unzelmann-friederike", "surface": "Г-жа Унцельман"}
+{"passage_seq": 16, "entity_key": "wilhelmina-of-prussia-orange", "surface": "штатгальтершею"}
+{"passage_seq": 16, "entity_key": "wilhelmina-of-prussia-orange", "surface": "штатгальтерши"}
+{"passage_seq": 16, "entity_key": "wilhelmina-of-prussia-orange", "surface": "штатгальтершу"}
+{"passage_seq": 17, "entity_key": "berlin", "surface": "Берлин"}
+{"passage_seq": 17, "entity_key": "berlin", "surface": "Берлина"}
+{"passage_seq": 17, "entity_key": "berlin", "surface": "Берлинской"}
+{"passage_seq": 17, "entity_key": "berlin", "surface": "Берлине"}
+{"passage_seq": 17, "entity_key": "berlin-academy", "surface": "Берлинской академии"}
+{"passage_seq": 17, "entity_key": "charlottenburg", "surface": "Шарлотенбург"}
+{"passage_seq": 17, "entity_key": "charlottenburg", "surface": "Шарлотенбургской"}
+{"passage_seq": 17, "entity_key": "chinese-house-sanssouci", "surface": "японский домик"}
+{"passage_seq": 17, "entity_key": "formey", "surface": "Формей"}
+{"passage_seq": 17, "entity_key": "formey", "surface": "Формою"}
+{"passage_seq": 17, "entity_key": "frederick-ii", "surface": "Фридрих"}
+{"passage_seq": 17, "entity_key": "moscow", "surface": "Москве"}
+{"passage_seq": 17, "entity_key": "new-palace-potsdam", "surface": "новому дворцу"}
+{"passage_seq": 17, "entity_key": "potsdam", "surface": "Потсдам"}
+{"passage_seq": 17, "entity_key": "potsdam", "surface": "Потсдама"}
+{"passage_seq": 17, "entity_key": "potsdam", "surface": "Потсдаме"}
+{"passage_seq": 17, "entity_key": "russian-church-potsdam-1789", "surface": "русская церковь"}
+{"passage_seq": 17, "entity_key": "sanssouci", "surface": "Сан-Суси"}
+{"passage_seq": 17, "entity_key": "staatsoper-berlin", "surface": "Оперный дом"}
+{"passage_seq": 17, "entity_key": "tiergarten", "surface": "зверинца"}
+{"passage_seq": 17, "entity_key": "todi", "surface": "Тоди"}
+{"passage_seq": 17, "entity_key": "voltaire", "surface": "Вольтерами"}
+{"passage_seq": 17, "entity_key": "voltaire", "surface": "Вольтером"}
+{"passage_seq": 17, "entity_key": "wilhelmina-of-prussia-orange", "surface": "штатгальтершу"}
+{"passage_seq": 18, "entity_key": "berlin", "surface": "Берлинском"}
+{"passage_seq": 18, "entity_key": "don-carlos-schiller", "surface": "Дон-Карлоса"}
+{"passage_seq": 18, "entity_key": "don-carlos-schiller", "surface": "Дон-Карлос"}
+{"passage_seq": 18, "entity_key": "engel-jj", "surface": "Энгель"}
+{"passage_seq": 18, "entity_key": "fleck", "surface": "Флек"}
+{"passage_seq": 18, "entity_key": "gessner", "surface": "Геснеровой"}
+{"passage_seq": 18, "entity_key": "gessner", "surface": "Геснерова"}
+{"passage_seq": 18, "entity_key": "gessner", "surface": "Геснеровы"}
+{"passage_seq": 18, "entity_key": "mattausch", "surface": "Маттауш"}
+{"passage_seq": 18, "entity_key": "ramler", "surface": "Рамлера"}
+{"passage_seq": 18, "entity_key": "ramler", "surface": "Рамлер"}
+{"passage_seq": 18, "entity_key": "schiller", "surface": "Шиллерову"}
+{"passage_seq": 18, "entity_key": "shakespeare", "surface": "Шекспировом"}
+{"passage_seq": 18, "entity_key": "shakespeare", "surface": "Шекспира"}
+{"passage_seq": 18, "entity_key": "unzelmann-friederike", "surface": "Г-жа Унцельман"}
+{"passage_seq": 18, "entity_key": "unzelmann-karl", "surface": "Унцельман играл"}
+{"passage_seq": 18, "entity_key": "weisse", "surface": "Вейсе"}
+{"passage_seq": 19, "entity_key": "berlin", "surface": "Берлине"}
+{"passage_seq": 19, "entity_key": "campe", "surface": "Кампе"}
+{"passage_seq": 19, "entity_key": "confessions-rousseau", "surface": "Confessions"}
+{"passage_seq": 19, "entity_key": "don-carlos-schiller", "surface": "Дон-Карлосе"}
+{"passage_seq": 19, "entity_key": "engel-jj", "surface": "Энгеля"}
+{"passage_seq": 19, "entity_key": "kpm-berlin", "surface": "фарфоровой фабрике"}
+{"passage_seq": 19, "entity_key": "moritz", "surface": "Морицу"}
+{"passage_seq": 19, "entity_key": "moritz", "surface": "Мориц"}
+{"passage_seq": 19, "entity_key": "moritz", "surface": "Морица"}
+{"passage_seq": 19, "entity_key": "rousseau", "surface": "Руссо"}
+{"passage_seq": 20, "entity_key": "berlin", "surface": "Берлин"}
+{"passage_seq": 20, "entity_key": "berlin", "surface": "Берлине"}
+{"passage_seq": 20, "entity_key": "berlin", "surface": "Берлина"}
+{"passage_seq": 20, "entity_key": "rousseau", "surface": "Руссовой"}
+{"passage_seq": 20, "entity_key": "tiergarten", "surface": "зверинце"}
+{"passage_seq": 21, "entity_key": "blum-innkeeper", "surface": "Блума"}
+{"passage_seq": 21, "entity_key": "dresden", "surface": "Дрездена"}
+{"passage_seq": 21, "entity_key": "kaliningrad", "surface": "Кенигсберга"}
+{"passage_seq": 22, "entity_key": "augustus-bridge-dresden", "surface": "мосту, соединяющем"}
+{"passage_seq": 22, "entity_key": "augustus-iii", "surface": "Август III"}
+{"passage_seq": 22, "entity_key": "berlin", "surface": "Берлина"}
+{"passage_seq": 22, "entity_key": "berlin", "surface": "Берлинской"}
+{"passage_seq": 22, "entity_key": "berlin", "surface": "Берлину"}
+{"passage_seq": 22, "entity_key": "berlin-academy", "surface": "Берлинской академии"}
+{"passage_seq": 22, "entity_key": "blum-innkeeper", "surface": "Блумом"}
+{"passage_seq": 22, "entity_key": "correggio", "surface": "Корреджиеву"}
+{"passage_seq": 22, "entity_key": "correggio", "surface": "Корреджио"}
+{"passage_seq": 22, "entity_key": "correggio", "surface": "Корреджиева"}
+{"passage_seq": 22, "entity_key": "dresden", "surface": "Дрезден"}
+{"passage_seq": 22, "entity_key": "dresden", "surface": "Дрездене"}
+{"passage_seq": 22, "entity_key": "dresden", "surface": "Дрезденом"}
+{"passage_seq": 22, "entity_key": "dresden", "surface": "Дрезденскую"}
+{"passage_seq": 22, "entity_key": "dresden-library", "surface": "библиотека"}
+{"passage_seq": 22, "entity_key": "dresden-neustadt", "surface": "Новый город"}
+{"passage_seq": 22, "entity_key": "dresden-picture-gallery", "surface": "славную картинную галерею"}
+{"passage_seq": 22, "entity_key": "dresden-picture-gallery", "surface": "Дрезденскую галерею"}
+{"passage_seq": 22, "entity_key": "dresden-picture-gallery", "surface": "После картинной галереи"}
+{"passage_seq": 22, "entity_key": "elbe", "surface": "Эльба"}
+{"passage_seq": 22, "entity_key": "elbe", "surface": "Эльбы"}
+{"passage_seq": 22, "entity_key": "green-vault", "surface": "зеленую кладовую"}
+{"passage_seq": 22, "entity_key": "green-vault", "surface": "зеленой кладовой"}
+{"passage_seq": 22, "entity_key": "green-vault", "surface": "Grune Gewolbe"}
+{"passage_seq": 22, "entity_key": "holy-night-correggio", "surface": "\"Ночь\""}
+{"passage_seq": 22, "entity_key": "matthaei", "surface": "Маттеем"}
+{"passage_seq": 22, "entity_key": "matthaei", "surface": "Маттей"}
+{"passage_seq": 22, "entity_key": "michelangelo", "surface": "Микель-Анджеловою"}
+{"passage_seq": 22, "entity_key": "michelangelo", "surface": "Микель-Анджелову"}
+{"passage_seq": 22, "entity_key": "michelangelo", "surface": "Микель-Анджело"}
+{"passage_seq": 22, "entity_key": "michelangelo", "surface": "Микеля-Анджело"}
+{"passage_seq": 22, "entity_key": "moscow", "surface": "Москвитянин"}
+{"passage_seq": 22, "entity_key": "moscow", "surface": "Москву"}
+{"passage_seq": 22, "entity_key": "p-dresden", "surface": "господину П*"}
+{"passage_seq": 22, "entity_key": "p-dresden", "surface": "господин П*"}
+{"passage_seq": 22, "entity_key": "p-dresden", "surface": "Господин П*"}
+{"passage_seq": 22, "entity_key": "post-inn-dresden", "surface": "трактире на почтовом дворе"}
+{"passage_seq": 22, "entity_key": "raphael", "surface": "Рафаэлевою"}
+{"passage_seq": 22, "entity_key": "raphael", "surface": "Рафаэлеву"}
+{"passage_seq": 22, "entity_key": "raphael", "surface": "Рафаэль"}
+{"passage_seq": 22, "entity_key": "raphael", "surface": "Рафаэля"}
+{"passage_seq": 22, "entity_key": "raphael", "surface": "Рафаэлю"}
+{"passage_seq": 22, "entity_key": "raphael", "surface": "Рафаэлев"}
+{"passage_seq": 22, "entity_key": "raphael", "surface": "Рафаэлем"}
+{"passage_seq": 22, "entity_key": "rubens", "surface": "Рубенсовы"}
+{"passage_seq": 22, "entity_key": "rubens", "surface": "Рубенс"}
+{"passage_seq": 22, "entity_key": "rubens", "surface": "Рубенсов"}
+{"passage_seq": 22, "entity_key": "rubens", "surface": "Рубенсову"}
+{"passage_seq": 22, "entity_key": "rubens", "surface": "Рубенсова"}
+{"passage_seq": 22, "entity_key": "sistine-madonna", "surface": "Рафаэлеву"}
+{"passage_seq": 22, "entity_key": "st-peter-zurich", "surface": "церкви св. Петра"}
+{"passage_seq": 22, "entity_key": "st-pierre-geneva", "surface": "церкви св. Петра"}
+{"passage_seq": 22, "entity_key": "tiergarten", "surface": "зверинец"}
+{"passage_seq": 22, "entity_key": "zwinger", "surface": "Zwinger"}
+{"passage_seq": 23, "entity_key": "dresden-hofkirche", "surface": "придворную католическую церковь"}
+{"passage_seq": 24, "entity_key": "elbe", "surface": "Эльба"}
+{"passage_seq": 24, "entity_key": "elbe", "surface": "Эльбы"}
+{"passage_seq": 24, "entity_key": "grosser-garten-dresden", "surface": "Большой сад"}
+{"passage_seq": 25, "entity_key": "albrechtsburg", "surface": "Старый дворец"}
+{"passage_seq": 25, "entity_key": "bonnet", "surface": "Боннетовою"}
+{"passage_seq": 25, "entity_key": "dresden", "surface": "Дрездена"}
+{"passage_seq": 25, "entity_key": "elbe", "surface": "Эльбы"}
+{"passage_seq": 25, "entity_key": "elbe", "surface": "Эльбе"}
+{"passage_seq": 25, "entity_key": "klaipeda", "surface": "Мемеля"}
+{"passage_seq": 25, "entity_key": "klaipeda", "surface": "Мемель"}
+{"passage_seq": 25, "entity_key": "kleist-leipzig", "surface": "г. фон Клейстом"}
+{"passage_seq": 25, "entity_key": "lavater", "surface": "Лафатера"}
+{"passage_seq": 25, "entity_key": "leipzig", "surface": "Лейпциг"}
+{"passage_seq": 25, "entity_key": "leipzig", "surface": "Лейпцига"}
+{"passage_seq": 25, "entity_key": "leipzig", "surface": "Лейпцигский"}
+{"passage_seq": 25, "entity_key": "magister-red-wig", "surface": "магистер, или деревенский проповедник"}
+{"passage_seq": 25, "entity_key": "matthaei", "surface": "Маттей"}
+{"passage_seq": 25, "entity_key": "meissen", "surface": "Мейсена"}
+{"passage_seq": 25, "entity_key": "meissen", "surface": "Мейсен"}
+{"passage_seq": 25, "entity_key": "meissen", "surface": "Misna"}
+{"passage_seq": 25, "entity_key": "meissen-cathedral", "surface": "Главная церковь"}
+{"passage_seq": 25, "entity_key": "meissen-porcelain", "surface": "саксонский фарфор"}
+{"passage_seq": 25, "entity_key": "memel-inn-leipzig", "surface": "трактире у Мемеля"}
+{"passage_seq": 25, "entity_key": "memel-innkeeper", "surface": "г. Мемель"}
+{"passage_seq": 25, "entity_key": "mendelssohn", "surface": "Мендельзоновом"}
+{"passage_seq": 25, "entity_key": "prague-student", "surface": "прагский"}
+{"passage_seq": 25, "entity_key": "prague-student", "surface": "прагским"}
+{"passage_seq": 26, "entity_key": "barthelemy", "surface": "Бартелеми"}
+{"passage_seq": 26, "entity_key": "beck-cd", "surface": "г. Бека"}
+{"passage_seq": 26, "entity_key": "beck-cd", "surface": "Господин Бек"}
+{"passage_seq": 26, "entity_key": "beck-cd", "surface": "Профессор Бек"}
+{"passage_seq": 26, "entity_key": "dresden", "surface": "Дрездена"}
+{"passage_seq": 26, "entity_key": "dresden", "surface": "Дрездене"}
+{"passage_seq": 26, "entity_key": "franklin", "surface": "Франклина"}
+{"passage_seq": 26, "entity_key": "gellert", "surface": "Геллертов"}
+{"passage_seq": 26, "entity_key": "gellert", "surface": "Геллертовы"}
+{"passage_seq": 26, "entity_key": "gellert", "surface": "Геллертовым"}
+{"passage_seq": 26, "entity_key": "gellert", "surface": "Геллерт"}
+{"passage_seq": 26, "entity_key": "gellert", "surface": "Геллерту"}
+{"passage_seq": 26, "entity_key": "gellert", "surface": "Геллерта"}
+{"passage_seq": 26, "entity_key": "gellert-monument-oeser", "surface": "Геллертов монумент"}
+{"passage_seq": 26, "entity_key": "gellert-monument-st-john", "surface": "иной памятник"}
+{"passage_seq": 26, "entity_key": "geneva", "surface": "женевцем"}
+{"passage_seq": 26, "entity_key": "heyne", "surface": "Гейне"}
+{"passage_seq": 26, "entity_key": "kant", "surface": "Кантом"}
+{"passage_seq": 26, "entity_key": "klaipeda", "surface": "Мемель"}
+{"passage_seq": 26, "entity_key": "kleist-leipzig", "surface": "г. Клейста"}
+{"passage_seq": 26, "entity_key": "kramer-narva", "surface": "Крамерову"}
+{"passage_seq": 26, "entity_key": "leibniz", "surface": "Лейбницем"}
+{"passage_seq": 26, "entity_key": "leibniz", "surface": "Лейбниц"}
+{"passage_seq": 26, "entity_key": "leipzig", "surface": "Лейпцига"}
+{"passage_seq": 26, "entity_key": "leipzig", "surface": "Лейпциг"}
+{"passage_seq": 26, "entity_key": "leipzig-university", "surface": "теологическую аудиторию"}
+{"passage_seq": 26, "entity_key": "melly", "surface": "Мелли"}
+{"passage_seq": 26, "entity_key": "memel-innkeeper", "surface": "г. Мемель"}
+{"passage_seq": 26, "entity_key": "mendelssohn", "surface": "Мендельзоновых"}
+{"passage_seq": 26, "entity_key": "oeser", "surface": "Эзером"}
+{"passage_seq": 26, "entity_key": "platner", "surface": "Платнер"}
+{"passage_seq": 26, "entity_key": "platner", "surface": "Платнеровы"}
+{"passage_seq": 26, "entity_key": "platner", "surface": "Платнера"}
+{"passage_seq": 26, "entity_key": "richter-garden-leipzig", "surface": "Рихтеров"}
+{"passage_seq": 26, "entity_key": "saint-petersburg", "surface": "Петербурга"}
+{"passage_seq": 26, "entity_key": "st-john-church-leipzig", "surface": "церковь св. Иоанна"}
+{"passage_seq": 26, "entity_key": "weisse", "surface": "Вейсеева"}
+{"passage_seq": 26, "entity_key": "weisse", "surface": "Вейсееву"}
+{"passage_seq": 26, "entity_key": "wendler-garden-leipzig", "surface": "Вендлеровом"}
+{"passage_seq": 27, "entity_key": "blue-angel-inn-leipzig", "surface": "Голубого ангела"}
+{"passage_seq": 27, "entity_key": "dresden", "surface": "Дрездене"}
+{"passage_seq": 27, "entity_key": "kheraskov", "surface": "\"Россияду\""}
+{"passage_seq": 27, "entity_key": "klopstock", "surface": "Клопштоковых"}
+{"passage_seq": 27, "entity_key": "leipzig", "surface": "Лейпциге"}
+{"passage_seq": 27, "entity_key": "leipzig", "surface": "Лейпцига"}
+{"passage_seq": 27, "entity_key": "leipzig", "surface": "Лейпциг"}
+{"passage_seq": 27, "entity_key": "leipzig", "surface": "Лейпцигом"}
+{"passage_seq": 27, "entity_key": "mueller-jg", "surface": "Миллера"}
+{"passage_seq": 27, "entity_key": "muller-leipzig", "surface": "биргермейстера Миллера"}
+{"passage_seq": 27, "entity_key": "oeser", "surface": "Эзер"}
+{"passage_seq": 27, "entity_key": "oeser", "surface": "Озера"}
+{"passage_seq": 27, "entity_key": "platner", "surface": "Платнеру"}
+{"passage_seq": 27, "entity_key": "platner", "surface": "Платнер"}
+{"passage_seq": 27, "entity_key": "richter-garden-leipzig", "surface": "Рихтеровом"}
+{"passage_seq": 28, "entity_key": "beloselskaya", "surface": "Белосельскою"}
+{"passage_seq": 28, "entity_key": "dmitrevsky", "surface": "Дмитревский"}
+{"passage_seq": 28, "entity_key": "leipzig", "surface": "Лейпцига"}
+{"passage_seq": 28, "entity_key": "leipzig", "surface": "Лейпциге"}
+{"passage_seq": 28, "entity_key": "leipzig", "surface": "Лейпциг"}
+{"passage_seq": 28, "entity_key": "melly", "surface": "Мелли"}
+{"passage_seq": 28, "entity_key": "moscow", "surface": "Москве"}
+{"passage_seq": 28, "entity_key": "vicar-of-wakefield", "surface": "Vicar of Wakefield"}
+{"passage_seq": 28, "entity_key": "weisse", "surface": "Вейсе"}
+{"passage_seq": 29, "entity_key": "beck-cd", "surface": "Профессор Бек"}
+{"passage_seq": 29, "entity_key": "br-leipzig", "surface": "Бр."}
+{"passage_seq": 29, "entity_key": "cagliostro", "surface": "Калиостром"}
+{"passage_seq": 29, "entity_key": "frankfurt", "surface": "Франкфурте"}
+{"passage_seq": 29, "entity_key": "kutuzov-am", "surface": "А*"}
+{"passage_seq": 29, "entity_key": "leipzig", "surface": "Лейпциге"}
+{"passage_seq": 29, "entity_key": "mannheim", "surface": "Мангейме"}
+{"passage_seq": 29, "entity_key": "platner", "surface": "Платнера"}
+{"passage_seq": 29, "entity_key": "rosenthal-leipzig", "surface": "Розенталь"}
+{"passage_seq": 29, "entity_key": "rosenthal-leipzig", "surface": "Розентале"}
+{"passage_seq": 29, "entity_key": "schrepfer", "surface": "Шрепфер"}
+{"passage_seq": 29, "entity_key": "schrepfer", "surface": "Шрепфера"}
+{"passage_seq": 29, "entity_key": "schrepfer", "surface": "Шрепферу"}
+{"passage_seq": 29, "entity_key": "strasbourg", "surface": "Стразбурге"}
+{"passage_seq": 29, "entity_key": "zurich", "surface": "Цирих"}
+{"passage_seq": 30, "entity_key": "anna-amalia", "surface": "Чувствительная Амалия"}
+{"passage_seq": 30, "entity_key": "buttelstedt", "surface": "Буттельштета"}
+{"passage_seq": 30, "entity_key": "buttelstedt", "surface": "Буттельштет"}
+{"passage_seq": 30, "entity_key": "dresden", "surface": "Дрездене"}
+{"passage_seq": 30, "entity_key": "elephant-inn-weimar", "surface": "\"Слона\""}
+{"passage_seq": 30, "entity_key": "frenchman-buttelstedt", "surface": "молодым французом"}
+{"passage_seq": 30, "entity_key": "goethe", "surface": "Гете"}
+{"passage_seq": 30, "entity_key": "herder", "surface": "Гердер"}
+{"passage_seq": 30, "entity_key": "klopstock", "surface": "Клопштока"}
+{"passage_seq": 30, "entity_key": "leipzig", "surface": "Лейпцига"}
+{"passage_seq": 30, "entity_key": "musaeus", "surface": "Музеуса"}
+{"passage_seq": 30, "entity_key": "musaeus", "surface": "Музеусу"}
+{"passage_seq": 30, "entity_key": "naumburg", "surface": "Наумбург"}
+{"passage_seq": 30, "entity_key": "park-an-der-ilm", "surface": "называемый звездою"}
+{"passage_seq": 30, "entity_key": "spinoza", "surface": "Спиноза"}
+{"passage_seq": 30, "entity_key": "st-james-church-weimar", "surface": "церковь св. Якова"}
+{"passage_seq": 30, "entity_key": "weimar", "surface": "Веймара"}
+{"passage_seq": 30, "entity_key": "weimar", "surface": "Веймар"}
+{"passage_seq": 30, "entity_key": "weimar-city-palace", "surface": "герцогского дворца"}
+{"passage_seq": 30, "entity_key": "weimar-city-palace", "surface": "во дворце"}
+{"passage_seq": 30, "entity_key": "wieland", "surface": "Виланд"}
+{"passage_seq": 30, "entity_key": "wieland", "surface": "Виланду"}
+{"passage_seq": 30, "entity_key": "wieland", "surface": "Виланда"}
+{"passage_seq": 31, "entity_key": "anna-amalia", "surface": "Герцогиня Амалия"}
+{"passage_seq": 31, "entity_key": "bertuch", "surface": "Бертух"}
+{"passage_seq": 31, "entity_key": "bode", "surface": "Боде"}
+{"passage_seq": 31, "entity_key": "bonnet", "surface": "Боннет"}
+{"passage_seq": 31, "entity_key": "charles-augustus", "surface": "молодого герцога"}
+{"passage_seq": 31, "entity_key": "goethe", "surface": "Гете"}
+{"passage_seq": 31, "entity_key": "gotha", "surface": "Готе"}
+{"passage_seq": 31, "entity_key": "herder", "surface": "Гердеру"}
+{"passage_seq": 31, "entity_key": "herder", "surface": "Гердер"}
+{"passage_seq": 31, "entity_key": "herder", "surface": "Гердере"}
+{"passage_seq": 31, "entity_key": "herder", "surface": "Гердерова"}
+{"passage_seq": 31, "entity_key": "herder", "surface": "Гердера"}
+{"passage_seq": 31, "entity_key": "kant", "surface": "Канте"}
+{"passage_seq": 31, "entity_key": "kant", "surface": "Кантову"}
+{"passage_seq": 31, "entity_key": "lenz", "surface": "Л*"}
+{"passage_seq": 31, "entity_key": "moscow", "surface": "Москве"}
+{"passage_seq": 31, "entity_key": "reinhold", "surface": "Реингольда"}
+{"passage_seq": 31, "entity_key": "sterne", "surface": "Стернова"}
+{"passage_seq": 31, "entity_key": "voltaire", "surface": "Вольтеров"}
+{"passage_seq": 31, "entity_key": "weimar", "surface": "Веймар"}
+{"passage_seq": 31, "entity_key": "weimar", "surface": "Веймаре"}
+{"passage_seq": 31, "entity_key": "weimar", "surface": "Веймара"}
+{"passage_seq": 31, "entity_key": "wieland", "surface": "Виланда"}
+{"passage_seq": 31, "entity_key": "wieland", "surface": "Виланд"}
+{"passage_seq": 31, "entity_key": "wieland", "surface": "Виланду"}
+{"passage_seq": 31, "entity_key": "wieland", "surface": "Виландовы"}
+{"passage_seq": 32, "entity_key": "charles-augustus", "surface": "Молодой герцог"}
+{"passage_seq": 32, "entity_key": "goethe", "surface": "Гете"}
+{"passage_seq": 32, "entity_key": "lenz", "surface": "Л*"}
+{"passage_seq": 32, "entity_key": "louise-saxe-weimar", "surface": "Молодая герцогиня"}
+{"passage_seq": 32, "entity_key": "shakespeare", "surface": "Шекспира"}
+{"passage_seq": 32, "entity_key": "strasbourg", "surface": "Стразбурге"}
+{"passage_seq": 32, "entity_key": "weimar", "surface": "Веймаре"}
+{"passage_seq": 32, "entity_key": "weimar", "surface": "Веймара"}
+{"passage_seq": 33, "entity_key": "augustinian-monastery-erfurt", "surface": "сиротский дом"}
+{"passage_seq": 33, "entity_key": "erfurt", "surface": "Эрфурте"}
+{"passage_seq": 33, "entity_key": "gleichen", "surface": "Глейхен"}
+{"passage_seq": 33, "entity_key": "gleichen", "surface": "Глейхена"}
+{"passage_seq": 33, "entity_key": "gleichen-tombstone", "surface": "большой камень"}
+{"passage_seq": 33, "entity_key": "luther", "surface": "Лютер"}
+{"passage_seq": 33, "entity_key": "st-peters-abbey-erfurt", "surface": "Петрову гору"}
+{"passage_seq": 33, "entity_key": "st-peters-abbey-erfurt", "surface": "Петровой горы"}
+{"passage_seq": 33, "entity_key": "st-peters-abbey-erfurt", "surface": "бенедиктинский монастырь"}
+{"passage_seq": 33, "entity_key": "st-peters-abbey-erfurt", "surface": "бенедиктинского монастыря"}
+{"passage_seq": 33, "entity_key": "weimar", "surface": "Веймара"}
+{"passage_seq": 34, "entity_key": "bell-inn-gotha", "surface": "\"Колокольчика\""}
+{"passage_seq": 34, "entity_key": "charles-frederick-saxe-weimar", "surface": "веймарского принца"}
+{"passage_seq": 34, "entity_key": "ernest-ii-saxe-gotha", "surface": "готский герцог"}
+{"passage_seq": 34, "entity_key": "friedenstein-palace", "surface": "перед дворцом"}
+{"passage_seq": 34, "entity_key": "gotha-illumination-1789", "surface": "фейерверк"}
+{"passage_seq": 35, "entity_key": "bad-hersfeld", "surface": "Гиршфельда"}
+{"passage_seq": 35, "entity_key": "bad-hersfeld", "surface": "Гиршфельде"}
+{"passage_seq": 35, "entity_key": "caroline-hersfeld", "surface": "Каролина"}
+{"passage_seq": 35, "entity_key": "der-moench-und-die-nonne-wieland", "surface": "Der Monch und die Nonne"}
+{"passage_seq": 35, "entity_key": "diet-of-worms-1521", "surface": "Вормсского сейма"}
+{"passage_seq": 35, "entity_key": "don-carlos-schiller", "surface": "Дон-Карлос"}
+{"passage_seq": 35, "entity_key": "eisenach", "surface": "Эйзенаха"}
+{"passage_seq": 35, "entity_key": "fiesco-schiller", "surface": "Фиеско"}
+{"passage_seq": 35, "entity_key": "fiesco-schiller", "surface": "Фиеска"}
+{"passage_seq": 35, "entity_key": "frankfurt", "surface": "Франкфурт"}
+{"passage_seq": 35, "entity_key": "frankfurt", "surface": "Франкфурта"}
+{"passage_seq": 35, "entity_key": "iffland", "surface": "Ифландовы"}
+{"passage_seq": 35, "entity_key": "luther", "surface": "Лютер"}
+{"passage_seq": 35, "entity_key": "main-river", "surface": "Майн"}
+{"passage_seq": 35, "entity_key": "rhine", "surface": "Рейн"}
+{"passage_seq": 35, "entity_key": "schiller", "surface": "Шиллерову"}
+{"passage_seq": 35, "entity_key": "stern-inn-frankfurt", "surface": "трактире \"Звезды\""}
+{"passage_seq": 35, "entity_key": "vicar-of-wakefield", "surface": "Vicar of Wakefield"}
+{"passage_seq": 35, "entity_key": "wartburg", "surface": "Вартбург"}
+{"passage_seq": 35, "entity_key": "wieland", "surface": "Виланд"}
+{"passage_seq": 35, "entity_key": "willemer", "surface": "Виллемера"}
+{"passage_seq": 35, "entity_key": "worms", "surface": "Вормсского"}
+{"passage_seq": 36, "entity_key": "frankfurt", "surface": "Франкфурт"}
+{"passage_seq": 36, "entity_key": "frankfurt", "surface": "Франкфурта"}
+{"passage_seq": 37, "entity_key": "battle-of-bergen-1759", "surface": "кровопролитное сражение"}
+{"passage_seq": 37, "entity_key": "bergen-enkheim", "surface": "Берген"}
+{"passage_seq": 37, "entity_key": "bern-minster", "surface": "кафедральной церкви"}
+{"passage_seq": 37, "entity_key": "broglie-victor-francois", "surface": "Брольи"}
+{"passage_seq": 37, "entity_key": "charles-iv-hre", "surface": "Карла IV"}
+{"passage_seq": 37, "entity_key": "ferdinand-of-brunswick", "surface": "брауншвейгский принц Фердинанд"}
+{"passage_seq": 37, "entity_key": "frankfurt", "surface": "Франкфурте"}
+{"passage_seq": 37, "entity_key": "frankfurt-cathedral", "surface": "кафедральной церкви католиков"}
+{"passage_seq": 37, "entity_key": "frankfurt-theatre-1789", "surface": "франкфуртском театре"}
+{"passage_seq": 37, "entity_key": "golden-bull-1356", "surface": "Золотую буллу"}
+{"passage_seq": 37, "entity_key": "jerusalem-mendelssohn", "surface": "Мендельзонов \"Иерусалим\""}
+{"passage_seq": 37, "entity_key": "lausanne-cathedral", "surface": "кафедральной церкви"}
+{"passage_seq": 37, "entity_key": "louis-xiv", "surface": "Людовиком XIV"}
+{"passage_seq": 37, "entity_key": "mendelssohn", "surface": "Мендельзонов"}
+{"passage_seq": 37, "entity_key": "mendelssohn", "surface": "Мендельзон"}
+{"passage_seq": 37, "entity_key": "mendelssohn", "surface": "Мендельзона"}
+{"passage_seq": 37, "entity_key": "merchant-of-venice", "surface": "Венецианского купца"}
+{"passage_seq": 37, "entity_key": "roemer-frankfurt", "surface": "Римлянином"}
+{"passage_seq": 37, "entity_key": "shakespeare", "surface": "Шекспирову"}
+{"passage_seq": 37, "entity_key": "synagogue-frankfurt-judengasse", "surface": "синагогу"}
+{"passage_seq": 38, "entity_key": "bad-schwalbach", "surface": "Швальбах"}
+{"passage_seq": 38, "entity_key": "boniface", "surface": "Бонифация"}
+{"passage_seq": 38, "entity_key": "boniface", "surface": "Бонифаций"}
+{"passage_seq": 38, "entity_key": "darmstadt", "surface": "Дармштат"}
+{"passage_seq": 38, "entity_key": "darmstadt", "surface": "Дармштату"}
+{"passage_seq": 38, "entity_key": "darmstadt", "surface": "Дармштате"}
+{"passage_seq": 38, "entity_key": "exerzierhaus-darmstadt", "surface": "дом экзерциции"}
+{"passage_seq": 38, "entity_key": "frankfurt", "surface": "Франкфурта"}
+{"passage_seq": 38, "entity_key": "frankfurt", "surface": "Франкфурт"}
+{"passage_seq": 38, "entity_key": "herrngarten-darmstadt", "surface": "придворном саду"}
+{"passage_seq": 38, "entity_key": "hochheim-am-main", "surface": "гохгеймского"}
+{"passage_seq": 38, "entity_key": "hochheim-am-main", "surface": "гохгеймское"}
+{"passage_seq": 38, "entity_key": "kostheim", "surface": "костгеймское"}
+{"passage_seq": 38, "entity_key": "main-river", "surface": "Майн"}
+{"passage_seq": 38, "entity_key": "mainz", "surface": "Маинц"}
+{"passage_seq": 38, "entity_key": "mainz", "surface": "Маинца"}
+{"passage_seq": 38, "entity_key": "mainz", "surface": "Маинцу"}
+{"passage_seq": 38, "entity_key": "rhine", "surface": "Рейн"}
+{"passage_seq": 38, "entity_key": "rhine", "surface": "Рейна"}
+{"passage_seq": 38, "entity_key": "shakespeare", "surface": "Шекспир"}
+{"passage_seq": 38, "entity_key": "st-john-mainz", "surface": "церкви святого Иоанна"}
+{"passage_seq": 38, "entity_key": "starck", "surface": "Штарка"}
+{"passage_seq": 38, "entity_key": "starck", "surface": "Штарку"}
+{"passage_seq": 38, "entity_key": "starck", "surface": "Штарке"}
+{"passage_seq": 38, "entity_key": "strasbourg", "surface": "Стразбург"}
+{"passage_seq": 38, "entity_key": "strasbourg", "surface": "Стразбурга"}
+{"passage_seq": 39, "entity_key": "charles-v", "surface": "Карл V"}
+{"passage_seq": 39, "entity_key": "diet-of-worms-1521", "surface": "судил Лютера"}
+{"passage_seq": 39, "entity_key": "gdansk-town-hall", "surface": "ратуша"}
+{"passage_seq": 39, "entity_key": "gustavus-adolphus", "surface": "Густав Адольф"}
+{"passage_seq": 39, "entity_key": "hochheim-am-main", "surface": "гохгеймское"}
+{"passage_seq": 39, "entity_key": "luther", "surface": "Лютера"}
+{"passage_seq": 39, "entity_key": "mainz", "surface": "Маинца"}
+{"passage_seq": 39, "entity_key": "mannheim", "surface": "Мангейм"}
+{"passage_seq": 39, "entity_key": "mannheim", "surface": "Мангейма"}
+{"passage_seq": 39, "entity_key": "mannheim-palace", "surface": "Дворец курфирста"}
+{"passage_seq": 39, "entity_key": "neckar", "surface": "Неккер "}
+{"passage_seq": 39, "entity_key": "neckar", "surface": "Неккерские"}
+{"passage_seq": 39, "entity_key": "necker", "surface": "Неккер"}
+{"passage_seq": 39, "entity_key": "necker", "surface": "Неккерские"}
+{"passage_seq": 39, "entity_key": "nierstein", "surface": "ниренштейнское"}
+{"passage_seq": 39, "entity_key": "oppenheim", "surface": "Оппенгейм"}
+{"passage_seq": 39, "entity_key": "oppenheim", "surface": "Оппенгейме"}
+{"passage_seq": 39, "entity_key": "oppenheim", "surface": "Оппенгейма"}
+{"passage_seq": 39, "entity_key": "rhine", "surface": "Рейна"}
+{"passage_seq": 39, "entity_key": "rhine", "surface": "Рейн"}
+{"passage_seq": 39, "entity_key": "rhine", "surface": "Рейнские"}
+{"passage_seq": 39, "entity_key": "rhine", "surface": "Рейном"}
+{"passage_seq": 39, "entity_key": "worms", "surface": "Вормс"}
+{"passage_seq": 39, "entity_key": "worms", "surface": "Вормсе"}
+{"passage_seq": 40, "entity_key": "laocoon", "surface": "Лаокооне"}
+{"passage_seq": 40, "entity_key": "laocoon", "surface": "Лаокоонова"}
+{"passage_seq": 40, "entity_key": "laocoon", "surface": "Лаокоон"}
+{"passage_seq": 40, "entity_key": "laocoon", "surface": "Лаокоону"}
+{"passage_seq": 40, "entity_key": "mannheim-antikensaal", "surface": "Академии скульптуры"}
+{"passage_seq": 40, "entity_key": "virgil", "surface": "Виргилию"}
+{"passage_seq": 41, "entity_key": "alps", "surface": "Альпийских"}
+{"passage_seq": 41, "entity_key": "alsace", "surface": "Эльзасе"}
+{"passage_seq": 41, "entity_key": "artois-impostor-1789", "surface": "графом д'Артуа"}
+{"passage_seq": 41, "entity_key": "basel", "surface": "Базеле"}
+{"passage_seq": 41, "entity_key": "comte-d-artois", "surface": "графом д'Артуа"}
+{"passage_seq": 41, "entity_key": "koenigsberg-cathedral", "surface": "кафедральная церковь"}
+{"passage_seq": 41, "entity_key": "lavater", "surface": "Лафатер"}
+{"passage_seq": 41, "entity_key": "louis-xiv", "surface": "Людовиком XIV"}
+{"passage_seq": 41, "entity_key": "louis-xv", "surface": "Людовик XV"}
+{"passage_seq": 41, "entity_key": "mannheim", "surface": "Мангейма"}
+{"passage_seq": 41, "entity_key": "maurice-de-saxe", "surface": "графа Саксонского"}
+{"passage_seq": 41, "entity_key": "mausoleum-maurice-de-saxe", "surface": "монумент маршала"}
+{"passage_seq": 41, "entity_key": "necker", "surface": "Неккером"}
+{"passage_seq": 41, "entity_key": "pigalle", "surface": "Пигалева"}
+{"passage_seq": 41, "entity_key": "pigalle", "surface": "Пигаль"}
+{"passage_seq": 41, "entity_key": "st-thomas-strasbourg", "surface": "церкви св. Томаса"}
+{"passage_seq": 41, "entity_key": "strasbourg", "surface": "Стразбург"}
+{"passage_seq": 41, "entity_key": "strasbourg", "surface": "Стразбурге"}
+{"passage_seq": 41, "entity_key": "strasbourg", "surface": "Стразбурга"}
+{"passage_seq": 41, "entity_key": "strasbourg-astronomical-clock", "surface": "Часы сей башни"}
+{"passage_seq": 41, "entity_key": "strasbourg-cathedral", "surface": "кафедральная церковь"}
+{"passage_seq": 41, "entity_key": "university-of-strasbourg", "surface": "Здешний университет"}
+{"passage_seq": 42, "entity_key": "alsace", "surface": "Эльзасе"}
+{"passage_seq": 42, "entity_key": "alsace", "surface": "Эльзас"}
+{"passage_seq": 42, "entity_key": "anna-of-hohenberg", "surface": "супруги императора Рудольфа"}
+{"passage_seq": 42, "entity_key": "arlesheim", "surface": "Арлейсгейме"}
+{"passage_seq": 42, "entity_key": "basel", "surface": "Базель"}
+{"passage_seq": 42, "entity_key": "basel", "surface": "Базеля"}
+{"passage_seq": 42, "entity_key": "basel", "surface": "Базеле"}
+{"passage_seq": 42, "entity_key": "basel", "surface": "Базельского"}
+{"passage_seq": 42, "entity_key": "basel", "surface": "Базельские"}
+{"passage_seq": 42, "entity_key": "basel-dance-of-death", "surface": "Танец мертвых"}
+{"passage_seq": 42, "entity_key": "basel-minster", "surface": "Минстере"}
+{"passage_seq": 42, "entity_key": "basel-minster", "surface": "Минстер"}
+{"passage_seq": 42, "entity_key": "basel-town-hall", "surface": "В ратуше"}
+{"passage_seq": 42, "entity_key": "battle-of-st-jakob-birs", "surface": "жестокое сражение между французами и швейцарами"}
+{"passage_seq": 42, "entity_key": "becker-dane", "surface": "Б*"}
+{"passage_seq": 42, "entity_key": "becker-dane", "surface": "Беккера"}
+{"passage_seq": 42, "entity_key": "black-forest", "surface": "Шварцвальдских"}
+{"passage_seq": 42, "entity_key": "council-of-basel", "surface": "Базельского церковного собора"}
+{"passage_seq": 42, "entity_key": "emigre-noble-basel-1789", "surface": "кавалер св"}
+{"passage_seq": 42, "entity_key": "erasmus", "surface": "Эразма"}
+{"passage_seq": 42, "entity_key": "erasmus", "surface": "Эразм"}
+{"passage_seq": 42, "entity_key": "erasmus", "surface": "Эразмова"}
+{"passage_seq": 42, "entity_key": "ermitage-arlesheim", "surface": "пустыня"}
+{"passage_seq": 42, "entity_key": "fesch-basel", "surface": "Феша"}
+{"passage_seq": 42, "entity_key": "fesch-basel", "surface": "Феш"}
+{"passage_seq": 42, "entity_key": "fesch-basel", "surface": "Фешу"}
+{"passage_seq": 42, "entity_key": "frankfurt", "surface": "Франкфурта"}
+{"passage_seq": 42, "entity_key": "genevan-companion", "surface": "женевец"}
+{"passage_seq": 42, "entity_key": "gessner", "surface": "Геснера"}
+{"passage_seq": 42, "entity_key": "gessner-monument-arlesheim", "surface": "монумент покойного Геснера"}
+{"passage_seq": 42, "entity_key": "holbein", "surface": "Гольбеина"}
+{"passage_seq": 42, "entity_key": "holbein", "surface": "Гольбеин"}
+{"passage_seq": 42, "entity_key": "holbein", "surface": "Гольбеином"}
+{"passage_seq": 42, "entity_key": "holbein", "surface": "Гольбеиновой"}
+{"passage_seq": 42, "entity_key": "holbein", "surface": "Гольбеиновыми"}
+{"passage_seq": 42, "entity_key": "holbein", "surface": "Голъбеинову"}
+{"passage_seq": 42, "entity_key": "holbein-dead-christ", "surface": "Христе, снятом со креста"}
+{"passage_seq": 42, "entity_key": "holbein-dead-christ", "surface": "Христе"}
+{"passage_seq": 42, "entity_key": "holbein-lais-of-corinth", "surface": "Лаисы"}
+{"passage_seq": 42, "entity_key": "holbein-passion", "surface": "Страсти Христовы"}
+{"passage_seq": 42, "entity_key": "klaproth", "surface": "Клапрота"}
+{"passage_seq": 42, "entity_key": "mainz", "surface": "Маинце"}
+{"passage_seq": 42, "entity_key": "paracelsus", "surface": "Парацельс"}
+{"passage_seq": 42, "entity_key": "paracelsus-house-basel", "surface": "дом, в котором жил Парацельс"}
+{"passage_seq": 42, "entity_key": "praise-of-folly", "surface": "Похвала дурачеству"}
+{"passage_seq": 42, "entity_key": "proserpina-temple-arlesheim", "surface": "храм Прозерпины"}
+{"passage_seq": 42, "entity_key": "rhine", "surface": "Рейном"}
+{"passage_seq": 42, "entity_key": "rhine", "surface": "Рейн"}
+{"passage_seq": 42, "entity_key": "rudolf-i", "surface": "Рудольфа I"}
+{"passage_seq": 42, "entity_key": "rudolf-i", "surface": "Рудольфа"}
+{"passage_seq": 42, "entity_key": "sarasin-houses-basel", "surface": "Саразеня"}
+{"passage_seq": 42, "entity_key": "st-jakob-hospital-basel", "surface": "гошпиталь св. Якова"}
+{"passage_seq": 42, "entity_key": "st-peter-zurich", "surface": "церкви св. Петра"}
+{"passage_seq": 42, "entity_key": "st-pierre-geneva", "surface": "церкви св. Петра"}
+{"passage_seq": 42, "entity_key": "storch-inn-basel", "surface": "\"Аиста\""}
+{"passage_seq": 42, "entity_key": "strasbourg", "surface": "Стразбурге"}
+{"passage_seq": 42, "entity_key": "strasbourg", "surface": "Стразбурга"}
+{"passage_seq": 42, "entity_key": "thomas-more", "surface": "Моруса"}
+{"passage_seq": 42, "entity_key": "thomas-more", "surface": "Морус"}
+{"passage_seq": 42, "entity_key": "voltaire", "surface": "Вольтеров"}
+{"passage_seq": 42, "entity_key": "vosges", "surface": "Лотарингские горы"}
+{"passage_seq": 42, "entity_key": "wieland", "surface": "Виландов"}
+{"passage_seq": 42, "entity_key": "yverdon", "surface": "Ивердона"}
+{"passage_seq": 42, "entity_key": "yverdon-lady", "surface": "дама из Ивердона"}
+{"passage_seq": 42, "entity_key": "zurich", "surface": "Цирих"}
+{"passage_seq": 43, "entity_key": "becker-dane", "surface": "Б*"}
+{"passage_seq": 43, "entity_key": "yverdon", "surface": "Ивердона"}
+{"passage_seq": 43, "entity_key": "yverdon-lady", "surface": "дама из Ивердона"}
+{"passage_seq": 43, "entity_key": "zurich", "surface": "Цирих"}
+{"passage_seq": 44, "entity_key": "alps", "surface": "Альпы"}
+{"passage_seq": 44, "entity_key": "basel", "surface": "Базеля"}
+{"passage_seq": 44, "entity_key": "becker-dane", "surface": "Б*"}
+{"passage_seq": 44, "entity_key": "jura", "surface": "Юра "}
+{"passage_seq": 44, "entity_key": "jura-mountains", "surface": "Юра"}
+{"passage_seq": 44, "entity_key": "madame-nn-widow", "surface": "Госпожа NN"}
+{"passage_seq": 44, "entity_key": "madame-nn-widow", "surface": "госпоже NN"}
+{"passage_seq": 44, "entity_key": "madame-nn-widow", "surface": "госпожи NN"}
+{"passage_seq": 44, "entity_key": "night-town-before-zurich", "surface": "Здесь мы ночуем"}
+{"passage_seq": 44, "entity_key": "rheinfelden", "surface": "Реинфельден"}
+{"passage_seq": 44, "entity_key": "rhine", "surface": "Рейна"}
+{"passage_seq": 44, "entity_key": "rhine", "surface": "Рейн"}
+{"passage_seq": 44, "entity_key": "yverdon", "surface": "Ивердона"}
+{"passage_seq": 44, "entity_key": "zurich", "surface": "Цирихе"}
+{"passage_seq": 45, "entity_key": "bodmer", "surface": "Бодмер"}
+{"passage_seq": 45, "entity_key": "breitinger-prof", "surface": "Бреитингеру"}
+{"passage_seq": 45, "entity_key": "bullinger", "surface": "Буллингеру"}
+{"passage_seq": 45, "entity_key": "countess-stolberg", "surface": "жену владетельного графа Штолберга"}
+{"passage_seq": 45, "entity_key": "frederick-ii", "surface": "Фридрих"}
+{"passage_seq": 45, "entity_key": "gessler", "surface": "Гейслера"}
+{"passage_seq": 45, "entity_key": "gessner", "surface": "Геснер"}
+{"passage_seq": 45, "entity_key": "goethe", "surface": "Гете"}
+{"passage_seq": 45, "entity_key": "jane-grey", "surface": "Анны Гре"}
+{"passage_seq": 45, "entity_key": "jane-grey", "surface": "Гре!"}
+{"passage_seq": 45, "entity_key": "jura-mountains", "surface": "Юры"}
+{"passage_seq": 45, "entity_key": "klopstock", "surface": "Клопштока"}
+{"passage_seq": 45, "entity_key": "lake-zurich", "surface": "Цирихское озеро"}
+{"passage_seq": 45, "entity_key": "lavater", "surface": "Лафатера"}
+{"passage_seq": 45, "entity_key": "lavater", "surface": "Лафатер"}
+{"passage_seq": 45, "entity_key": "lavater", "surface": "Лафатеров"}
+{"passage_seq": 45, "entity_key": "lavater", "surface": "Лафатером"}
+{"passage_seq": 45, "entity_key": "lavater", "surface": "Лафатеру"}
+{"passage_seq": 45, "entity_key": "lenz", "surface": "Л*"}
+{"passage_seq": 45, "entity_key": "limmat", "surface": "Лиммата"}
+{"passage_seq": 45, "entity_key": "lips", "surface": "Липсом"}
+{"passage_seq": 45, "entity_key": "lips", "surface": "Липс"}
+{"passage_seq": 45, "entity_key": "moscow", "surface": "Москве"}
+{"passage_seq": 45, "entity_key": "necker", "surface": "Неккером"}
+{"passage_seq": 45, "entity_key": "necker", "surface": "Неккера"}
+{"passage_seq": 45, "entity_key": "necker", "surface": "Неккер"}
+{"passage_seq": 45, "entity_key": "necker", "surface": "Неккере"}
+{"passage_seq": 45, "entity_key": "pfenninger", "surface": "Пфенингер"}
+{"passage_seq": 45, "entity_key": "stolberg-fl", "surface": "Фридрих Штолберг"}
+{"passage_seq": 45, "entity_key": "stolberg-fl", "surface": "Штолберг перевел"}
+{"passage_seq": 45, "entity_key": "voltaire", "surface": "Вольтер"}
+{"passage_seq": 45, "entity_key": "wieland", "surface": "Виланд"}
+{"passage_seq": 45, "entity_key": "william-tell", "surface": "Телль"}
+{"passage_seq": 45, "entity_key": "zum-raben-zurich", "surface": "вывескою \"Ворона\""}
+{"passage_seq": 45, "entity_key": "zurich", "surface": "Цириху"}
+{"passage_seq": 45, "entity_key": "zurich", "surface": "Цирихское"}
+{"passage_seq": 45, "entity_key": "zurich", "surface": "Цирих"}
+{"passage_seq": 45, "entity_key": "zurich-arsenal", "surface": "здешнем арсенале"}
+{"passage_seq": 45, "entity_key": "zurich-public-library", "surface": "публичной цирихской библиотеке"}
+{"passage_seq": 46, "entity_key": "becker-dane", "surface": "Б*"}
+{"passage_seq": 46, "entity_key": "hess-zurich", "surface": "г. Гес"}
+{"passage_seq": 46, "entity_key": "lavater", "surface": "Лафатер"}
+{"passage_seq": 46, "entity_key": "lavater", "surface": "Лафатеровы"}
+{"passage_seq": 46, "entity_key": "lavater", "surface": "Лафатером"}
+{"passage_seq": 46, "entity_key": "mlle-t", "surface": "девицею Т*"}
+{"passage_seq": 46, "entity_key": "pastor-t-village", "surface": "деревенскому священнику Т*"}
+{"passage_seq": 46, "entity_key": "schaffhausen", "surface": "Шафгаузен"}
+{"passage_seq": 46, "entity_key": "thomson", "surface": "Томсоновы"}
+{"passage_seq": 46, "entity_key": "zurich", "surface": "Цириха"}
+{"passage_seq": 46, "entity_key": "zurich", "surface": "Цирих"}
+{"passage_seq": 47, "entity_key": "becker-dane", "surface": "Б*"}
+{"passage_seq": 47, "entity_key": "gaupp-merchant", "surface": "Гауппа"}
+{"passage_seq": 47, "entity_key": "krone-schaffhausen", "surface": "трактир \"Венца\""}
+{"passage_seq": 47, "entity_key": "laufen-castle", "surface": "замок Лауфен"}
+{"passage_seq": 47, "entity_key": "lavater", "surface": "Лафатер"}
+{"passage_seq": 47, "entity_key": "montaigne", "surface": "Монтань"}
+{"passage_seq": 47, "entity_key": "mueller-jg", "surface": "Миллера"}
+{"passage_seq": 47, "entity_key": "niagara-falls", "surface": "Ниагаре"}
+{"passage_seq": 47, "entity_key": "rhine", "surface": "Рейнского"}
+{"passage_seq": 47, "entity_key": "rhine", "surface": "Рейна"}
+{"passage_seq": 47, "entity_key": "rhine", "surface": "Рейном"}
+{"passage_seq": 47, "entity_key": "rhine", "surface": "Рейн"}
+{"passage_seq": 47, "entity_key": "rhine", "surface": "Рейну"}
+{"passage_seq": 47, "entity_key": "rhine-falls", "surface": "Рейнского водопада"}
+{"passage_seq": 47, "entity_key": "rhine-falls", "surface": "падение Рейна"}
+{"passage_seq": 47, "entity_key": "schaffhausen", "surface": "Шафгаузена"}
+{"passage_seq": 47, "entity_key": "schaffhausen", "surface": "Шафгаузене"}
+{"passage_seq": 47, "entity_key": "schaffhausen", "surface": "Шафгаузен"}
+{"passage_seq": 47, "entity_key": "schaffhausen-rhine-bridge", "surface": "деревянного моста"}
+{"passage_seq": 47, "entity_key": "zurich", "surface": "Цириха"}
+{"passage_seq": 48, "entity_key": "becker-dane", "surface": "Б*"}
+{"passage_seq": 48, "entity_key": "eglisau", "surface": "Эглизау"}
+{"passage_seq": 48, "entity_key": "lavater", "surface": "Лафатер"}
+{"passage_seq": 48, "entity_key": "rhine", "surface": "Рейна"}
+{"passage_seq": 48, "entity_key": "schaffhausen", "surface": "Шафгаузена"}
+{"passage_seq": 48, "entity_key": "st-peter-zurich", "surface": "церкви св. Петра"}
+{"passage_seq": 48, "entity_key": "st-pierre-geneva", "surface": "церкви св. Петра"}
+{"passage_seq": 48, "entity_key": "zurich", "surface": "Цириху"}
+{"passage_seq": 48, "entity_key": "zurich", "surface": "Цириха"}
+{"passage_seq": 49, "entity_key": "becker-dane", "surface": "Б*"}
+{"passage_seq": 49, "entity_key": "eglisau", "surface": "Эглизау"}
+{"passage_seq": 49, "entity_key": "zurich", "surface": "Цирих"}
+{"passage_seq": 50, "entity_key": "baggesen", "surface": "Баг*"}
+{"passage_seq": 50, "entity_key": "basel", "surface": "Базеле"}
+{"passage_seq": 50, "entity_key": "becker-dane", "surface": "Б*"}
+{"passage_seq": 50, "entity_key": "berlin", "surface": "Берлине"}
+{"passage_seq": 50, "entity_key": "berlin", "surface": "Берлинским"}
+{"passage_seq": 50, "entity_key": "bodmer", "surface": "Бодмере"}
+{"passage_seq": 50, "entity_key": "breitinger-prof", "surface": "Брейтингер"}
+{"passage_seq": 50, "entity_key": "der-zuerchersee", "surface": "Zuricher-See"}
+{"passage_seq": 50, "entity_key": "gessner", "surface": "Геснером"}
+{"passage_seq": 50, "entity_key": "gessner", "surface": "Геснера"}
+{"passage_seq": 50, "entity_key": "gessner", "surface": "Геснер"}
+{"passage_seq": 50, "entity_key": "gessner", "surface": "Геснеровой"}
+{"passage_seq": 50, "entity_key": "heidegger-judith", "surface": "Гейдеггера"}
+{"passage_seq": 50, "entity_key": "klopstock", "surface": "Клопшток"}
+{"passage_seq": 50, "entity_key": "klopstock", "surface": "Клопштока"}
+{"passage_seq": 50, "entity_key": "klopstock", "surface": "Клопштоковой"}
+{"passage_seq": 50, "entity_key": "klopstock", "surface": "Клопштоку"}
+{"passage_seq": 50, "entity_key": "lake-zurich", "surface": "Цирихском озере"}
+{"passage_seq": 50, "entity_key": "lavater", "surface": "Лафатеровой"}
+{"passage_seq": 50, "entity_key": "lavater", "surface": "Лафатер"}
+{"passage_seq": 50, "entity_key": "lavater", "surface": "Лафатерово"}
+{"passage_seq": 50, "entity_key": "lavater", "surface": "Лафатеру"}
+{"passage_seq": 50, "entity_key": "lavater", "surface": "Лафатерова"}
+{"passage_seq": 50, "entity_key": "lavater", "surface": "Лафатера"}
+{"passage_seq": 50, "entity_key": "lavater", "surface": "Лафатеров"}
+{"passage_seq": 50, "entity_key": "lavater", "surface": "Лафатеровых"}
+{"passage_seq": 50, "entity_key": "lavater", "surface": "Лафатеровы"}
+{"passage_seq": 50, "entity_key": "lavater", "surface": "Лафатером"}
+{"passage_seq": 50, "entity_key": "limmat", "surface": "Лимматы"}
+{"passage_seq": 50, "entity_key": "lucerne", "surface": "Луцерн"}
+{"passage_seq": 50, "entity_key": "meister-leonhard", "surface": "Мейстером"}
+{"passage_seq": 50, "entity_key": "mlle-t", "surface": "девицы Т*"}
+{"passage_seq": 50, "entity_key": "moltke-count", "surface": "графом M*"}
+{"passage_seq": 50, "entity_key": "moltke-count", "surface": "граф M*"}
+{"passage_seq": 50, "entity_key": "moltke-count", "surface": "Граф бьет"}
+{"passage_seq": 50, "entity_key": "monsieur-t", "surface": "господина Т*"}
+{"passage_seq": 50, "entity_key": "monsieur-t", "surface": "господином Т*"}
+{"passage_seq": 50, "entity_key": "moscow", "surface": "Москву"}
+{"passage_seq": 50, "entity_key": "pfenninger", "surface": "Пфенингер"}
+{"passage_seq": 50, "entity_key": "platzspitz", "surface": "загородное гульбище"}
+{"passage_seq": 50, "entity_key": "rhine", "surface": "Рейна"}
+{"passage_seq": 50, "entity_key": "rhine-falls", "surface": "падении Рейна"}
+{"passage_seq": 50, "entity_key": "schaffhausen", "surface": "Шафгаузена"}
+{"passage_seq": 50, "entity_key": "schaffhausen", "surface": "Шафгаузене"}
+{"passage_seq": 50, "entity_key": "schinz-miss", "surface": "Шинц"}
+{"passage_seq": 50, "entity_key": "sterne", "surface": "Стерн"}
+{"passage_seq": 50, "entity_key": "thomson", "surface": "Томсоновых"}
+{"passage_seq": 50, "entity_key": "thomson", "surface": "Томсона"}
+{"passage_seq": 50, "entity_key": "tobler", "surface": "Тоблером"}
+{"passage_seq": 50, "entity_key": "tobler", "surface": "Тоблер"}
+{"passage_seq": 50, "entity_key": "tobler", "surface": "Тоблера"}
+{"passage_seq": 50, "entity_key": "tochterschule-zurich", "surface": "девичья школа"}
+{"passage_seq": 50, "entity_key": "tochterschule-zurich", "surface": "Tochter-Schule"}
+{"passage_seq": 50, "entity_key": "usteri-leonhard", "surface": "Устери"}
+{"passage_seq": 50, "entity_key": "zurich", "surface": "Цирих"}
+{"passage_seq": 50, "entity_key": "zurich", "surface": "Цирихе"}
+{"passage_seq": 50, "entity_key": "zurich", "surface": "Цирихском"}
+{"passage_seq": 50, "entity_key": "zurich", "surface": "Цириха"}
+{"passage_seq": 50, "entity_key": "zurich", "surface": "Цирихский"}
+{"passage_seq": 50, "entity_key": "zurich", "surface": "Цирихские"}
+{"passage_seq": 50, "entity_key": "zurich", "surface": "Цюрихское"}
+{"passage_seq": 50, "entity_key": "zurich-militia-drill-1789", "surface": "ученья цирихской милиции"}
+{"passage_seq": 51, "entity_key": "gessner", "surface": "Геснеру"}
+{"passage_seq": 51, "entity_key": "gessner", "surface": "Геснера"}
+{"passage_seq": 51, "entity_key": "gessner", "surface": "Геснеровом"}
+{"passage_seq": 51, "entity_key": "gessner", "surface": "Геснеровых"}
+{"passage_seq": 51, "entity_key": "gessner", "surface": "Геснер"}
+{"passage_seq": 51, "entity_key": "gessner-monument-zurich", "surface": "монумент Геснеру"}
+{"passage_seq": 51, "entity_key": "gessner-monument-zurich", "surface": "монументе Геснеровом"}
+{"passage_seq": 51, "entity_key": "lavater", "surface": "Лафатера"}
+{"passage_seq": 51, "entity_key": "lavater", "surface": "Лафатер"}
+{"passage_seq": 51, "entity_key": "limmat", "surface": "Лимматы"}
+{"passage_seq": 51, "entity_key": "zurich", "surface": "Цириха"}
+{"passage_seq": 52, "entity_key": "baden-ag", "surface": "Бадена"}
+{"passage_seq": 52, "entity_key": "baden-ag", "surface": "Бадене"}
+{"passage_seq": 52, "entity_key": "baden-thermal-baths", "surface": "целебными теплицами"}
+{"passage_seq": 52, "entity_key": "baden-thermal-baths", "surface": "Гельветских вод"}
+{"passage_seq": 52, "entity_key": "basel", "surface": "Базеле"}
+{"passage_seq": 52, "entity_key": "bern", "surface": "Бернского"}
+{"passage_seq": 52, "entity_key": "lavater", "surface": "Лафатер"}
+{"passage_seq": 52, "entity_key": "limmat", "surface": "Лимматы"}
+{"passage_seq": 52, "entity_key": "schaffhausen", "surface": "Шафгаузене"}
+{"passage_seq": 52, "entity_key": "tobler", "surface": "Тоблер"}
+{"passage_seq": 52, "entity_key": "zurich", "surface": "Цириха"}
+{"passage_seq": 52, "entity_key": "zurich", "surface": "Цирихского"}
+{"passage_seq": 53, "entity_key": "aarau", "surface": "Арау"}
+{"passage_seq": 53, "entity_key": "basel", "surface": "Базельского"}
+{"passage_seq": 53, "entity_key": "bern", "surface": "Бернском"}
+{"passage_seq": 53, "entity_key": "bern", "surface": "Берна"}
+{"passage_seq": 53, "entity_key": "habsburg-castle", "surface": "Габсбурга"}
+{"passage_seq": 53, "entity_key": "habsburg-castle", "surface": "Габсбургские"}
+{"passage_seq": 53, "entity_key": "zurich", "surface": "Цирихском"}
+{"passage_seq": 54, "entity_key": "aare", "surface": "Ара "}
+{"passage_seq": 54, "entity_key": "alps", "surface": "Альпийских"}
+{"passage_seq": 54, "entity_key": "alps", "surface": "Альпийским"}
+{"passage_seq": 54, "entity_key": "alps", "surface": "Альпам"}
+{"passage_seq": 54, "entity_key": "artois-impostor-1789", "surface": "графом д'Артуа"}
+{"passage_seq": 54, "entity_key": "bern", "surface": "Берн"}
+{"passage_seq": 54, "entity_key": "bern", "surface": "Берне"}
+{"passage_seq": 54, "entity_key": "bern-bear", "surface": "прикованного медведя"}
+{"passage_seq": 54, "entity_key": "bern-library", "surface": "публичную библиотеку"}
+{"passage_seq": 54, "entity_key": "bern-minster", "surface": "кафедральной церкви"}
+{"passage_seq": 54, "entity_key": "bern-orphanage", "surface": "сиротском доме"}
+{"passage_seq": 54, "entity_key": "berthold-v-zaehringen", "surface": "герцог Церингенский"}
+{"passage_seq": 54, "entity_key": "comte-d-artois", "surface": "графом д'Артуа"}
+{"passage_seq": 54, "entity_key": "haller", "surface": "Галлеров"}
+{"passage_seq": 54, "entity_key": "haller", "surface": "Галлере"}
+{"passage_seq": 54, "entity_key": "haller", "surface": "Галлер"}
+{"passage_seq": 54, "entity_key": "italian-harpist-bern", "surface": "италиянский музыкант"}
+{"passage_seq": 54, "entity_key": "krone-bern", "surface": "трактире \"Венца\""}
+{"passage_seq": 54, "entity_key": "lausanne-cathedral", "surface": "кафедральной церкви"}
+{"passage_seq": 54, "entity_key": "lavater", "surface": "Лафатеровой"}
+{"passage_seq": 54, "entity_key": "muensterplattform", "surface": "славную террасу"}
+{"passage_seq": 54, "entity_key": "pfyffer", "surface": "Пфиффера"}
+{"passage_seq": 54, "entity_key": "pfyffer-relief", "surface": "рельеф генерала Пфиффера"}
+{"passage_seq": 54, "entity_key": "rengger", "surface": "Рентгеру"}
+{"passage_seq": 54, "entity_key": "rengger", "surface": "Ренггер"}
+{"passage_seq": 54, "entity_key": "saussure", "surface": "Соссюрово"}
+{"passage_seq": 54, "entity_key": "stapfer", "surface": "Штапфера"}
+{"passage_seq": 54, "entity_key": "stapfer", "surface": "Штапфер"}
+{"passage_seq": 54, "entity_key": "weinzaepfli", "surface": "Веинцепфли"}
+{"passage_seq": 54, "entity_key": "wyttenbach", "surface": "Виттенбаха"}
+{"passage_seq": 54, "entity_key": "wyttenbach", "surface": "Виттенбах"}
+{"passage_seq": 54, "entity_key": "zurich", "surface": "Цюрихе"}
+{"passage_seq": 55, "entity_key": "alps", "surface": "Альпийским"}
+{"passage_seq": 55, "entity_key": "alps", "surface": "Альпийских"}
+{"passage_seq": 55, "entity_key": "beatus", "surface": "св. Беатус"}
+{"passage_seq": 55, "entity_key": "bern", "surface": "Берна"}
+{"passage_seq": 55, "entity_key": "bern", "surface": "Бернской"}
+{"passage_seq": 55, "entity_key": "bern", "surface": "Берне"}
+{"passage_seq": 55, "entity_key": "bern", "surface": "Бернском"}
+{"passage_seq": 55, "entity_key": "freienhof-thun", "surface": "Фрейгофе"}
+{"passage_seq": 55, "entity_key": "grindelwald", "surface": "Гриндельвальд"}
+{"passage_seq": 55, "entity_key": "jungfrau", "surface": "Юнгферы"}
+{"passage_seq": 55, "entity_key": "lake-thun", "surface": "Тунское озеро"}
+{"passage_seq": 55, "entity_key": "lake-thun", "surface": "Тунскому озеру"}
+{"passage_seq": 55, "entity_key": "lauterbrunnen", "surface": "Лаутербруннен"}
+{"passage_seq": 55, "entity_key": "lauterbrunnen", "surface": "Лаутербруннена"}
+{"passage_seq": 55, "entity_key": "lutschine", "surface": "Литтины"}
+{"passage_seq": 55, "entity_key": "spiez-castle", "surface": "замок Шпиц"}
+{"passage_seq": 55, "entity_key": "staubbach-falls", "surface": "Штауббах"}
+{"passage_seq": 55, "entity_key": "thun", "surface": "Тун"}
+{"passage_seq": 55, "entity_key": "thun", "surface": "Тунское"}
+{"passage_seq": 55, "entity_key": "thun", "surface": "Тунскому"}
+{"passage_seq": 55, "entity_key": "thun-town-church", "surface": "высокую колокольню"}
+{"passage_seq": 55, "entity_key": "truemmelbach-falls", "surface": "Триммербах"}
+{"passage_seq": 55, "entity_key": "truemmelbach-falls", "surface": "Триммербаха"}
+{"passage_seq": 55, "entity_key": "unspunnen-castle", "surface": "Уншпуннена"}
+{"passage_seq": 55, "entity_key": "unterseen", "surface": "Унтерзеен"}
+{"passage_seq": 55, "entity_key": "unterseen", "surface": "Унтерзеена"}
+{"passage_seq": 56, "entity_key": "alps", "surface": "Альпийскую"}
+{"passage_seq": 56, "entity_key": "eiger", "surface": "Эйгера"}
+{"passage_seq": 56, "entity_key": "jungfrau", "surface": "Юнгферы"}
+{"passage_seq": 56, "entity_key": "lauterbrunnen", "surface": "Лаутербруннена"}
+{"passage_seq": 56, "entity_key": "rousseau", "surface": "Руссо"}
+{"passage_seq": 56, "entity_key": "staubbach-falls", "surface": "Штауббаха"}
+{"passage_seq": 57, "entity_key": "bern", "surface": "Берна"}
+{"passage_seq": 57, "entity_key": "grindelwald", "surface": "Гриндельвальд"}
+{"passage_seq": 57, "entity_key": "lower-grindelwald-glacier", "surface": "нижний открылся"}
+{"passage_seq": 57, "entity_key": "lutschine", "surface": "Литтина"}
+{"passage_seq": 57, "entity_key": "upper-grindelwald-glacier", "surface": "верхний глетшер"}
+{"passage_seq": 58, "entity_key": "alps", "surface": "Альпийской"}
+{"passage_seq": 58, "entity_key": "grindelwald", "surface": "Гриндельвальда"}
+{"passage_seq": 58, "entity_key": "grosse-scheidegg", "surface": "Шейдек"}
+{"passage_seq": 58, "entity_key": "grosse-scheidegg", "surface": "Шейдеке"}
+{"passage_seq": 58, "entity_key": "pfyffer", "surface": "Пфиффера"}
+{"passage_seq": 58, "entity_key": "schreckhorn", "surface": "Шрекгорна"}
+{"passage_seq": 58, "entity_key": "schreckhorn", "surface": "Шрекгорне"}
+{"passage_seq": 58, "entity_key": "upper-grindelwald-glacier", "surface": "верхнего ледника"}
+{"passage_seq": 58, "entity_key": "wengernalp", "surface": "Венгенальп"}
+{"passage_seq": 58, "entity_key": "wetterhorn", "surface": "Веттергорн"}
+{"passage_seq": 59, "entity_key": "aare", "surface": "Ара,"}
+{"passage_seq": 59, "entity_key": "alps", "surface": "Альпийские"}
+{"passage_seq": 59, "entity_key": "becker-dane", "surface": "Б*"}
+{"passage_seq": 59, "entity_key": "die-alpen-haller", "surface": "Die Alpen"}
+{"passage_seq": 59, "entity_key": "grosse-scheidegg", "surface": "Шейдека"}
+{"passage_seq": 59, "entity_key": "haller", "surface": "Галлеровы"}
+{"passage_seq": 59, "entity_key": "haslital", "surface": "Гасли"}
+{"passage_seq": 59, "entity_key": "lake-brienz", "surface": "Бринцского озера"}
+{"passage_seq": 59, "entity_key": "meiringen", "surface": "Мейринген"}
+{"passage_seq": 59, "entity_key": "meiringen", "surface": "Мейрингена"}
+{"passage_seq": 59, "entity_key": "meiringen-betrothal-1789", "surface": "праздновали сговор"}
+{"passage_seq": 59, "entity_key": "meiringen-betrothal-1789", "surface": "сговоре"}
+{"passage_seq": 59, "entity_key": "reichenbach-falls", "surface": "Рейхенбаху"}
+{"passage_seq": 59, "entity_key": "reichenbach-falls", "surface": "Рейхенбах"}
+{"passage_seq": 59, "entity_key": "reichenbach-falls", "surface": "Рейхенбаха"}
+{"passage_seq": 59, "entity_key": "rhine", "surface": "Рейн"}
+{"passage_seq": 59, "entity_key": "rosenlaui-glacier", "surface": "Розенлавинглетшер"}
+{"passage_seq": 59, "entity_key": "thun", "surface": "Тун"}
+{"passage_seq": 59, "entity_key": "tracht-brienz", "surface": "Трахт"}
+{"passage_seq": 59, "entity_key": "tracht-brienz", "surface": "Трахта"}
+{"passage_seq": 59, "entity_key": "unterseen", "surface": "Унтерзеен"}
+{"passage_seq": 60, "entity_key": "tracht-brienz", "surface": "Трахта"}
+{"passage_seq": 61, "entity_key": "bern", "surface": "Берн"}
+{"passage_seq": 61, "entity_key": "thun", "surface": "Туна"}
+{"passage_seq": 62, "entity_key": "alps", "surface": "Альпийских"}
+{"passage_seq": 62, "entity_key": "bern", "surface": "Берне"}
+{"passage_seq": 62, "entity_key": "bern", "surface": "Берна"}
+{"passage_seq": 62, "entity_key": "bern", "surface": "Бернский"}
+{"passage_seq": 62, "entity_key": "bern-arsenal", "surface": "славном цейхгаузе"}
+{"passage_seq": 62, "entity_key": "berthold-v-zaehringen", "surface": "герцогу Церингенскому"}
+{"passage_seq": 62, "entity_key": "charles-the-bold", "surface": "Карла Смелого"}
+{"passage_seq": 62, "entity_key": "erlach-hindelbank", "surface": "Господин Эрлах"}
+{"passage_seq": 62, "entity_key": "erlach-hindelbank", "surface": "пышный Эрлах"}
+{"passage_seq": 62, "entity_key": "erlach-monument-hindelbank", "surface": "эрлахский памятник"}
+{"passage_seq": 62, "entity_key": "erlach-monument-hindelbank", "surface": "эрлахском пышном памятнике"}
+{"passage_seq": 62, "entity_key": "haller", "surface": "Галлер"}
+{"passage_seq": 62, "entity_key": "haller", "surface": "Галлеровой"}
+{"passage_seq": 62, "entity_key": "hindelbank", "surface": "Гиндельбанк"}
+{"passage_seq": 62, "entity_key": "hindelbank", "surface": "Гиндельбанке"}
+{"passage_seq": 62, "entity_key": "hindelbank-church", "surface": "тамошней церкви"}
+{"passage_seq": 62, "entity_key": "langhans-maria-magdalena", "surface": "жена Лангансова"}
+{"passage_seq": 62, "entity_key": "langhans-pastor", "surface": "Ланганса"}
+{"passage_seq": 62, "entity_key": "langhans-pastor", "surface": "Лангансова"}
+{"passage_seq": 62, "entity_key": "langhans-tomb", "surface": "прекрасной жене"}
+{"passage_seq": 62, "entity_key": "lausanne", "surface": "Лозанну"}
+{"passage_seq": 62, "entity_key": "nahl", "surface": "Наль"}
+{"passage_seq": 62, "entity_key": "nahl", "surface": "Шля"}
+{"passage_seq": 62, "entity_key": "spruengli", "surface": "Шпренгли"}
+{"passage_seq": 62, "entity_key": "stapfer", "surface": "Штапфер"}
+{"passage_seq": 62, "entity_key": "stapfer", "surface": "Штапфера"}
+{"passage_seq": 62, "entity_key": "zurich", "surface": "Цирихе"}
+{"passage_seq": 63, "entity_key": "avenches", "surface": "Авентикума"}
+{"passage_seq": 63, "entity_key": "bern", "surface": "Берна"}
+{"passage_seq": 63, "entity_key": "charles-the-bold", "surface": "Карл Дерзостный"}
+{"passage_seq": 63, "entity_key": "charles-the-bold", "surface": "Карловы"}
+{"passage_seq": 63, "entity_key": "haller", "surface": "Галлером"}
+{"passage_seq": 63, "entity_key": "lake-murten", "surface": "Муртенского озера"}
+{"passage_seq": 63, "entity_key": "lausanne", "surface": "Лозанны"}
+{"passage_seq": 63, "entity_key": "murten", "surface": "Муртен"}
+{"passage_seq": 63, "entity_key": "murten", "surface": "Муртенского"}
+{"passage_seq": 63, "entity_key": "murten", "surface": "Муртеном"}
+{"passage_seq": 63, "entity_key": "murten-ossuary", "surface": "гробе бургундцев"}
+{"passage_seq": 64, "entity_key": "bern-minster", "surface": "кафедральной церкви"}
+{"passage_seq": 64, "entity_key": "cafe-litteraire-lausanne", "surface": "Cafe litteraire"}
+{"passage_seq": 64, "entity_key": "cerf-inn-lausanne", "surface": "трактир \"Оленя\""}
+{"passage_seq": 64, "entity_key": "chillon", "surface": "Шильйона"}
+{"passage_seq": 64, "entity_key": "clarens", "surface": "Кларан"}
+{"passage_seq": 64, "entity_key": "clarens-castle", "surface": "старый замок с башнями"}
+{"passage_seq": 64, "entity_key": "confessions-rousseau", "surface": "Confessions"}
+{"passage_seq": 64, "entity_key": "couronne-inn-lausanne", "surface": "A la Couronne"}
+{"passage_seq": 64, "entity_key": "coxe", "surface": "Кокс"}
+{"passage_seq": 64, "entity_key": "coxe", "surface": "Коксова"}
+{"passage_seq": 64, "entity_key": "duchess-courland-lausanne", "surface": "герцогиня Курляндская"}
+{"passage_seq": 64, "entity_key": "foulon", "surface": "Фулона"}
+{"passage_seq": 64, "entity_key": "geneva", "surface": "Женевское"}
+{"passage_seq": 64, "entity_key": "geneva", "surface": "Женеве"}
+{"passage_seq": 64, "entity_key": "geneva", "surface": "Женеву"}
+{"passage_seq": 64, "entity_key": "geneva", "surface": "Женевского"}
+{"passage_seq": 64, "entity_key": "golden-lion-inn-lausanne", "surface": "Золотого льва"}
+{"passage_seq": 64, "entity_key": "heyne", "surface": "Гейне"}
+{"passage_seq": 64, "entity_key": "julie-nouvelle-heloise", "surface": "Элоизою"}
+{"passage_seq": 64, "entity_key": "julie-nouvelle-heloise", "surface": "Элоизу"}
+{"passage_seq": 64, "entity_key": "julie-nouvelle-heloise", "surface": "Элоизе"}
+{"passage_seq": 64, "entity_key": "julie-nouvelle-heloise", "surface": "Элоизы"}
+{"passage_seq": 64, "entity_key": "jura-mountains", "surface": "Юры"}
+{"passage_seq": 64, "entity_key": "lake-geneva", "surface": "Женевское озеро"}
+{"passage_seq": 64, "entity_key": "lake-geneva", "surface": "Женевского озера"}
+{"passage_seq": 64, "entity_key": "lausanne", "surface": "Лозанну"}
+{"passage_seq": 64, "entity_key": "lausanne", "surface": "Лозанне"}
+{"passage_seq": 64, "entity_key": "lausanne", "surface": "Лозаннского"}
+{"passage_seq": 64, "entity_key": "lausanne", "surface": "Лозанна"}
+{"passage_seq": 64, "entity_key": "lausanne", "surface": "Лозанны"}
+{"passage_seq": 64, "entity_key": "lausanne", "surface": "Лозаннские"}
+{"passage_seq": 64, "entity_key": "lausanne", "surface": "лозаннском"}
+{"passage_seq": 64, "entity_key": "lausanne-cathedral", "surface": "кафедральной церкви"}
+{"passage_seq": 64, "entity_key": "lausanne-night-watchman", "surface": "ночного караульщика"}
+{"passage_seq": 64, "entity_key": "lausanne-night-watchman", "surface": "Ночной караульщик"}
+{"passage_seq": 64, "entity_key": "lavater", "surface": "Лафатера"}
+{"passage_seq": 64, "entity_key": "leipzig", "surface": "Лейпциг"}
+{"passage_seq": 64, "entity_key": "lenz", "surface": "Л*"}
+{"passage_seq": 64, "entity_key": "levade", "surface": "Леваду"}
+{"passage_seq": 64, "entity_key": "levade", "surface": "Левад"}
+{"passage_seq": 64, "entity_key": "levade", "surface": "Левадом"}
+{"passage_seq": 64, "entity_key": "levade", "surface": "Левада"}
+{"passage_seq": 64, "entity_key": "meillerie", "surface": "Мельери"}
+{"passage_seq": 64, "entity_key": "montbenon", "surface": "Mont-Benon"}
+{"passage_seq": 64, "entity_key": "morges", "surface": "Морж"}
+{"passage_seq": 64, "entity_key": "morges", "surface": "Морже"}
+{"passage_seq": 64, "entity_key": "nyon", "surface": "Нион"}
+{"passage_seq": 64, "entity_key": "orlova-en", "surface": "княгине Орловой"}
+{"passage_seq": 64, "entity_key": "orlova-monument-lausanne", "surface": "памятник княгине"}
+{"passage_seq": 64, "entity_key": "pays-de-vaud", "surface": "Pays-de-Vaud"}
+{"passage_seq": 64, "entity_key": "platner", "surface": "Платнер"}
+{"passage_seq": 64, "entity_key": "polish-prince-vevey", "surface": "польский князь"}
+{"passage_seq": 64, "entity_key": "ramond", "surface": "Рамона"}
+{"passage_seq": 64, "entity_key": "razumovsky-gk", "surface": "Разумовский"}
+{"passage_seq": 64, "entity_key": "rhone", "surface": "Рона"}
+{"passage_seq": 64, "entity_key": "rolle", "surface": "Роль"}
+{"passage_seq": 64, "entity_key": "rousseau", "surface": "Руссовою"}
+{"passage_seq": 64, "entity_key": "rousseau", "surface": "Руссо"}
+{"passage_seq": 64, "entity_key": "rousseau", "surface": "Руссовой"}
+{"passage_seq": 64, "entity_key": "rousseau", "surface": "Руссовых"}
+{"passage_seq": 64, "entity_key": "rousseau", "surface": "Руссову"}
+{"passage_seq": 64, "entity_key": "savoy", "surface": "Савойских"}
+{"passage_seq": 64, "entity_key": "savoy", "surface": "Савойского"}
+{"passage_seq": 64, "entity_key": "savoy", "surface": "Савойи"}
+{"passage_seq": 64, "entity_key": "savoy", "surface": "савойских"}
+{"passage_seq": 64, "entity_key": "storming-of-the-bastille", "surface": "бастильском штурме"}
+{"passage_seq": 64, "entity_key": "vevey", "surface": "Веве"}
+{"passage_seq": 64, "entity_key": "vevey-church-terrace", "surface": "террасу здешней церкви"}
+{"passage_seq": 64, "entity_key": "villeneuve-vd", "surface": "Вильнёв"}
+{"passage_seq": 65, "entity_key": "august-saxe-gotha", "surface": "готского трона"}
+{"passage_seq": 65, "entity_key": "august-saxe-gotha", "surface": "готскими молодыми принцами"}
+{"passage_seq": 65, "entity_key": "bastions-geneva", "surface": "Бастион"}
+{"passage_seq": 65, "entity_key": "bastions-geneva", "surface": "Бастионе"}
+{"passage_seq": 65, "entity_key": "bern", "surface": "Бернском"}
+{"passage_seq": 65, "entity_key": "calas-family", "surface": "Каласово"}
+{"passage_seq": 65, "entity_key": "catherine-ii", "surface": "нашей императрицы"}
+{"passage_seq": 65, "entity_key": "chateau-de-ferney", "surface": "Вольтеров замок"}
+{"passage_seq": 65, "entity_key": "chateau-de-ferney", "surface": "Фернейского замка"}
+{"passage_seq": 65, "entity_key": "chatelet", "surface": "Шатле"}
+{"passage_seq": 65, "entity_key": "de-lu-baron", "surface": "де Лю"}
+{"passage_seq": 65, "entity_key": "ferney", "surface": "Фернее"}
+{"passage_seq": 65, "entity_key": "ferney", "surface": "Ферней"}
+{"passage_seq": 65, "entity_key": "ferney", "surface": "Фернейскому"}
+{"passage_seq": 65, "entity_key": "ferney", "surface": "Фернейского"}
+{"passage_seq": 65, "entity_key": "ferney", "surface": "Фернейский"}
+{"passage_seq": 65, "entity_key": "ferney", "surface": "Фернея"}
+{"passage_seq": 65, "entity_key": "ferney", "surface": "фернейском"}
+{"passage_seq": 65, "entity_key": "ferney-church", "surface": "маленькую церковь"}
+{"passage_seq": 65, "entity_key": "franklin", "surface": "Франклина"}
+{"passage_seq": 65, "entity_key": "frederick-iv-saxe-gotha", "surface": "меньшой"}
+{"passage_seq": 65, "entity_key": "frederick-william-ii", "surface": "прусского короля"}
+{"passage_seq": 65, "entity_key": "geneva", "surface": "Женевы"}
+{"passage_seq": 65, "entity_key": "geneva", "surface": "Женеве"}
+{"passage_seq": 65, "entity_key": "geneva", "surface": "Женева"}
+{"passage_seq": 65, "entity_key": "geneva", "surface": "Женевской"}
+{"passage_seq": 65, "entity_key": "geneva", "surface": "Женеву"}
+{"passage_seq": 65, "entity_key": "geneva", "surface": "женевские"}
+{"passage_seq": 65, "entity_key": "geneva", "surface": "женевцев"}
+{"passage_seq": 65, "entity_key": "geneva", "surface": "женевцы"}
+{"passage_seq": 65, "entity_key": "geneva", "surface": "женевцами"}
+{"passage_seq": 65, "entity_key": "geneva-cercles", "surface": "серкли"}
+{"passage_seq": 65, "entity_key": "genevan-companion", "surface": "женевец"}
+{"passage_seq": 65, "entity_key": "grand-rue-geneva", "surface": "Grande rue"}
+{"passage_seq": 65, "entity_key": "jura-mountains", "surface": "Юры"}
+{"passage_seq": 65, "entity_key": "kela-syndic", "surface": "Кела"}
+{"passage_seq": 65, "entity_key": "konkler", "surface": "Конклер"}
+{"passage_seq": 65, "entity_key": "la-harpe", "surface": "Лагарп"}
+{"passage_seq": 65, "entity_key": "la-harpe", "surface": "Лагарповом"}
+{"passage_seq": 65, "entity_key": "lajet-landlady", "surface": "Лажье"}
+{"passage_seq": 65, "entity_key": "lausanne", "surface": "Лозанны"}
+{"passage_seq": 65, "entity_key": "lavater", "surface": "Лафатеров"}
+{"passage_seq": 65, "entity_key": "lekain", "surface": "Лекеня"}
+{"passage_seq": 65, "entity_key": "madame-denis", "surface": "госпожа Денис"}
+{"passage_seq": 65, "entity_key": "mont-blanc", "surface": "Белую Савойскую гору"}
+{"passage_seq": 65, "entity_key": "morges", "surface": "Морж"}
+{"passage_seq": 65, "entity_key": "necker", "surface": "Неккере"}
+{"passage_seq": 65, "entity_key": "pays-de-vaud", "surface": "Pays-de-Vaud"}
+{"passage_seq": 65, "entity_key": "rhone", "surface": "Роны"}
+{"passage_seq": 65, "entity_key": "saint-petersburg", "surface": "Петербурге"}
+{"passage_seq": 65, "entity_key": "savoy", "surface": "Савойе"}
+{"passage_seq": 65, "entity_key": "savoy", "surface": "Савойскую"}
+{"passage_seq": 65, "entity_key": "treille-geneva", "surface": "Трель"}
+{"passage_seq": 65, "entity_key": "voltaire", "surface": "Вольтеров"}
+{"passage_seq": 65, "entity_key": "voltaire", "surface": "Вольтер"}
+{"passage_seq": 65, "entity_key": "voltaire", "surface": "Вольтерова"}
+{"passage_seq": 65, "entity_key": "voltaire", "surface": "Вольтеру"}
+{"passage_seq": 65, "entity_key": "voltaire", "surface": "Вольтера"}
+{"passage_seq": 65, "entity_key": "voltaire", "surface": "Вольтеровой"}
+{"passage_seq": 65, "entity_key": "voltaire", "surface": "Вольтеровых"}
+{"passage_seq": 65, "entity_key": "voltaire", "surface": "Вольтерово"}
+{"passage_seq": 65, "entity_key": "zurich", "surface": "Цирихском"}
+{"passage_seq": 66, "entity_key": "atys-piccinni", "surface": "Атиса"}
+{"passage_seq": 66, "entity_key": "baggesen", "surface": "Багзен"}
+{"passage_seq": 66, "entity_key": "baggesen", "surface": "Багзена"}
+{"passage_seq": 66, "entity_key": "becker-dane", "surface": "Беккер"}
+{"passage_seq": 66, "entity_key": "bern", "surface": "Берн"}
+{"passage_seq": 66, "entity_key": "ferney", "surface": "Ферней"}
+{"passage_seq": 66, "entity_key": "geneva", "surface": "Женеву"}
+{"passage_seq": 66, "entity_key": "geneva", "surface": "Женевский"}
+{"passage_seq": 66, "entity_key": "geneva", "surface": "женевских"}
+{"passage_seq": 66, "entity_key": "geneva", "surface": "женевского"}
+{"passage_seq": 66, "entity_key": "geneva", "surface": "женевцах"}
+{"passage_seq": 66, "entity_key": "geneva-theatre", "surface": "построили театр"}
+{"passage_seq": 66, "entity_key": "genevan-companion", "surface": "женевец"}
+{"passage_seq": 66, "entity_key": "haller", "surface": "Галлер"}
+{"passage_seq": 66, "entity_key": "haller-sophie", "surface": "девица Галлер"}
+{"passage_seq": 66, "entity_key": "jura-mountains", "surface": "Юры"}
+{"passage_seq": 66, "entity_key": "lake-thun", "surface": "Тунского озера"}
+{"passage_seq": 66, "entity_key": "lavater", "surface": "Лафатера"}
+{"passage_seq": 66, "entity_key": "lucerne", "surface": "Луцерн"}
+{"passage_seq": 66, "entity_key": "moltke", "surface": "Молтке"}
+{"passage_seq": 66, "entity_key": "moltke", "surface": "Молтко"}
+{"passage_seq": 66, "entity_key": "petits-savoyards", "surface": "petits Savoyards"}
+{"passage_seq": 66, "entity_key": "piccinni", "surface": "Пичини"}
+{"passage_seq": 66, "entity_key": "rousseau", "surface": "Руссо"}
+{"passage_seq": 66, "entity_key": "rousseau", "surface": "Ж.-Жака"}
+{"passage_seq": 66, "entity_key": "thun", "surface": "Тун"}
+{"passage_seq": 66, "entity_key": "thun", "surface": "Тунского"}
+{"passage_seq": 66, "entity_key": "thun", "surface": "Туне"}
+{"passage_seq": 66, "entity_key": "treille-geneva", "surface": "Treille"}
+{"passage_seq": 66, "entity_key": "unterseen", "surface": "Унтерзеен"}
+{"passage_seq": 66, "entity_key": "unterseen", "surface": "Унтерзеене"}
+{"passage_seq": 66, "entity_key": "voltaire", "surface": "Вольтер"}
+{"passage_seq": 66, "entity_key": "voltaire", "surface": "Вольтеровом"}
+{"passage_seq": 67, "entity_key": "aubonne", "surface": "Обоне"}
+{"passage_seq": 67, "entity_key": "aubonne", "surface": "Обоня"}
+{"passage_seq": 67, "entity_key": "geneva", "surface": "Женевы"}
+{"passage_seq": 67, "entity_key": "geneva", "surface": "Женевское"}
+{"passage_seq": 67, "entity_key": "jura", "surface": "Юра "}
+{"passage_seq": 67, "entity_key": "jura-mountains", "surface": "Юра"}
+{"passage_seq": 67, "entity_key": "jura-mountains", "surface": "Юры"}
+{"passage_seq": 67, "entity_key": "jura-mountains", "surface": "Юре"}
+{"passage_seq": 67, "entity_key": "mont-blanc", "surface": "Белая гора"}
+{"passage_seq": 67, "entity_key": "mont-blanc", "surface": "Белой горы"}
+{"passage_seq": 67, "entity_key": "morges", "surface": "Моржа"}
+{"passage_seq": 67, "entity_key": "savoy", "surface": "савойском"}
+{"passage_seq": 67, "entity_key": "tavernier", "surface": "Тавернье"}
+{"passage_seq": 68, "entity_key": "aubonne", "surface": "Обонское"}
+{"passage_seq": 68, "entity_key": "chardin-jean", "surface": "Шарденя"}
+{"passage_seq": 68, "entity_key": "lucas-paul", "surface": "Павла Люкаса"}
+{"passage_seq": 68, "entity_key": "moscow", "surface": "Москву"}
+{"passage_seq": 68, "entity_key": "tavernier", "surface": "Тавернье"}
+{"passage_seq": 69, "entity_key": "lajet-landlady", "surface": "Лажье"}
+{"passage_seq": 70, "entity_key": "becker-dane", "surface": "Беккером"}
+{"passage_seq": 70, "entity_key": "de-lu-baron", "surface": "де Лю"}
+{"passage_seq": 70, "entity_key": "geneva", "surface": "Женевского"}
+{"passage_seq": 70, "entity_key": "golden-scales-inn-geneva", "surface": "Золотых весов"}
+{"passage_seq": 70, "entity_key": "lake-geneva", "surface": "Женевского озера"}
+{"passage_seq": 71, "entity_key": "bonnet", "surface": "Боннете"}
+{"passage_seq": 71, "entity_key": "bonnet", "surface": "Боннет"}
+{"passage_seq": 71, "entity_key": "bonnet", "surface": "Боннета"}
+{"passage_seq": 71, "entity_key": "bonnet", "surface": "Боннетом"}
+{"passage_seq": 71, "entity_key": "bonnet", "surface": "Боннету"}
+{"passage_seq": 71, "entity_key": "bonnet-house-genthod", "surface": "сельского его домика"}
+{"passage_seq": 71, "entity_key": "contemplation-de-la-nature", "surface": "Созерцания"}
+{"passage_seq": 71, "entity_key": "contemplation-de-la-nature", "surface": "Созерцание"}
+{"passage_seq": 71, "entity_key": "contemplation-de-la-nature", "surface": "Contemplation"}
+{"passage_seq": 71, "entity_key": "geneva", "surface": "Женевы"}
+{"passage_seq": 71, "entity_key": "geneva", "surface": "Женева"}
+{"passage_seq": 71, "entity_key": "geneva", "surface": "Женеве"}
+{"passage_seq": 71, "entity_key": "geneva", "surface": "женевского"}
+{"passage_seq": 71, "entity_key": "geneva", "surface": "женевские"}
+{"passage_seq": 71, "entity_key": "genthod", "surface": "Жанту"}
+{"passage_seq": 71, "entity_key": "kela-syndic", "surface": "Кела"}
+{"passage_seq": 71, "entity_key": "lavater", "surface": "Лафатера"}
+{"passage_seq": 71, "entity_key": "lavater", "surface": "Лафатер"}
+{"passage_seq": 71, "entity_key": "palingenesie", "surface": "Палингенезии"}
+{"passage_seq": 71, "entity_key": "palingenesie", "surface": "Палингенезию"}
+{"passage_seq": 71, "entity_key": "rousseau", "surface": "Жан-Жака"}
+{"passage_seq": 71, "entity_key": "voltaire", "surface": "Вольтера"}
+{"passage_seq": 72, "entity_key": "bonnet", "surface": "Боннету"}
+{"passage_seq": 72, "entity_key": "bonnet", "surface": "Боннетов"}
+{"passage_seq": 72, "entity_key": "contemplation-de-la-nature", "surface": "Созерцание"}
+{"passage_seq": 72, "entity_key": "contemplation-de-la-nature", "surface": "Созерцании"}
+{"passage_seq": 72, "entity_key": "contemplation-de-la-nature", "surface": "Созерцания"}
+{"passage_seq": 72, "entity_key": "contemplation-de-la-nature", "surface": "Contemplation"}
+{"passage_seq": 72, "entity_key": "geneva", "surface": "Женеву"}
+{"passage_seq": 72, "entity_key": "moscow", "surface": "Москве"}
+{"passage_seq": 72, "entity_key": "palingenesie", "surface": "Палингенезию"}
+{"passage_seq": 72, "entity_key": "palingenesie", "surface": "Палингенезии"}
+{"passage_seq": 72, "entity_key": "palingenesie", "surface": "Palingenesie"}
+{"passage_seq": 73, "entity_key": "aubigne", "surface": "Обинье"}
+{"passage_seq": 73, "entity_key": "baggesen", "surface": "Багзен"}
+{"passage_seq": 73, "entity_key": "baggesen", "surface": "Багзеном"}
+{"passage_seq": 73, "entity_key": "baggesen", "surface": "Багзену"}
+{"passage_seq": 73, "entity_key": "baggesen", "surface": "Багзена"}
+{"passage_seq": 73, "entity_key": "basel", "surface": "Базеле"}
+{"passage_seq": 73, "entity_key": "basel", "surface": "Базеля"}
+{"passage_seq": 73, "entity_key": "becker-dane", "surface": "Беккер"}
+{"passage_seq": 73, "entity_key": "becker-dane", "surface": "Беккером"}
+{"passage_seq": 73, "entity_key": "becker-dane", "surface": "Б *"}
+{"passage_seq": 73, "entity_key": "bern", "surface": "Берну"}
+{"passage_seq": 73, "entity_key": "bern", "surface": "Берном"}
+{"passage_seq": 73, "entity_key": "bern", "surface": "Берн"}
+{"passage_seq": 73, "entity_key": "bethune-marguerite", "surface": "Маргарита Бетюн"}
+{"passage_seq": 73, "entity_key": "biel", "surface": "Биль"}
+{"passage_seq": 73, "entity_key": "bonnet", "surface": "Боннету"}
+{"passage_seq": 73, "entity_key": "bonnet", "surface": "Боннетовы"}
+{"passage_seq": 73, "entity_key": "bonnet", "surface": "Боннет"}
+{"passage_seq": 73, "entity_key": "bonnet", "surface": "Боннетовой"}
+{"passage_seq": 73, "entity_key": "bonnet", "surface": "Боннетом"}
+{"passage_seq": 73, "entity_key": "bonnet-mme", "surface": "г-жа Боннет"}
+{"passage_seq": 73, "entity_key": "carouge", "surface": "Каруше"}
+{"passage_seq": 73, "entity_key": "contemplation-de-la-nature", "surface": "Созерцание"}
+{"passage_seq": 73, "entity_key": "contemplation-de-la-nature", "surface": "Созерцанию"}
+{"passage_seq": 73, "entity_key": "contemplation-de-la-nature", "surface": "Созерцания"}
+{"passage_seq": 73, "entity_key": "contemplation-de-la-nature", "surface": "Contemplation"}
+{"passage_seq": 73, "entity_key": "danish-painter-bonnet", "surface": "датчанин, живописец"}
+{"passage_seq": 73, "entity_key": "english-rider-treille", "surface": "молодой англичанин"}
+{"passage_seq": 73, "entity_key": "epee", "surface": "л'Епе"}
+{"passage_seq": 73, "entity_key": "ferney", "surface": "Фернее"}
+{"passage_seq": 73, "entity_key": "geneva", "surface": "Женевской"}
+{"passage_seq": 73, "entity_key": "geneva", "surface": "Женевы"}
+{"passage_seq": 73, "entity_key": "geneva", "surface": "Женеве"}
+{"passage_seq": 73, "entity_key": "geneva", "surface": "Женева"}
+{"passage_seq": 73, "entity_key": "geneva", "surface": "Женевскую"}
+{"passage_seq": 73, "entity_key": "geneva", "surface": "Женевская"}
+{"passage_seq": 73, "entity_key": "geneva", "surface": "Женеву"}
+{"passage_seq": 73, "entity_key": "geneva", "surface": "женевский"}
+{"passage_seq": 73, "entity_key": "geneva", "surface": "женевского"}
+{"passage_seq": 73, "entity_key": "geneva", "surface": "женевском"}
+{"passage_seq": 73, "entity_key": "geneva", "surface": "женевцы"}
+{"passage_seq": 73, "entity_key": "geneva", "surface": "женевцев"}
+{"passage_seq": 73, "entity_key": "geneva-1789-settlement", "surface": "Перемена, происшедшая"}
+{"passage_seq": 73, "entity_key": "geneva-public-library", "surface": "Женевской публичной библиотеки"}
+{"passage_seq": 73, "entity_key": "geneva-syndic-election-1790", "surface": "выбирали новых синдиков"}
+{"passage_seq": 73, "entity_key": "genthod", "surface": "Жанту"}
+{"passage_seq": 73, "entity_key": "haller", "surface": "Галлер"}
+{"passage_seq": 73, "entity_key": "haller", "surface": "Галлера"}
+{"passage_seq": 73, "entity_key": "haller", "surface": "Галлером"}
+{"passage_seq": 73, "entity_key": "haller", "surface": "Галлерову"}
+{"passage_seq": 73, "entity_key": "haller-sophie", "surface": "девицею Галлер"}
+{"passage_seq": 73, "entity_key": "klopstock", "surface": "Клопшток"}
+{"passage_seq": 73, "entity_key": "klopstock", "surface": "Клопштока"}
+{"passage_seq": 73, "entity_key": "koenigsberg-cathedral", "surface": "кафедральная церковь"}
+{"passage_seq": 73, "entity_key": "lake-biel", "surface": "Бильское озеро"}
+{"passage_seq": 73, "entity_key": "lausanne", "surface": "Лозанну"}
+{"passage_seq": 73, "entity_key": "lausanne", "surface": "Лозанне"}
+{"passage_seq": 73, "entity_key": "lausanne", "surface": "Лозаннской"}
+{"passage_seq": 73, "entity_key": "madame-nn-widow", "surface": "Госпожа NN"}
+{"passage_seq": 73, "entity_key": "moltke", "surface": "Молтке"}
+{"passage_seq": 73, "entity_key": "mont-blanc", "surface": "Белую гору"}
+{"passage_seq": 73, "entity_key": "neuchatel", "surface": "Нёшателя"}
+{"passage_seq": 73, "entity_key": "neuchatel", "surface": "Нёшателе"}
+{"passage_seq": 73, "entity_key": "nidau", "surface": "Нидау"}
+{"passage_seq": 73, "entity_key": "palingenesie", "surface": "Палингенезии"}
+{"passage_seq": 73, "entity_key": "pays-de-gex", "surface": "Pays de Gex"}
+{"passage_seq": 73, "entity_key": "rohan-henri", "surface": "Рогана"}
+{"passage_seq": 73, "entity_key": "rohan-henri", "surface": "Роган"}
+{"passage_seq": 73, "entity_key": "rohan-henri", "surface": "Рогану"}
+{"passage_seq": 73, "entity_key": "rohan-tancrede", "surface": "Танкред"}
+{"passage_seq": 73, "entity_key": "rohan-tancrede", "surface": "Танкредова"}
+{"passage_seq": 73, "entity_key": "rohan-tancrede", "surface": "Танкреда"}
+{"passage_seq": 73, "entity_key": "rohan-tancrede", "surface": "Танкредовой"}
+{"passage_seq": 73, "entity_key": "rohan-tomb-geneva", "surface": "гроб герцога Рогана"}
+{"passage_seq": 73, "entity_key": "rousseau", "surface": "Руссо"}
+{"passage_seq": 73, "entity_key": "rousseau", "surface": "Руссовым"}
+{"passage_seq": 73, "entity_key": "saussure", "surface": "Соссюр"}
+{"passage_seq": 73, "entity_key": "savoy", "surface": "Савойе"}
+{"passage_seq": 73, "entity_key": "savoy", "surface": "Савойскую"}
+{"passage_seq": 73, "entity_key": "savoy", "surface": "Савойею"}
+{"passage_seq": 73, "entity_key": "savoy", "surface": "савойские"}
+{"passage_seq": 73, "entity_key": "savoy", "surface": "савойском"}
+{"passage_seq": 73, "entity_key": "savoy", "surface": "савойских"}
+{"passage_seq": 73, "entity_key": "scudery", "surface": "Скюдери"}
+{"passage_seq": 73, "entity_key": "st-peter-zurich", "surface": "церкви св. Петра"}
+{"passage_seq": 73, "entity_key": "st-peters-island", "surface": "острове св. Петра"}
+{"passage_seq": 73, "entity_key": "st-pierre-geneva", "surface": "Женевская кафедральная церковь"}
+{"passage_seq": 73, "entity_key": "st-pierre-geneva", "surface": "церкви св. Петра"}
+{"passage_seq": 73, "entity_key": "storch-inn-basel", "surface": "\"Аиста\""}
+{"passage_seq": 73, "entity_key": "strasbourg-cathedral", "surface": "кафедральная церковь"}
+{"passage_seq": 73, "entity_key": "treille-geneva", "surface": "Трели"}
+{"passage_seq": 73, "entity_key": "treille-geneva", "surface": "Treille"}
+{"passage_seq": 73, "entity_key": "ulrich-teacher", "surface": "Ульрихом"}
+{"passage_seq": 73, "entity_key": "ulrich-teacher", "surface": "Ульриха"}
+{"passage_seq": 73, "entity_key": "ulrich-teacher", "surface": "Ульрих"}
+{"passage_seq": 73, "entity_key": "vernes-francois", "surface": "Верна"}
+{"passage_seq": 73, "entity_key": "voltaire", "surface": "Вольтер"}
+{"passage_seq": 73, "entity_key": "voltaire", "surface": "Вольтере"}
+{"passage_seq": 73, "entity_key": "wieland", "surface": "Виландовым"}
+{"passage_seq": 73, "entity_key": "yverdon", "surface": "Ивердон"}
+{"passage_seq": 73, "entity_key": "yverdon", "surface": "Ивердоне"}
+{"passage_seq": 73, "entity_key": "yverdon", "surface": "Ивердонской"}
+{"passage_seq": 73, "entity_key": "yverdon", "surface": "ивердонскую"}
+{"passage_seq": 73, "entity_key": "yverdon", "surface": "ивердонская"}
+{"passage_seq": 73, "entity_key": "yverdon-library", "surface": "Ивердонской публичной библиотеке"}
+{"passage_seq": 74, "entity_key": "abbe-n", "surface": "Аббат Н*"}
+{"passage_seq": 74, "entity_key": "arve", "surface": "Арва"}
+{"passage_seq": 74, "entity_key": "basel", "surface": "Базеля"}
+{"passage_seq": 74, "entity_key": "geneva", "surface": "Женевское"}
+{"passage_seq": 74, "entity_key": "geneva", "surface": "Женевы"}
+{"passage_seq": 74, "entity_key": "geneva", "surface": "женевских"}
+{"passage_seq": 74, "entity_key": "jonction-geneva", "surface": "Арва сливается с зеленою Роною"}
+{"passage_seq": 74, "entity_key": "jura-mountains", "surface": "Юра"}
+{"passage_seq": 74, "entity_key": "lake-geneva", "surface": "Женевское озеро"}
+{"passage_seq": 74, "entity_key": "rhone", "surface": "Рону"}
+{"passage_seq": 74, "entity_key": "rhone", "surface": "Роною"}
+{"passage_seq": 74, "entity_key": "savoy", "surface": "Савойские"}
+{"passage_seq": 74, "entity_key": "swiss-gate-geneva", "surface": "Швейцарских ворот"}
+{"passage_seq": 74, "entity_key": "treille-geneva", "surface": "Трель"}
+{"passage_seq": 75, "entity_key": "alps", "surface": "Альпийских"}
+{"passage_seq": 75, "entity_key": "arve", "surface": "Арва"}
+{"passage_seq": 75, "entity_key": "becker-dane", "surface": "Беккер"}
+{"passage_seq": 75, "entity_key": "bienz", "surface": "Бьенц"}
+{"passage_seq": 75, "entity_key": "bonnet", "surface": "Боннета"}
+{"passage_seq": 75, "entity_key": "bonnet", "surface": "Боннет"}
+{"passage_seq": 75, "entity_key": "contemplation-de-la-nature", "surface": "Созерцания"}
+{"passage_seq": 75, "entity_key": "contemplation-de-la-nature", "surface": "Contemplation"}
+{"passage_seq": 75, "entity_key": "geneva", "surface": "Женевы"}
+{"passage_seq": 75, "entity_key": "geneva", "surface": "Женеве"}
+{"passage_seq": 75, "entity_key": "geneva", "surface": "женевским"}
+{"passage_seq": 75, "entity_key": "geneva", "surface": "женевцев"}
+{"passage_seq": 75, "entity_key": "geneva-cercles", "surface": "серклях"}
+{"passage_seq": 75, "entity_key": "gex-mountain-village", "surface": "Горная деревенька"}
+{"passage_seq": 75, "entity_key": "gilibert", "surface": "Жилиберту"}
+{"passage_seq": 75, "entity_key": "jonction-geneva", "surface": "где впадает в нее Арва"}
+{"passage_seq": 75, "entity_key": "jura-mountains", "surface": "Юры"}
+{"passage_seq": 75, "entity_key": "la-tourette", "surface": "де-ла-Турету"}
+{"passage_seq": 75, "entity_key": "pays-de-gex", "surface": "Pays de Gez"}
+{"passage_seq": 75, "entity_key": "rhone", "surface": "Роны"}
+{"passage_seq": 75, "entity_key": "saleve", "surface": "Салева"}
+{"passage_seq": 75, "entity_key": "savoy", "surface": "Савойскую"}
+{"passage_seq": 76, "entity_key": "alps", "surface": "Альпы"}
+{"passage_seq": 76, "entity_key": "battle-of-fontenoy", "surface": "Фонтенуа"}
+{"passage_seq": 76, "entity_key": "becker-dane", "surface": "Беккер"}
+{"passage_seq": 76, "entity_key": "becker-dane", "surface": "Беккеру"}
+{"passage_seq": 76, "entity_key": "fontenoy-veteran", "surface": "Инвалид"}
+{"passage_seq": 76, "entity_key": "fort-l-ecluse", "surface": "Фор де л"}
+{"passage_seq": 76, "entity_key": "geneva", "surface": "Женевы"}
+{"passage_seq": 76, "entity_key": "geneva", "surface": "Женеве"}
+{"passage_seq": 76, "entity_key": "geneva", "surface": "Женевской"}
+{"passage_seq": 76, "entity_key": "jura", "surface": "Юра "}
+{"passage_seq": 76, "entity_key": "jura-border-inn", "surface": "пограничная корчма"}
+{"passage_seq": 76, "entity_key": "jura-mountains", "surface": "Юра"}
+{"passage_seq": 76, "entity_key": "jura-mountains", "surface": "Юры"}
+{"passage_seq": 76, "entity_key": "jura-mountains", "surface": "Юре"}
+{"passage_seq": 76, "entity_key": "maurice-de-saxe", "surface": "саксонского маршала"}
+{"passage_seq": 76, "entity_key": "perte-du-rhone", "surface": "perte du Rhone"}
+{"passage_seq": 76, "entity_key": "rhone", "surface": "Рона"}
+{"passage_seq": 76, "entity_key": "rhone", "surface": "Рону"}
+{"passage_seq": 76, "entity_key": "strasbourg", "surface": "Стразбурге"}

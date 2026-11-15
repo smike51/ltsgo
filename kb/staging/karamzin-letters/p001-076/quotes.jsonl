@@ -1,0 +1,216 @@
+{"passage_seq": 2, "text": "Колокольчик зазвенел, лошади помчались... и друг ваш осиротел в мире, осиротел в душе своей!", "stop_ref": null, "entity_keys": ["moscow"], "tags": ["farewell", "emotion"]}
+{"passage_seq": 3, "text": "Надлежало объявить мой паспорт в адмиралтействе; но там не хотели надписать его, потому что он дан из московского, а не из петербургского губернского правления", "stop_ref": null, "entity_keys": ["saint-petersburg"], "tags": ["bureaucracy", "humour"]}
+{"passage_seq": 4, "text": "пришел какой-то полицейский и начал шуметь, что кибитка моя стояла среди дороги. \"Спрячь её в карман!\" -- сказал я с притворным равнодушием и завернулся в плащ.", "stop_ref": null, "entity_keys": ["narva"], "tags": ["humour", "road"]}
+{"passage_seq": 4, "text": "Гостеприимство, священная добродетель, обыкновенная во дни юности рода человеческого и столь редкая во дни наши!", "stop_ref": null, "entity_keys": ["kramer-narva"], "tags": ["people", "hospitality"]}
+{"passage_seq": 4, "text": "Я еще не выехал из России, но давно уже в чужих краях, потому что давно с вами расстался.", "stop_ref": null, "entity_keys": ["riga"], "tags": ["emotion"]}
+{"passage_seq": 5, "text": "Хозяин воспользовался моим недосугом и подал мне самый аптекарский счет; то есть за одне сутки он взял с меня около девяти рублей!", "stop_ref": null, "entity_keys": ["riga"], "tags": ["humour", "money"]}
+{"passage_seq": 5, "text": "Поверьте мне, государь мой, в Роттердаме я сделался человеком!\"", "stop_ref": null, "entity_keys": [], "tags": ["humour", "people"]}
+{"passage_seq": 5, "text": "\"А когда так, государи мои, -- сказал я, -- то вы не можете судить о русских; побывав только в пограничном городе\".", "stop_ref": null, "entity_keys": [], "tags": ["culture-clash"]}
+{"passage_seq": 6, "text": "Я дал приставам копеек сорок: после чего они только заглянули в мой чемодан, веря, что у меня нет ничего нового.", "stop_ref": null, "entity_keys": ["palanga"], "tags": ["humour", "border"]}
+{"passage_seq": 6, "text": "Море от корчмы не далее двухсот сажен. Я около часа сидел на берегу и смотрел на пространство волнующихся вод. Вид величественный и унылый!", "stop_ref": null, "entity_keys": ["palanga"], "tags": ["nature"]}
+{"passage_seq": 7, "text": "Мы же в самом деле едем через Тильзит; но русский человек смекнул, что за 30 миль взяли бы с него более, нежели за 18!", "stop_ref": null, "entity_keys": ["klaipeda", "sovetsk"], "tags": ["humour", "culture-clash"]}
+{"passage_seq": 8, "text": "Толстый часовой, у которого под брюхом моталась маленькая шпажонка, подняв на плечо изломанное и веревками связанное ружье, с гордым видом сделал три шага вперед и престрашным голосом закричал мне: \"Wer sind Sie? Кто вы?\"", "stop_ref": null, "entity_keys": ["sovetsk"], "tags": ["humour", "border"]}
+{"passage_seq": 8, "text": "Поручик. Разве мало дураков в Тильзите?", "stop_ref": null, "entity_keys": ["sovetsk"], "tags": ["humour"]}
+{"passage_seq": 9, "text": "Меня встретил маленький, худенький старичок, отменно белый и нежный.", "stop_ref": null, "entity_keys": ["kant"], "tags": ["people"]}
+{"passage_seq": 9, "text": "\"Я писал такое, что не может нравиться всем; не многие любят метафизические тонкости\".", "stop_ref": null, "entity_keys": ["kant"], "tags": ["people", "philosophy"]}
+{"passage_seq": 9, "text": "Домик у него маленький, и внутри приборов немного. Все просто, кроме... его метафизики.", "stop_ref": null, "entity_keys": ["kant", "kant-house-koenigsberg"], "tags": ["humour", "people"]}
+{"passage_seq": 9, "text": "рассудил я за благо обедать один в своей комнате, растворив окна в сад, откуда лились в мой немецкий суп ароматические испарения сочной зелени.", "stop_ref": null, "entity_keys": ["kaliningrad"], "tags": ["food"]}
+{"passage_seq": 10, "text": "Немилостивый мой капитан смеялся и кричал: \"Нам нужна экзерциция, экзерциция!\"", "stop_ref": null, "entity_keys": [], "tags": ["humour", "war", "culture-clash"]}
+{"passage_seq": 10, "text": "Женщина, родом из Шведской Померании, услышав, что я русский, подняла руки к небу и закричала: \"Ах, злодеи! Вы губите нашего бедного короля!\"", "stop_ref": null, "entity_keys": ["elblag"], "tags": ["humour", "culture-clash"]}
+{"passage_seq": 10, "text": "Карикатура за карикатурою приходила в трактир, и всякая карикатура требовала пива и трубки.", "stop_ref": null, "entity_keys": ["elblag"], "tags": ["humour"]}
+{"passage_seq": 11, "text": "Данциг у нас под ногами, как на блюдечке, так что можно считать кровли.", "stop_ref": null, "entity_keys": ["gdansk", "stolzenberg-gdansk"], "tags": ["view"]}
+{"passage_seq": 11, "text": "жители сего города в глубоком унынии взывают друг ко другу: \"Данциг! Данциг! Где твоя слава?\"", "stop_ref": null, "entity_keys": ["gdansk"], "tags": ["history"]}
+{"passage_seq": 12, "text": "офицер, худой юрист, начал сыпать на него пепел с огнем, говоря, что Везувий за дымом выбрасывает пламя.", "stop_ref": null, "entity_keys": [], "tags": ["humour", "road"]}
+{"passage_seq": 13, "text": "\"Насилие! насилие! -- закричал почтмейстер. -- Хотят драться, бить меня!\"", "stop_ref": null, "entity_keys": ["slupsk"], "tags": ["humour", "road"]}
+{"passage_seq": 13, "text": "Итак, если вы, друзья мои, будете когда в Лупове, то вспомните, что друг ваш там обедал,-- вспомните и велите подать себе форелей и бишофу.", "stop_ref": null, "entity_keys": ["lupawa"], "tags": ["food", "humour"]}
+{"passage_seq": 13, "text": "\"Да вот русский казак!\" -- сказал капитан, указав на меня. \"Русский казак!\" -- закричал трактирщик и ударился затылком в стену.", "stop_ref": null, "entity_keys": ["karlino"], "tags": ["humour", "culture-clash"]}
+{"passage_seq": 13, "text": "\"Стой, воображение!\" -- сказал я сам себе и -- заплатил два гроша сухой старухе и уродливому мальчику, которые показывали мне замок.", "stop_ref": null, "entity_keys": [], "tags": ["humour"]}
+{"passage_seq": 13, "text": "Иногда был я какой-нибудь Баракоменеверус и ехал от горы Араратской; иногда Аристид, выгнанный из Афин; иногда Альцибиад, едущий в Персию; иногда доктор Панглос, и проч., и проч.", "stop_ref": null, "entity_keys": [], "tags": ["humour", "border"]}
+{"passage_seq": 14, "text": "Неужели нет у берлинцев обоняния?", "stop_ref": null, "entity_keys": ["berlin"], "tags": ["humour"]}
+{"passage_seq": 14, "text": "\"Боже мой! Какая осторожность! Разве Берлин в осаде?\"", "stop_ref": null, "entity_keys": ["berlin"], "tags": ["humour", "bureaucracy"]}
+{"passage_seq": 14, "text": "\"Послушайте, господин Блум, -- сказал я, -- это все писано к вам от первого числа апреля по старому или по новому стилю\".", "stop_ref": null, "entity_keys": ["blum-innkeeper"], "tags": ["humour"]}
+{"passage_seq": 15, "text": "Тот есть для меня истинный философ, кто со всеми может ужиться в мире; кто любит и несогласных с его образом мыслей.", "stop_ref": null, "entity_keys": ["nicolai"], "tags": ["tolerance"]}
+{"passage_seq": 15, "text": "Кто не подивится тому, что он в сию минуту смеялся от всего сердца над странною физиогномиею и ухватками одного казака, который снимал с него платье?", "stop_ref": null, "entity_keys": ["kleist-ec"], "tags": ["history", "people"]}
+{"passage_seq": 16, "text": "В ожидании штатгальтерши тянули они всем фрунтом водку, и так неосторожно, что некоторые стукались лбами.", "stop_ref": null, "entity_keys": ["wilhelmina-of-prussia-orange"], "tags": ["humour"]}
+{"passage_seq": 16, "text": "Вышедши из театра, обтер я на крыльце последнюю сладкую слезу.", "stop_ref": null, "entity_keys": ["menschenhass-und-reue"], "tags": ["art", "emotion"]}
+{"passage_seq": 17, "text": "Вообразите, что целый дом в два этажа можно нанять там за пятьдесят рублей в год; да и то нанимать некому.", "stop_ref": null, "entity_keys": ["potsdam"], "tags": ["money", "history"]}
+{"passage_seq": 17, "text": "\"Видно, что у нас на Руси язык очень переменился, -- сказал он, -- или я, может быть, забываю его\". -- \"И то и другое правда\", -- отвечали мы.", "stop_ref": null, "entity_keys": ["russian-church-potsdam-1789"], "tags": ["people", "culture-clash"]}
+{"passage_seq": 17, "text": "Пруссия не Аркадия, и наш век не золотой: меня могли ограбить, а со мною было все мое богатство.", "stop_ref": null, "entity_keys": [], "tags": ["road", "humour"]}
+{"passage_seq": 17, "text": "Здесь гулял Фридрих с своими Вольтерами и Даланбертами.", "stop_ref": null, "entity_keys": ["sanssouci", "frederick-ii"], "tags": ["history"]}
+{"passage_seq": 18, "text": "Рамлер высок, худощав, долгонос; говорит отборно и протяжно.", "stop_ref": null, "entity_keys": ["ramler"], "tags": ["people"]}
+{"passage_seq": 19, "text": "\"Посмотри его лучше между профессорами, -- сказал я, -- пока еще число любителей мудрости неизвестно в Берлине\".", "stop_ref": null, "entity_keys": ["moritz"], "tags": ["humour"]}
+{"passage_seq": 19, "text": "\"Может быть, придет такое время, -- сказал он, -- в которое мы будем учиться и русскому языку; но для этого надобно вам написать что-нибудь превосходное\". Тут невольный вздох вылетел у меня из сердца.", "stop_ref": null, "entity_keys": ["moritz"], "tags": ["people", "culture-clash"]}
+{"passage_seq": 19, "text": "Нет почти ни одного известного автора в Германии, который бы с кем-нибудь не имел публичной ссоры; и публика читает с удовольствием бранные их сочинения!", "stop_ref": null, "entity_keys": [], "tags": ["humour", "culture-clash"]}
+{"passage_seq": 20, "text": "Господин Ц* называет Берлин Содомом и Гомором; однако ж Берлин еще не провалился, и небесный гнев не обращает его в пепел.", "stop_ref": null, "entity_keys": ["berlin"], "tags": ["humour"]}
+{"passage_seq": 21, "text": "Если бы из народной брани можно было заключать о народном характере, то бы из schwer Noth", "stop_ref": null, "entity_keys": [], "tags": ["humour", "culture-clash"]}
+{"passage_seq": 22, "text": "Итак, ваш друг уже в Саксонии!", "stop_ref": null, "entity_keys": ["karamzin"], "tags": ["road"]}
+{"passage_seq": 22, "text": "Nothing can be so sweet as liberty", "stop_ref": null, "entity_keys": ["karamzin"], "tags": ["philosophy", "literature"]}
+{"passage_seq": 22, "text": "Ввечеру я задремал и схватил от какого-то ветвистого дерева такую пощечину, что у меня искры из глаз посыпались.", "stop_ref": null, "entity_keys": ["karamzin"], "tags": ["road", "humour"]}
+{"passage_seq": 22, "text": "\"Москвитянин? Ах, боже мой! Я еще отроду не видывала москвитян\".", "stop_ref": null, "entity_keys": ["karamzin"], "tags": ["people", "culture-clash", "humour"]}
+{"passage_seq": 22, "text": "не три часа, а несколько месяцев надобно, чтобы хорошенько осмотреть сию галерею", "stop_ref": null, "entity_keys": ["dresden-picture-gallery"], "tags": ["art"]}
+{"passage_seq": 22, "text": "\"Хорошо, очень хорошо; а что это стоит вашей светлости?\"", "stop_ref": null, "entity_keys": ["green-vault"], "tags": ["humour", "money"]}
+{"passage_seq": 23, "text": "Ноги мои подогнулись; я стал на колени и молился от всего сердца.", "stop_ref": null, "entity_keys": ["dresden-hofkirche"], "tags": ["religion", "emotion"]}
+{"passage_seq": 24, "text": "Вынул бумагу, карандаш; написал: \"Любезная природа!\" -- и более ни слова!!", "stop_ref": null, "entity_keys": ["grosser-garten-dresden"], "tags": ["nature", "emotion"]}
+{"passage_seq": 25, "text": "\"Надобно искать его в сердце\", -- сказал я.", "stop_ref": null, "entity_keys": ["prague-student", "karamzin"], "tags": ["philosophy"]}
+{"passage_seq": 25, "text": "\"Вы ищете за милю того, что у вас под носом\", -- сказал ему шафнер с сердцем", "stop_ref": null, "entity_keys": ["magister-red-wig"], "tags": ["humour", "road"]}
+{"passage_seq": 25, "text": "В самую сию секунду грянул гром, и г. Мемель испугался и побледнел.", "stop_ref": null, "entity_keys": ["memel-innkeeper"], "tags": ["humour", "people"]}
+{"passage_seq": 26, "text": "Окрестности дрезденские прекрасны, а лейпцигские милы.", "stop_ref": null, "entity_keys": ["dresden", "leipzig"], "tags": ["nature"]}
+{"passage_seq": 26, "text": "\"Изящным\", -- отвечал я и закраснелся", "stop_ref": null, "entity_keys": ["platner"], "tags": ["people"]}
+{"passage_seq": 26, "text": "Я изъявил ей свою благодарность двумя грошами!!", "stop_ref": null, "entity_keys": ["richter-garden-leipzig"], "tags": ["money", "humour"]}
+{"passage_seq": 26, "text": "Когда он сошел с кафедры, то ему, как царю, дали просторную дорогу до самых дверей.", "stop_ref": null, "entity_keys": ["platner"], "tags": ["people"]}
+{"passage_seq": 27, "text": "\"Я не думал бы, -- сказал молодой профессор поэзии, -- чтобы в вашем языке можно было найти выражения для Клопштоковых идей\".", "stop_ref": null, "entity_keys": ["klopstock"], "tags": ["culture-clash", "literature"]}
+{"passage_seq": 27, "text": "Никто не хватится меня завтра, если нынешняя ночь на черных своих крыльях унесет мою душу из здешнего мира", "stop_ref": null, "entity_keys": ["karamzin"], "tags": ["emotion"]}
+{"passage_seq": 28, "text": "маленький человечек в красном халате и в белой шляпе", "stop_ref": null, "entity_keys": ["weisse"], "tags": ["people"]}
+{"passage_seq": 28, "text": "Один взгляд на доброго есть счастие для того, в ком не загрубело чувство добра.", "stop_ref": null, "entity_keys": ["weisse"], "tags": ["philosophy", "people"]}
+{"passage_seq": 28, "text": "Господин Мелли удивил меня, начав говорить со мною по-русски.", "stop_ref": null, "entity_keys": ["melly"], "tags": ["people", "culture-clash"]}
+{"passage_seq": 29, "text": "\"Прииди и виждь!\" -- кричал он всем, которые сомневались", "stop_ref": null, "entity_keys": ["schrepfer"], "tags": ["history", "religion"]}
+{"passage_seq": 29, "text": "просвещение, которого одна искра может осветить бездну заблуждений", "stop_ref": null, "entity_keys": ["schrepfer"], "tags": ["philosophy"]}
+{"passage_seq": 30, "text": "\"Здесь ли Виланд? Здесь ли Гердер? Здесь ли Гете?\" -- \"Здесь, здесь, здесь\", -- отвечал он", "stop_ref": null, "entity_keys": ["wieland", "herder", "goethe"], "tags": ["literature", "humour"]}
+{"passage_seq": 30, "text": "\"Во дворце! Во дворце!\" -- повторил я, передразнивая слугу", "stop_ref": null, "entity_keys": ["weimar"], "tags": ["humour"]}
+{"passage_seq": 30, "text": "Гомер у них Гомер", "stop_ref": null, "entity_keys": ["herder"], "tags": ["literature"]}
+{"passage_seq": 31, "text": "\"Это не стоило труда!\" -- отвечал он с холодным видом", "stop_ref": null, "entity_keys": ["wieland"], "tags": ["people", "literature"]}
+{"passage_seq": 31, "text": "Я не люблю новых знакомств, а особливо с такими людьми, которые мне ни но чему не известны.", "stop_ref": null, "entity_keys": ["wieland"], "tags": ["people"]}
+{"passage_seq": 31, "text": "\"Если бы судьба определила мне жить на пустом острове, то я написал бы все тоже и с тем же старанием выработывал бы свои произведения, думая, что музы слушают мои песни\".", "stop_ref": null, "entity_keys": ["wieland"], "tags": ["literature"]}
+{"passage_seq": 31, "text": "Никогда, никогда не забуду Виланда!", "stop_ref": null, "entity_keys": ["wieland"], "tags": ["emotion"]}
+{"passage_seq": 31, "text": "важное греческое лицо!", "stop_ref": null, "entity_keys": ["goethe"], "tags": ["people"]}
+{"passage_seq": 32, "text": "думали, что дерзостному Л* надлежало за то по крайней мере отрубить голову", "stop_ref": null, "entity_keys": ["lenz", "charles-augustus"], "tags": ["humour", "history"]}
+{"passage_seq": 33, "text": "Мне казалось, что я пришел в мрачное жилище фанатизма.", "stop_ref": null, "entity_keys": ["st-peters-abbey-erfurt"], "tags": ["religion", "emotion"]}
+{"passage_seq": 33, "text": "\"Ты сестра моя, -- отвечает графиня, подымая и целуя сарацинку, -- супруг мой будет твоим супругом; разделим сердце его\".", "stop_ref": null, "entity_keys": ["gleichen"], "tags": ["history", "tolerance"]}
+{"passage_seq": 33, "text": "Можно ли, -- думал я, -- чтобы простой монах, живший во мраке этой кельи, сделал не только великую реформу в римской церкви", "stop_ref": null, "entity_keys": ["luther"], "tags": ["religion", "history"]}
+{"passage_seq": 35, "text": "Сердца их разумели друг друга, страшились своих чувств и -- питали их.", "stop_ref": null, "entity_keys": ["monk-and-nun-stones-wartburg"], "tags": ["emotion", "history"]}
+{"passage_seq": 35, "text": "\"Ничего, -- отвечали мне с поклоном, -- вы не в трактире, а в гостях у честного мещанина, который очень рад тому, что вам полюбился его рейнвейн\".", "stop_ref": null, "entity_keys": [], "tags": ["humour", "culture-clash", "people"]}
+{"passage_seq": 35, "text": "Каролина, по своей невинности, не думала благодарить меня за мою воздержность и простилась со мною очень сухо. Бог с нею!", "stop_ref": null, "entity_keys": ["caroline-hersfeld"], "tags": ["humour", "road"]}
+{"passage_seq": 35, "text": "каменная русская грудь не боится простуды, и питомец железного севера смеется над слабым усилием маинских бурь.", "stop_ref": null, "entity_keys": ["frankfurt"], "tags": ["humour", "nature"]}
+{"passage_seq": 35, "text": "\"Итак, если бы у Калигулы не был испорчен желудок, то он не вздумал бы построить моста на Средиземном море?\"", "stop_ref": null, "entity_keys": ["doctor-frankfurt-inn"], "tags": ["humour", "philosophy"]}
+{"passage_seq": 36, "text": "Ни один нищий не подходил ко мне на улице просить милостыни.", "stop_ref": null, "entity_keys": ["frankfurt"], "tags": ["money"]}
+{"passage_seq": 36, "text": "а теперь, обрадовавшись солнцу, все, как муравьи, ползут из своих нор.", "stop_ref": null, "entity_keys": ["frankfurt"], "tags": ["humour"]}
+{"passage_seq": 36, "text": "\"Это не он! Это не Каспар!\"", "stop_ref": null, "entity_keys": [], "tags": ["people", "emotion"]}
+{"passage_seq": 37, "text": "\"Часто ли шьют ей обновы?\"-- спросил я у моего провожатого.-- \"Из году в год\", -- отвечал он.", "stop_ref": null, "entity_keys": ["frankfurt-cathedral"], "tags": ["humour", "religion"]}
+{"passage_seq": 37, "text": "Такая нетерпимость, конечно, не служит к чести франкфуртского правительства.", "stop_ref": null, "entity_keys": ["frankfurt"], "tags": ["tolerance", "religion"]}
+{"passage_seq": 37, "text": "отвечал с жаром израильтянин. -- Мы не бесчестнее христиан\".", "stop_ref": null, "entity_keys": ["judengasse-frankfurt"], "tags": ["tolerance", "people"]}
+{"passage_seq": 37, "text": "сей великий муж, сей Сократ и Платон наших времен, был жид, был жид!", "stop_ref": null, "entity_keys": ["mendelssohn"], "tags": ["tolerance", "philosophy"]}
+{"passage_seq": 38, "text": "\"Господин проповедник был очень болен,-- сказал сидевший подле меня человек, -- берлинцы зажгли в нем кровь, и наши медики с трудом могли потушить пожар\".", "stop_ref": null, "entity_keys": ["starck"], "tags": ["humour", "literature"]}
+{"passage_seq": 38, "text": "\"Рейн, Рейн! Наконец вижу тебя, -- думал я, -- вижу и благословляю царя вод германских в гордом его течении!\"", "stop_ref": null, "entity_keys": ["rhine"], "tags": ["nature", "emotion"]}
+{"passage_seq": 38, "text": "Хотя святой Бонифаций был добрый человек и обратил в христианство баварцев, однако ж кишки его не имеют для меня никакой прелести.", "stop_ref": null, "entity_keys": ["boniface", "mainz"], "tags": ["humour", "religion"]}
+{"passage_seq": 38, "text": "Мысль, что пью рейнвейн на берегу Рейна, веселила меня, как ребенка.", "stop_ref": null, "entity_keys": ["rhine", "mainz"], "tags": ["food", "emotion"]}
+{"passage_seq": 38, "text": "\"Верю, что оно делает честь памяти покойника\", -- сказал я, встал и пошел в свою комнату.", "stop_ref": null, "entity_keys": ["mainz"], "tags": ["humour", "food"]}
+{"passage_seq": 39, "text": "Сию верхнюю часть Германии можно назвать земным раем. Дорога гладка, как стол", "stop_ref": null, "entity_keys": [], "tags": ["nature", "road"]}
+{"passage_seq": 39, "text": "Если бы я не торопился в Швейцарию, то остался бы здесь на несколько недель: так полюбился мне Мангейм!", "stop_ref": null, "entity_keys": ["mannheim"], "tags": ["emotion"]}
+{"passage_seq": 40, "text": "Надобно удивляться древнему искусству, которое умело влагать душу в мрамор, и прекрасную душу.", "stop_ref": null, "entity_keys": ["laocoon"], "tags": ["art"]}
+{"passage_seq": 40, "text": "Фидиас был поэт.", "stop_ref": null, "entity_keys": ["laocoon"], "tags": ["art"]}
+{"passage_seq": 41, "text": "Путешествуй, ипохондрик, чтобы исцелиться от своей ипохондрии! Путешествуй, мизантроп, чтобы полюбить человечество! Путешествуй, кто только может!", "stop_ref": null, "entity_keys": [], "tags": ["road", "philosophy"]}
+{"passage_seq": 41, "text": "Это был осмотрщик, который за свое поздравление хотел взять с нас по нескольку французских копеек.", "stop_ref": null, "entity_keys": ["alsace"], "tags": ["humour", "money", "road"]}
+{"passage_seq": 41, "text": "Почтмейстеры, постиллионы, бабы говорят о революции.", "stop_ref": null, "entity_keys": ["alsace"], "tags": ["politics"]}
+{"passage_seq": 41, "text": "Прелат бледнел от страха и трепещущим голосом повторял: \"Mes amis, mes amis!\"", "stop_ref": null, "entity_keys": ["strasbourg-garrison-mutiny-1789"], "tags": ["politics", "humour"]}
+{"passage_seq": 41, "text": "\"Мы здесь были и устали до смерти\". -- \"Высоко!\" -- \"Здравствуй, брат земляк!\" -- \"Какой же вид!\"", "stop_ref": null, "entity_keys": ["strasbourg-cathedral"], "tags": ["humour"]}
+{"passage_seq": 41, "text": "Пигаль, по моему чувству, есть искусный художник, но худой поэт.", "stop_ref": null, "entity_keys": ["pigalle", "mausoleum-maurice-de-saxe"], "tags": ["art"]}
+{"passage_seq": 41, "text": "\"Пить вино и над всем смеяться\", -- сказал пожилой капитан, опорожнив свою бутылку.", "stop_ref": null, "entity_keys": [], "tags": ["politics", "humour"]}
+{"passage_seq": 42, "text": "\"У кого не много денег, тот не боится разбойников\", -- сказал молодой женевец", "stop_ref": null, "entity_keys": ["genevan-companion"], "tags": ["road", "money"]}
+{"passage_seq": 42, "text": "Итак, я уже в Швейцарии, в стране живописной натуры, в земле свободы и благополучия!", "stop_ref": null, "entity_keys": ["basel"], "tags": ["emotion", "politics"]}
+{"passage_seq": 42, "text": "\"Ты Эразм или демон!\"", "stop_ref": null, "entity_keys": ["erasmus", "thomas-more"], "tags": ["history", "literature"]}
+{"passage_seq": 42, "text": "Иуду, как он здесь представлен, узнал бы я всегда и везде.", "stop_ref": null, "entity_keys": ["holbein-last-supper"], "tags": ["art"]}
+{"passage_seq": 42, "text": "Мы лишились своего имения и отечества; но когда жив сын наш, когда жива дочь наша, то забываем все прочее горе!", "stop_ref": null, "entity_keys": ["emigre-noble-basel-1789"], "tags": ["politics", "emotion"]}
+{"passage_seq": 42, "text": "базельцы уже привыкли обманывать себя во времени дня, и народ почитает сей обман за драгоценное право своей вольности.", "stop_ref": null, "entity_keys": ["basel"], "tags": ["humour", "politics"]}
+{"passage_seq": 42, "text": "Поздно, поздно приехал я в Швейцарию: умолк голос нежного певца ее!", "stop_ref": null, "entity_keys": ["gessner", "gessner-monument-arlesheim"], "tags": ["literature", "emotion"]}
+{"passage_seq": 42, "text": "Вообразите, что новый мой знакомец Б*, с которым я уговаривался вместе путешествовать по Швейцарии, умирает -- умирает от любви!", "stop_ref": null, "entity_keys": ["becker-dane"], "tags": ["humour"]}
+{"passage_seq": 43, "text": "Молодая дама из Ивердона ныне поутру уехала, и датчанин Б* исцелился от любовной своей болезни.", "stop_ref": null, "entity_keys": ["becker-dane", "yverdon-lady"], "tags": ["humour"]}
+{"passage_seq": 43, "text": "\"Ступайте, господа! -- кричит нам почтенный извозчик швейцарский в плисовом фраке. -- Ступайте! Чемоданы ваши привязаны\".", "stop_ref": null, "entity_keys": ["swiss-coachman-basel"], "tags": ["road"]}
+{"passage_seq": 44, "text": "Отъехав от Базеля версты две, я выскочил из кареты, упал на цветущий берег зеленого Рейна и готов был в восторге целовать землю.", "stop_ref": null, "entity_keys": ["rhine"], "tags": ["nature", "emotion"]}
+{"passage_seq": 44, "text": "\"Швейцары -- добрые люди, -- сказала француженка с улыбкою, сев за накрытый стол, -- только немного грубоваты\".", "stop_ref": null, "entity_keys": ["madame-nn-widow"], "tags": ["culture-clash", "humour"]}
+{"passage_seq": 44, "text": "\"Ах, белка! Злая белка! На что ты схватила за нос господина Б*?\"", "stop_ref": null, "entity_keys": ["becker-dane", "madame-nn-widow"], "tags": ["humour"]}
+{"passage_seq": 44, "text": "\"По крайней мере, добродушные швейцары, накажите его так, как отцы наказывают детей своих за их проступки\"", "stop_ref": null, "entity_keys": [], "tags": ["people", "tolerance"]}
+{"passage_seq": 44, "text": "О разбоях и убийствах совсем не слышно; мир и тишина царствуют в счастливой Гельвеции.", "stop_ref": null, "entity_keys": [], "tags": ["politics"]}
+{"passage_seq": 45, "text": "Для того чтобы узнать всю привязанность нашу к отечеству, надобно из него выехать; чтобы узнать всю любовь нашу к друзьям, надобно с ними расстаться.", "stop_ref": null, "entity_keys": ["karamzin"], "tags": ["emotion", "philosophy"]}
+{"passage_seq": 45, "text": "Улыбнитесь про себя на счет ветреного, безрассудного самолюбия человеческого и предайте забвению слабость вашего друга.", "stop_ref": null, "entity_keys": ["karamzin", "lavater"], "tags": ["humour", "people"]}
+{"passage_seq": 45, "text": "теперь и вы бойтесь мне на глаза показаться!", "stop_ref": null, "entity_keys": ["zurich", "lavater"], "tags": ["humour"]}
+{"passage_seq": 45, "text": "Честные швейцары курили табак и пили чай, а Лафатер рассказывал им о свидании своем с Неккером.", "stop_ref": null, "entity_keys": ["lavater", "necker"], "tags": ["people", "politics"]}
+{"passage_seq": 46, "text": "Вопрос: \"Что всего лучше в том месте, где мы теперь?\" Ответ: \"Люди\".", "stop_ref": null, "entity_keys": ["pastor-t-village"], "tags": ["people"]}
+{"passage_seq": 46, "text": "не читай нравоучений тому человеку, который умирает с голоду, а дай ему кусок хлеба", "stop_ref": null, "entity_keys": [], "tags": ["philosophy"]}
+{"passage_seq": 46, "text": "Признаюсь, я выпил лишнюю чашку и выпил бы еще десять, если бы красавицы не перестали меня потчевать.", "stop_ref": null, "entity_keys": ["pastor-t-village"], "tags": ["humour", "food"]}
+{"passage_seq": 47, "text": "Мы стояли очень тихо и смирно, минут с пять не говорили ни слова и боялись взглянуть друг на друга.", "stop_ref": null, "entity_keys": ["rhine-falls", "becker-dane"], "tags": ["humour", "nature"]}
+{"passage_seq": 47, "text": "ревущий концерт, оглушающий душу!", "stop_ref": null, "entity_keys": ["rhine-falls"], "tags": ["nature"]}
+{"passage_seq": 47, "text": "готов был на коленях извиняться перед Рейном в том, что вчера говорил я о падении его с таким неуважением.", "stop_ref": null, "entity_keys": ["rhine-falls"], "tags": ["nature", "humour"]}
+{"passage_seq": 48, "text": "Товарищ мой Б*, который с кортиком и с собакою прошел всю Германию, совсем не знает усталости", "stop_ref": null, "entity_keys": ["becker-dane"], "tags": ["road", "people"]}
+{"passage_seq": 49, "text": "\"В темную ночь бродить пешком неприлично таким господам!\"", "stop_ref": null, "entity_keys": ["tavern-eglisau-zurich"], "tags": ["road", "humour"]}
+{"passage_seq": 49, "text": "\"Что же еще будет?\" -- спросили мы. -- \"Ничего\",-- отвечал он.", "stop_ref": null, "entity_keys": ["tavern-eglisau-zurich"], "tags": ["food", "humour"]}
+{"passage_seq": 50, "text": "\"Это были наши волонтеры\", -- отвечал мне господин профессор и с поклоном ушел от меня.", "stop_ref": null, "entity_keys": ["breitinger-prof", "zurich-militia-drill-1789"], "tags": ["humour"]}
+{"passage_seq": 50, "text": "Учтивость хороша, однако ж рука устанет снимать шляпу", "stop_ref": null, "entity_keys": ["zurich"], "tags": ["humour", "culture-clash"]}
+{"passage_seq": 50, "text": "Человек может делать много, если захочет, и чем более он действует, тем более находит в себе силы и охоты к действию\".", "stop_ref": null, "entity_keys": ["lavater"], "tags": ["philosophy", "people"]}
+{"passage_seq": 50, "text": "Где богаты люди, там дешевы деньги; где дешевы деньги, там дороги вещи.", "stop_ref": null, "entity_keys": ["zurich"], "tags": ["money"]}
+{"passage_seq": 50, "text": "Мудрые цирихские законодатели знали, что роскошь бывает гробом вольности и добрых нравов", "stop_ref": null, "entity_keys": ["zurich"], "tags": ["politics"]}
+{"passage_seq": 50, "text": "Девятый-надесять век! Сколько в тебе откроется такого, что теперь считается тайною!", "stop_ref": null, "entity_keys": ["lavater"], "tags": ["history"]}
+{"passage_seq": 50, "text": "но Лаврентий Стерн говорил с народом, говорил просто, и трогал сердце -- мое и ваше.", "stop_ref": null, "entity_keys": ["sterne", "lavater"], "tags": ["religion", "literature"]}
+{"passage_seq": 51, "text": "пишите так, как писал Геснер, -- да будет перо ваше посвящено добродетели и невинности!", "stop_ref": null, "entity_keys": ["gessner"], "tags": ["literature"]}
+{"passage_seq": 52, "text": "В вольной земле всякий волен дурачиться и писать что ему угодно.", "stop_ref": null, "entity_keys": ["baden-ag"], "tags": ["humour", "culture-clash"]}
+{"passage_seq": 52, "text": "Женщины носят здесь на головах предлинные рога, отчего все они кажутся похожими на сатиров.", "stop_ref": null, "entity_keys": ["baden-ag"], "tags": ["humour", "culture-clash"]}
+{"passage_seq": 53, "text": "отдавая правлению только десятую часть из собираемых ими полевых плодов", "stop_ref": null, "entity_keys": ["aarau"], "tags": ["politics", "money"]}
+{"passage_seq": 54, "text": "\"Счастливый путь!\" -- говорят бернцы, которые никак не рады были сим незваным гостям.", "stop_ref": null, "entity_keys": ["comte-d-artois", "bern"], "tags": ["politics"]}
+{"passage_seq": 54, "text": "\"Я успею быть в городах и тогда, -- говорит он,-- когда от старости не в состоянии буду ходить по Альпам\".", "stop_ref": null, "entity_keys": ["wyttenbach"], "tags": ["nature", "people"]}
+{"passage_seq": 54, "text": "Тому не надобно Фортуны,\n\nКто с Фебом в дружестве живет!", "stop_ref": null, "entity_keys": ["italian-harpist-bern"], "tags": ["art"]}
+{"passage_seq": 55, "text": "Величественная натура! Прости слабому!", "stop_ref": null, "entity_keys": ["lake-thun"], "tags": ["nature", "humour"]}
+{"passage_seq": 55, "text": "вечное безмолвие царствует вокруг их -- здесь конец земного творения!..", "stop_ref": null, "entity_keys": ["jungfrau"], "tags": ["nature"]}
+{"passage_seq": 56, "text": "Я стоял на высочайшей ступени, на которую смертные восходить могут для поклонения всевышнему!..", "stop_ref": null, "entity_keys": ["wengernalp"], "tags": ["nature", "religion"]}
+{"passage_seq": 56, "text": "Здесь смертный чувствует свое высокое определение, забывает земное отечество и делается гражданином вселенной", "stop_ref": null, "entity_keys": ["wengernalp", "rousseau"], "tags": ["nature", "philosophy"]}
+{"passage_seq": 56, "text": "Как в сию минуту низки передо мною все великаны земного шара!", "stop_ref": null, "entity_keys": ["wengernalp"], "tags": ["nature"]}
+{"passage_seq": 57, "text": "Хорошо, что я взял из Берна в запас новую пару!", "stop_ref": null, "entity_keys": ["grindelwald"], "tags": ["humour", "road"]}
+{"passage_seq": 57, "text": "Проводник мой кричал, что он предает меня судьбе моей", "stop_ref": null, "entity_keys": ["lower-grindelwald-glacier"], "tags": ["road", "humour"]}
+{"passage_seq": 58, "text": "И если бы сии снега могли вдруг растопиться, то второй потоп поглотил бы все живущее в нашем мире.", "stop_ref": null, "entity_keys": ["grosse-scheidegg"], "tags": ["nature"]}
+{"passage_seq": 59, "text": "\"Пей, добрый человек, пей нашу воду!\"", "stop_ref": null, "entity_keys": ["haslital"], "tags": ["people"]}
+{"passage_seq": 59, "text": "Для чего не родились мы в те времена, когда все люди были пастухами и братьями!", "stop_ref": null, "entity_keys": ["haslital"], "tags": ["philosophy"]}
+{"passage_seq": 59, "text": "Ах! Для чего я не живописец!", "stop_ref": null, "entity_keys": ["haslital"], "tags": ["nature", "art"]}
+{"passage_seq": 59, "text": "\"В России!.. Да, я слыхал об этой земле от стариков наших. Да где бишь она?\"", "stop_ref": null, "entity_keys": ["meiringen"], "tags": ["humour", "culture-clash"]}
+{"passage_seq": 59, "text": "Вот конец моего пешеходства!", "stop_ref": null, "entity_keys": ["tracht-brienz"], "tags": ["road"]}
+{"passage_seq": 61, "text": "Валы играли нашею лодкою, как шариком.", "stop_ref": null, "entity_keys": ["lake-thun"], "tags": ["road", "nature"]}
+{"passage_seq": 62, "text": "\"Слезы наши текут и в прахе исчезают; изящные произведения художеств живут вовеки", "stop_ref": null, "entity_keys": ["nahl", "langhans-tomb"], "tags": ["art", "emotion"]}
+{"passage_seq": 62, "text": "Только на горах сердце мое не было сиротою!", "stop_ref": null, "entity_keys": ["bern"], "tags": ["emotion"]}
+{"passage_seq": 62, "text": "Здесь расстаюсь с немецким языком, и не без сожаления.", "stop_ref": null, "entity_keys": ["bern"], "tags": ["culture-clash"]}
+{"passage_seq": 63, "text": "Гордясь именем швейцара, не забывайте благороднейшего своего имени -- имени человека!", "stop_ref": null, "entity_keys": ["murten-ossuary"], "tags": ["history", "emotion"]}
+{"passage_seq": 63, "text": "для сего путешественник пишет имя свое на гробе бургундцев", "stop_ref": null, "entity_keys": ["murten-ossuary"], "tags": ["history", "humour"]}
+{"passage_seq": 64, "text": "Я развернул карманную книжку свою и записал: \"Такого-то числа, в Лозанне, нашел доброго человека, который бескорыстно услуживает ближним\".", "stop_ref": null, "entity_keys": ["lausanne-night-watchman", "lausanne"], "tags": ["people"]}
+{"passage_seq": 64, "text": "Если бы теперь спросили меня: \"Чем нельзя никогда насытиться?\", то я отвечал бы: \"Хорошими видами\".", "stop_ref": null, "entity_keys": ["lausanne"], "tags": ["nature"]}
+{"passage_seq": 64, "text": "Лозанна бывает всегда наполнена молодыми англичанами, которые приезжают сюда учиться по-французски и -- делать разные глупости и проказы.", "stop_ref": null, "entity_keys": ["lausanne"], "tags": ["humour", "culture-clash"]}
+{"passage_seq": 64, "text": "В пять часов поутру вышел я из Лозанны с весельем в сердце -- и с Руссовою \"Элоизою\" в руках.", "stop_ref": null, "entity_keys": ["julie-nouvelle-heloise", "rousseau"], "tags": ["literature", "road"]}
+{"passage_seq": 64, "text": "Трактирщик напомнил ему, что он не в Варшаве, но поляк не унялся до последнего блюда.", "stop_ref": null, "entity_keys": ["polish-prince-vevey"], "tags": ["humour", "people"]}
+{"passage_seq": 64, "text": "Люди имеют разные глаза и разные: чувства!", "stop_ref": null, "entity_keys": ["rousseau"], "tags": ["philosophy"]}
+{"passage_seq": 65, "text": "Трактирная жизнь моя кончилась.", "stop_ref": null, "entity_keys": ["geneva"], "tags": ["money", "road"]}
+{"passage_seq": 65, "text": "Вопрос: \"Сочиняют ли они стихи?\" Ответ: \"Молитвы\"", "stop_ref": null, "entity_keys": ["konkler"], "tags": ["humour", "culture-clash"]}
+{"passage_seq": 65, "text": "\"Я только лишь хотел это сказать!\" -- закричал барон, и все захохотали.", "stop_ref": null, "entity_keys": ["konkler"], "tags": ["humour"]}
+{"passage_seq": 65, "text": "Всякий любуется парением весеннего жаворонка; но чей взор дерзнет за орлом к солнцу?", "stop_ref": null, "entity_keys": ["voltaire"], "tags": ["literature"]}
+{"passage_seq": 65, "text": "Тот, кто знает все подробности парижских происшествий, едва ли знает, что у России со Швециею война.", "stop_ref": null, "entity_keys": ["geneva"], "tags": ["politics", "culture-clash"]}
+{"passage_seq": 65, "text": "Мы обедали в фернейском трактире с двумя молодыми англичанами и пили очень хорошее французское вино, желая блаженства душе Вольтеровой.", "stop_ref": null, "entity_keys": ["ferney", "voltaire"], "tags": ["food", "literature"]}
+{"passage_seq": 66, "text": "Строгий, любезный Руссо! Соотечественники твои не послушались тебя, построили театр и любят его страстно", "stop_ref": null, "entity_keys": ["rousseau", "geneva-theatre"], "tags": ["art", "humour"]}
+{"passage_seq": 66, "text": "хотел уверить меня, что многие из жителей Патагонии бывают ростом в четыре аршина", "stop_ref": null, "entity_keys": [], "tags": ["humour", "people"]}
+{"passage_seq": 66, "text": "Осень делает меня меланхоликом.", "stop_ref": null, "entity_keys": ["treille-geneva"], "tags": ["emotion", "nature"]}
+{"passage_seq": 67, "text": "Вознося к небесам главу свою, она вопрошает Европу: \"Что выше меня?\", и Европа ответствует ей почтительным молчанием.", "stop_ref": null, "entity_keys": ["mont-blanc"], "tags": ["nature"]}
+{"passage_seq": 67, "text": "Построю хижину на голубой Юре, и жизнь моя протечет, как восхитительный сон!.. Но ах! Здесь нет друзей моих!", "stop_ref": null, "entity_keys": ["jura-mountains"], "tags": ["nature", "emotion"]}
+{"passage_seq": 68, "text": "\"Ах, батюшка! Как бы хорошо было видеть все те земли, которые изображены здесь на бумаге!\" Вот начало его страсти!", "stop_ref": null, "entity_keys": ["tavernier"], "tags": ["road", "people"]}
+{"passage_seq": 68, "text": "Счастлив тот, в ком сии две склонности равносильны!", "stop_ref": null, "entity_keys": [], "tags": ["philosophy", "road"]}
+{"passage_seq": 69, "text": "я плакал, как младенец, и узнал, что болезнь не ожесточила моего сердца", "stop_ref": null, "entity_keys": [], "tags": ["emotion"]}
+{"passage_seq": 70, "text": "Ныне минуло мне двадцать три года!", "stop_ref": null, "entity_keys": ["karamzin"], "tags": ["emotion"]}
+{"passage_seq": 71, "text": "Ах! Какая разница между немецким ученым и Боннетом!", "stop_ref": null, "entity_keys": ["bonnet"], "tags": ["people", "culture-clash"]}
+{"passage_seq": 71, "text": "\"Смотри, Генрих! Где ты увидишь такую голову, там учись мудрости\".", "stop_ref": null, "entity_keys": ["lavater", "bonnet"], "tags": ["humour", "people"]}
+{"passage_seq": 71, "text": "Жан-Жака называет он великим ритором, слог его -- музыкою, а философию -- воздушным замком.", "stop_ref": null, "entity_keys": ["bonnet", "rousseau"], "tags": ["literature", "philosophy"]}
+{"passage_seq": 71, "text": "И я могу сказать, что женевские парикмахеры твердят наизусть целые тирады из Вольтера", "stop_ref": null, "entity_keys": ["geneva", "voltaire"], "tags": ["humour", "literature"]}
+{"passage_seq": 71, "text": "Знаете ли, как в просвещенной Женеве обыкновенно зовут его? Инсектом -- для того, что он писал о насекомых!", "stop_ref": null, "entity_keys": ["bonnet", "geneva"], "tags": ["humour"]}
+{"passage_seq": 72, "text": "Странные люди! Живут в спокойствии, в довольстве и всё еще хотят чего-то.", "stop_ref": null, "entity_keys": ["geneva"], "tags": ["politics"]}
+{"passage_seq": 72, "text": "Предлагая публике перевод мой, скажу: \"Я видел его самого\", и читатель позавидует мне в сердце своем.", "stop_ref": null, "entity_keys": ["bonnet", "contemplation-de-la-nature"], "tags": ["literature"]}
+{"passage_seq": 73, "text": "\"Слышу и не понимаю, -- сказал любезный Боннет с усмешкою, -- но соотечественники ваши будут, конечно, умнее меня.", "stop_ref": null, "entity_keys": ["bonnet", "contemplation-de-la-nature"], "tags": ["humour", "literature"]}
+{"passage_seq": 73, "text": "\"О чем вы говорите?\" -- спросил Боннет, переменив тарелку. -- \"О хорошей погоде\", -- отвечала г-жа Боннет и утерла платком глаза свои.", "stop_ref": null, "entity_keys": ["bonnet", "bonnet-mme"], "tags": ["people", "emotion"]}
+{"passage_seq": 73, "text": "Я сидел между ими, как между Филемоном и Бавкидою.", "stop_ref": null, "entity_keys": ["bonnet", "bonnet-mme"], "tags": ["people"]}
+{"passage_seq": 73, "text": "\"Госпожа NN звала меня к себе в гости -- я не пошла к ней -- она не звала моего учителя\".", "stop_ref": null, "entity_keys": ["ulrich-teacher"], "tags": ["people", "humour"]}
+{"passage_seq": 73, "text": "\"Вздор! Поеду, сию минуту поеду! Лошадь!\"", "stop_ref": null, "entity_keys": ["becker-dane", "yverdon"], "tags": ["humour", "road"]}
+{"passage_seq": 73, "text": "\"Vous pensez a lui\" (\"Вы о нем думаете\")", "stop_ref": null, "entity_keys": ["st-peters-island", "rousseau"], "tags": ["literature", "people"]}
+{"passage_seq": 73, "text": "Надобно закрыть глаза и зажать нос, если хочешь утолить голод; постели так чисты, что я никогда на них не ложился.", "stop_ref": null, "entity_keys": ["savoy"], "tags": ["food", "humour", "road"]}
+{"passage_seq": 73, "text": "\"Вся ваша республика не стоит слезы ее\".", "stop_ref": null, "entity_keys": ["english-rider-treille", "geneva"], "tags": ["humour", "culture-clash"]}
+{"passage_seq": 73, "text": "Вы видите, что граф любит исполинские мысли!", "stop_ref": null, "entity_keys": ["moltke", "mont-blanc"], "tags": ["humour"]}
+{"passage_seq": 73, "text": "\"Мой друг! я пифагореец и обедаю в молчании\".", "stop_ref": null, "entity_keys": ["bonnet", "baggesen"], "tags": ["humour", "people"]}
+{"passage_seq": 74, "text": "\"Аббат пропал!\" -- говорили в городе и, наконец, позабыли аббата. У него не было друзей!", "stop_ref": null, "entity_keys": ["abbe-n"], "tags": ["emotion", "people"]}
+{"passage_seq": 74, "text": "\"Тут лежит погибший\", -- говорят поселяне.", "stop_ref": null, "entity_keys": ["abbe-n"], "tags": ["religion"]}
+{"passage_seq": 75, "text": "Да будет их республика многие, многие лета прекрасною игрушкою на земном шаре.", "stop_ref": null, "entity_keys": ["geneva"], "tags": ["politics", "humour"]}
+{"passage_seq": 75, "text": "Пусть все европейцы с севера и юга приезжают к ним на вечеринки играть в вист по гривне партию и пить чай и кофе!", "stop_ref": null, "entity_keys": ["geneva"], "tags": ["humour", "culture-clash"]}
+{"passage_seq": 75, "text": "Милый, милый Боннет! философ с чувством!", "stop_ref": null, "entity_keys": ["bonnet"], "tags": ["emotion", "people"]}
+{"passage_seq": 76, "text": "Добрый товарищ, покойная карета, услужливый извозчик, перемена места -- мысль о том, что скоро увижу, -- все это привело меня в самое счастливейшее расположение", "stop_ref": null, "entity_keys": ["becker-dane"], "tags": ["road"]}
+{"passage_seq": 76, "text": "\"Я надеюсь, государи мои, что вы были учтивы против иностранных господ!\"", "stop_ref": null, "entity_keys": ["fontenoy-veteran"], "tags": ["humour", "road"]}
+{"passage_seq": 76, "text": "Итак, если кто-нибудь оскорбит меня во Франции, то я имею право принести жалобу Женевской республике и она должна за меня вступиться!", "stop_ref": null, "entity_keys": ["geneva"], "tags": ["humour", "politics"]}
+{"passage_seq": 76, "text": "Ветер шумел, река шумела -- и все вместе составляло нечто весьма оссианское.", "stop_ref": null, "entity_keys": ["perte-du-rhone"], "tags": ["nature"]}
+{"passage_seq": 76, "text": "Я вслушивался в мелодии и находил в них нечто сходное с нашими народными песнями, столь для меня трогательными.", "stop_ref": null, "entity_keys": ["gex-mountain-village"], "tags": ["people", "culture-clash"]}
