@@ -1,0 +1,431 @@
+<title>LTSGO: интерфейс путешествия</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: путевая карта во всю ширину сверху, ниже — каталог элементов сеткой, внизу — стек. */
+:root{
+  --paper:#EDF0EA; --card:#F8F9F5; --ink:#1B2530; --muted:#5B686E; --line:#C8D0C7;
+  --route:#22476E; --sea:#2F7385; --gold:#B07D12; --grat:#DCE2DA;
+  --ok:#2E7A4C; --book:#9A6B10; --unk:#6E777C; --bad:#B23A30;
+  --f-display:"Old Standard TT", "Times New Roman", serif;
+  --f-body:"Golos Text", "Segoe UI", system-ui, sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0F161C; --card:#162028; --ink:#E2E6E0; --muted:#93A0A4; --line:#2B3740;
+  --route:#93B8DE; --sea:#6DB4C4; --gold:#E3B24C; --grat:#1C2730;
+  --ok:#72C793; --book:#E0B04A; --unk:#9AA5AA; --bad:#F08A80; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0F161C; --card:#162028; --ink:#E2E6E0; --muted:#93A0A4; --line:#2B3740;
+  --route:#93B8DE; --sea:#6DB4C4; --gold:#E3B24C; --grat:#1C2730;
+  --ok:#72C793; --book:#E0B04A; --unk:#9AA5AA; --bad:#F08A80; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font:15px/1.55 var(--f-body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px}
+.wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:56px}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;text-wrap:balance;margin:0;line-height:1.1}
+h1{font-size:clamp(2.2rem,5vw,3.6rem)}
+h2{font-size:1.9rem}
+h3{font-size:1.3rem}
+.eyebrow{font:500 .72rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+p{margin:0;max-width:65ch}
+.lede{color:var(--muted);font-size:1.05rem}
+header{display:flex;flex-direction:column;gap:12px}
+header h1 em{font-style:italic;color:var(--route)}
+
+/* hero map */
+.story{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:0;border:1px solid var(--line);background:var(--card)}
+.mapbox{position:relative;min-width:0;border-right:1px solid var(--line)}
+canvas{display:block;width:100%;height:520px}
+.mapnote{position:absolute;left:12px;bottom:10px;font:400 .7rem var(--f-mono);color:var(--muted)}
+.panel{padding:20px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.panel .place{font-family:var(--f-display);font-size:1.9rem;line-height:1.05}
+.dates{display:flex;flex-direction:column;gap:2px;font:400 .85rem var(--f-mono)}
+.dates span:last-child{color:var(--muted)}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:.88rem}
+.kv dt{color:var(--muted)}
+.kv dd{margin:0}
+.legend{display:flex;flex-direction:column;gap:6px;margin-top:auto;padding-top:12px;border-top:1px solid var(--line);font-size:.82rem}
+.legend div{display:flex;align-items:center;gap:10px}
+.legend svg{flex:none}
+.scrub{grid-column:1/-1;border-top:1px solid var(--line);padding:14px 16px;display:flex;gap:14px;align-items:center}
+.scrub input{flex:1;min-width:0;accent-color:var(--gold)}
+button{font:500 .85rem var(--f-body);color:var(--ink);background:transparent;border:1px solid var(--line);padding:7px 12px;cursor:pointer}
+button:hover{border-color:var(--ink)}
+button:focus-visible,input:focus-visible,[role=tab]:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+/* catalogue */
+.sec-head{display:flex;flex-direction:column;gap:8px;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.el{display:flex;flex-direction:column;gap:14px;min-width:0}
+.el .cap{display:flex;justify-content:space-between;gap:10px;align-items:baseline;border-bottom:1px solid var(--line);padding-bottom:6px}
+.el .cap h3{font-size:1.2rem}
+.el .why{font-size:.85rem;color:var(--muted)}
+.box{background:var(--card);border:1px solid var(--line);padding:18px;min-width:0}
+.wide{grid-column:1/-1}
+
+/* ribbon */
+.ribbon{overflow-x:auto}
+.ribbon svg{display:block;min-width:720px;width:100%;height:auto}
+.ribbon text{font-family:var(--f-mono);font-size:10px;fill:var(--muted)}
+.ribbon .lbl{font-family:var(--f-body);font-size:11px;fill:var(--ink)}
+.ribbon rect.stay{cursor:pointer}
+
+/* stop card */
+.tabs{display:flex;gap:0;border-bottom:1px solid var(--line)}
+[role=tab]{border:0;border-bottom:2px solid transparent;padding:8px 14px;margin-bottom:-1px}
+[role=tab][aria-selected=true]{border-bottom-color:var(--gold)}
+.frame{aspect-ratio:4/3;max-width:100%;border:1px solid var(--line);display:flex;align-items:flex-end;padding:10px;
+  background:repeating-linear-gradient(135deg,var(--grat) 0 2px,transparent 2px 9px)}
+.frame small{font:400 .7rem var(--f-mono);color:var(--muted);background:var(--card);padding:3px 6px}
+.stop{display:grid;grid-template-columns:180px minmax(0,1fr);gap:16px}
+blockquote{margin:0;font-family:var(--f-display);font-size:1.15rem;line-height:1.4;font-style:italic}
+blockquote cite{display:block;font:400 .75rem var(--f-mono);font-style:normal;color:var(--muted);margin-top:6px}
+.facts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;font-size:.88rem}
+.facts li{display:flex;gap:8px;align-items:flex-start}
+.chip{flex:none;font:500 .66rem/1 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;padding:4px 6px;border:1px solid currentColor}
+.c-ok{color:var(--ok)} .c-book{color:var(--book)} .c-unk{color:var(--unk)} .c-bad{color:var(--bad)}
+.go{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:.88rem}
+.go dt{color:var(--muted)} .go dd{margin:0}
+
+/* person */
+.person{display:grid;grid-template-columns:96px minmax(0,1fr);gap:16px;align-items:start}
+.oval{aspect-ratio:3/4;border:1px solid var(--line);border-radius:50%;background:repeating-linear-gradient(90deg,var(--grat) 0 1px,transparent 1px 5px)}
+.meet{display:flex;gap:10px;align-items:center;font-size:.85rem;color:var(--muted)}
+.meet b{color:var(--ink);font-weight:500}
+
+/* then/now */
+.shutter{position:relative;aspect-ratio:16/9;max-width:100%;overflow:hidden;border:1px solid var(--line);user-select:none;touch-action:none;cursor:ew-resize}
+.shutter .pane{position:absolute;inset:0;display:flex;align-items:flex-end;padding:10px}
+.then{background:linear-gradient(180deg,transparent 55%,var(--grat) 55%),repeating-linear-gradient(0deg,var(--line) 0 1px,transparent 1px 4px);}
+.now{background:linear-gradient(180deg,var(--sea) 0 55%,var(--route) 55%);opacity:.85;clip-path:inset(0 0 0 50%)}
+.shutter .pane small{font:400 .7rem var(--f-mono);background:var(--card);color:var(--ink);padding:3px 6px}
+.now small{margin-left:auto}
+.handle{position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--gold)}
+.handle::after{content:"";position:absolute;top:50%;left:-9px;width:20px;height:20px;border-radius:50%;background:var(--gold);transform:translateY(-50%)}
+
+/* statuses */
+.statuses{display:grid;grid-template-columns:auto 1fr;gap:10px 14px;align-items:center;font-size:.88rem}
+
+/* phone */
+.phone{width:min(280px,100%);margin:0 auto;border:1px solid var(--ink);border-radius:28px;padding:14px;background:var(--paper)}
+.phone .bar{display:flex;justify-content:space-between;font:400 .7rem var(--f-mono);color:var(--muted);margin-bottom:10px}
+.near{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.near li{display:grid;grid-template-columns:1fr auto;gap:2px 8px;padding:10px 0;border-top:1px solid var(--line);font-size:.85rem}
+.near li small{grid-column:1/-1;color:var(--muted);font-size:.75rem}
+.near .d{font-family:var(--f-mono);color:var(--route)}
+
+/* stack */
+.stack{width:100%;border-collapse:collapse;font-size:.9rem}
+.stack th,.stack td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+.stack th{font:500 .72rem var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.tbl{overflow-x:auto}
+
+@media (max-width:860px){
+  .story{grid-template-columns:1fr}
+  .mapbox{border-right:0;border-bottom:1px solid var(--line)}
+  canvas{height:380px}
+  .grid{grid-template-columns:1fr}
+  .stop{grid-template-columns:1fr}
+  .stop .frame{max-width:260px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+<header>
+  <span class="eyebrow">LTSGO · концепт интерфейса · данные из kb/staging</span>
+  <h1>Карамзин, <em>1789–1790</em></h1>
+  <p class="lede">Как сайт показывает путешествие: карта-история с ползунком по датам, лента времени, карточки остановок и людей, шторка «тогда / сейчас» и режим «рядом с вами» для поездки. Маршрут ниже — 83 настоящие остановки из базы, с датами и транспортом из текста писем.</p>
+</header>
+
+<section aria-labelledby="h-story">
+  <div class="sec-head">
+    <span class="eyebrow">Главный элемент</span>
+    <h2 id="h-story">Карта-история</h2>
+    <p class="lede">Путешественник движется по маршруту, пока читатель тянет ползунок или листает письма. Вид линии говорит, как он ехал. В продукте вместо этой схемы — MapLibre с рельефом и границами 1789 года.</p>
+  </div>
+  <div class="story">
+    <div class="mapbox"><canvas id="map" aria-label="Маршрут Карамзина на схеме"></canvas><span class="mapnote">схема · сетка 5° · без подложки</span></div>
+    <aside class="panel" aria-live="polite">
+      <span class="eyebrow" id="p-n">Остановка</span>
+      <div class="place" id="p-name">Москва</div>
+      <div class="dates" id="p-dates"><span>—</span><span></span></div>
+      <dl class="kv">
+        <dt>приехал</dt><dd id="p-tr">—</dd>
+        <dt>в тексте</dt><dd id="p-letter">—</dd>
+      </dl>
+      <div class="legend">
+        <div><svg width="44" height="8"><line x1="0" y1="4" x2="44" y2="4" stroke="var(--route)" stroke-width="2.5"/></svg>карета, коляска, кибитка</div>
+        <div><svg width="44" height="8"><line x1="0" y1="4" x2="44" y2="4" stroke="var(--route)" stroke-width="2.5" stroke-dasharray="1 4" stroke-linecap="round"/></svg>пешком</div>
+        <div><svg width="44" height="8"><line x1="0" y1="4" x2="44" y2="4" stroke="var(--route)" stroke-width="2.5" stroke-dasharray="8 3 1 3"/></svg>верхом</div>
+        <div><svg width="44" height="8"><line x1="0" y1="4" x2="44" y2="4" stroke="var(--sea)" stroke-width="2.5" stroke-dasharray="10 5"/></svg>лодка, корабль</div>
+      </div>
+    </aside>
+    <div class="scrub">
+      <button id="play" type="button" aria-pressed="false">▶ Ехать</button>
+      <label class="eyebrow" for="pos" style="flex:none">май 1789</label>
+      <input id="pos" type="range" min="0" max="100" value="0">
+      <span class="eyebrow" style="flex:none">июль 1790</span>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="h-els">
+  <div class="sec-head">
+    <span class="eyebrow">Каталог</span>
+    <h2 id="h-els">Элементы визуала</h2>
+    <p class="lede">Каждый элемент собирается из таблиц базы, поэтому подходит любой книге: Гончарову, Марко Поло, Нелли Блай.</p>
+  </div>
+  <div class="grid">
+
+    <div class="el wide">
+      <div class="cap"><h3>Лента времени</h3><span class="why mono">stops.arrived</span></div>
+      <p class="why">Где он прожил дольше всего: зима в Женеве видна сразу. Нажатие на отрезок двигает карту. Даты по старому стилю; заштрихованные концы — приблизительно.</p>
+      <div class="box ribbon"><svg id="ribbon" viewBox="0 0 1000 96" role="img" aria-label="Лента времени путешествия"></svg></div>
+    </div>
+
+    <div class="el wide">
+      <div class="cap"><h3>Карточка остановки</h3><span class="why mono">facts.layer = then | now | go</span></div>
+      <div class="box">
+        <div class="tabs" role="tablist">
+          <button role="tab" aria-selected="true" data-t="then">Тогда</button>
+          <button role="tab" aria-selected="false" data-t="now">Сейчас</button>
+          <button role="tab" aria-selected="false" data-t="go">Поехать</button>
+        </div>
+        <div class="stop" style="margin-top:16px">
+          <div class="frame"><small>Huldigung Königsberg 1786 · PD</small></div>
+          <div style="display:flex;flex-direction:column;gap:14px;min-width:0">
+            <div><span class="eyebrow">Письмо 9 · 18 июня 1789 ст. ст.</span><h3 style="font-size:1.6rem;margin-top:4px">Кёнигсберг <span style="color:var(--muted);font-size:1rem">ныне Калининград</span></h3></div>
+            <div data-p="then">
+              <blockquote>«…обедать один в своей комнате, растворив окна в сад, откуда лились в мой немецкий суп ароматические испарения сочной зелени.»<cite>Письмо 9 · цитата сверена с текстом</cite></blockquote>
+              <ul class="facts" style="margin-top:12px">
+                <li><span class="chip c-book">книга</span>Около 4000 домов и 40 000 жителей; город на Прегеле, накануне ярмарки.</li>
+                <li><span class="chip c-ok">wiki</span>Wikidata Q1829 — российский город на Балтике между Польшей и Литвой.</li>
+              </ul>
+            </div>
+            <div data-p="now" hidden>
+              <ul class="facts">
+                <li><span class="chip c-unk">гипотеза</span>Дом Канта не сохранился; на острове Кнайпхоф — собор и могила Канта. Ждёт сверки с источником.</li>
+              </ul>
+            </div>
+            <div data-p="go" hidden>
+              <dl class="go">
+                <dt>Добраться</dt><dd>самолёт из Москвы, 2 ч; поезд через Литву — с визой</dd>
+                <dt>Смотреть</dt><dd>Кафедральный собор, могила Канта, Музей Мирового океана</dd>
+                <dt>Тур</dt><dd>«Карамзин на Балтике»: Рига → Клайпеда → Калининград, 4 дня</dd>
+              </dl>
+              <p class="why" style="margin-top:8px">Пример блока; ссылки — партнёрские.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="el">
+      <div class="cap"><h3>Карточка человека</h3><span class="why mono">entity_links.met</span></div>
+      <div class="box person">
+        <div class="oval" role="img" aria-label="Место для портрета: Kant, около 1790, PD"></div>
+        <div style="display:flex;flex-direction:column;gap:10px;min-width:0">
+          <div><span class="eyebrow">философ · 1724–1804</span><h3 style="margin-top:4px">Иммануил Кант</h3></div>
+          <div class="meet"><span class="chip c-book">встреча</span><span><b>19 июня 1789</b>, Кёнигсберг, около трёх часов</span></div>
+          <blockquote style="font-size:1rem">«Меня встретил маленький, худенький старичок, отменно белый и нежный.»<cite>Письмо 9</cite></blockquote>
+          <p class="why">Ещё в базе: Лафатер, Виланд, Гердер, Бонне — 643 человека с связями «встретил», «жил у», «видел».</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="el">
+      <div class="cap"><h3>Шторка «тогда / сейчас»</h3><span class="why mono">media.kind = then | now</span></div>
+      <div class="shutter" id="shutter" tabindex="0" role="slider" aria-label="Сравнить тогда и сейчас" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+        <div class="pane then"><small>гравюра 1786 · PD</small></div>
+        <div class="pane now" id="now"><small>фото сейчас · CC BY-SA 4.0</small></div>
+        <div class="handle" id="handle"></div>
+      </div>
+      <p class="why">Тянуть мышью или пальцем, стрелки с клавиатуры. Подпись с автором и лицензией — у каждой картинки.</p>
+    </div>
+
+    <div class="el">
+      <div class="cap"><h3>Статус факта</h3><span class="why mono">facts.status</span></div>
+      <div class="box statuses">
+        <span class="chip c-ok">источник</span><span>подтверждено документом или Википедией и Wikidata</span>
+        <span class="chip c-book">книга</span><span>только по тексту путешественника</span>
+        <span class="chip c-unk">гипотеза</span><span>не проверено, на сайт с пометкой</span>
+        <span class="chip c-bad">спорно</span><span>источники расходятся — показываем обе версии</span>
+      </div>
+      <p class="why">Читатель всегда видит, чему верить. Даты — в двух календарях: 18 июня ст. ст. = 29 июня н. ст.</p>
+    </div>
+
+    <div class="el">
+      <div class="cap"><h3>В поездке: «рядом с вами»</h3><span class="why mono">PWA · геолокация</span></div>
+      <div class="phone">
+        <div class="bar"><span>Женева</span><span>пример · офлайн ✓</span></div>
+        <span class="eyebrow">Карамзин был здесь</span>
+        <ul class="near" style="margin-top:8px">
+          <li><span>Женева, зимовка</span><span class="d">0,4 км</span><small>сент. 1789 – март 1790 · 9 писем</small></li>
+          <li><span>Каруж</span><span class="d">2,1 км</span><small>янв. 1790 · прогулка</small></li>
+          <li><span>Ферне, дом Вольтера</span><span class="d">7,3 км</span><small>1 окт. 1789 · пешком</small></li>
+          <li><span>Жанто, дом Бонне</span><span class="d">7,9 км</span><small>визиты к Шарлю Бонне</small></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section aria-labelledby="h-stack">
+  <div class="sec-head">
+    <span class="eyebrow">На чём строим</span>
+    <h2 id="h-stack">Стек</h2>
+  </div>
+  <div class="tbl box" style="padding:0">
+  <table class="stack">
+    <thead><tr><th>Элемент</th><th>Чем делаем</th><th>Почему</th></tr></thead>
+    <tbody>
+      <tr><td>Карта и глобус</td><td>MapLibre GL (глобус) + рельеф Terrarium + Natural Earth</td><td>открытый, рельеф и моря без современных границ</td></tr>
+      <tr><td>Границы эпохи</td><td>historical-basemaps, свои слои по годам</td><td>политическая карта 1789 и 1853 годов</td></tr>
+      <tr><td>Старинные карты поверх</td><td>Allmaps (IIIF) из David Rumsey и Gallica</td><td>прозрачный слой, без скачивания тайлов</td></tr>
+      <tr><td>Карта движется при чтении</td><td>Scrollama + свой ползунок по датам</td><td>письмо на экране = точка на карте</td></tr>
+      <tr><td>Лента времени</td><td>SVG из stops, без библиотек</td><td>лёгкая, работает офлайн</td></tr>
+      <tr><td>Сайт и офлайн</td><td>Astro + PWA (Workbox), ru/en</td><td>как onpoint; маршрут кэшируется для поездки</td></tr>
+      <tr><td>Морские плавания</td><td>тот же MapLibre, режим глобуса</td><td>«Паллада» обходит полмира</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+</div>
+
+<script>
+const R = %%ROUTE%%; // [key, name, lat, lon, date(julian)|null, transport, letter]
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const MON = ['января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря'];
+const TR = {carriage:'в экипаже', foot:'пешком', horse:'верхом', water:'по воде'};
+const LABELS = new Set(['moscow','saint-petersburg','riga','kaliningrad','berlin','dresden','leipzig','weimar','frankfurt','strasbourg','basel','zurich','bern','geneva','lyon','paris','calais','london','copenhagen','kronstadt']);
+function fmt(d){ if(!d) return null; const [y,m,dd]=d.split('-').map(Number); return `${dd} ${MON[m-1]} ${y}`; }
+function greg(d){ const t=new Date(d+'T00:00:00Z'); t.setUTCDate(t.getUTCDate()+11); return `${t.getUTCDate()} ${MON[t.getUTCMonth()]} ${t.getUTCFullYear()}`; }
+
+/* map */
+const cv = document.getElementById('map'), ctx = cv.getContext('2d');
+const lat0 = 52*Math.PI/180;
+let proj;
+function fit(){
+  const r = cv.getBoundingClientRect(), dpr = devicePixelRatio||1;
+  cv.width = r.width*dpr; cv.height = r.height*dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
+  const xs = R.map(p=>p[3]*Math.cos(lat0)), ys = R.map(p=>-p[2]);
+  const minx=Math.min(...xs)-1, maxx=Math.max(...xs)+1, miny=Math.min(...ys)-1, maxy=Math.max(...ys)+1;
+  const s = Math.min(r.width/(maxx-minx), r.height/(maxy-miny));
+  const ox = (r.width-(maxx-minx)*s)/2, oy = (r.height-(maxy-miny)*s)/2;
+  proj = (lat,lon)=>[ox+(lon*Math.cos(lat0)-minx)*s, oy+(-lat-miny)*s];
+  return r;
+}
+let t = 0; // 0..R.length-1
+function dash(tr){ return tr==='foot'?[1,4]:tr==='horse'?[8,3,1,3]:tr==='water'?[10,5]:[]; }
+function draw(){
+  const r = fit();
+  ctx.clearRect(0,0,r.width,r.height);
+  ctx.strokeStyle = css('--grat'); ctx.lineWidth = 1;
+  ctx.font = '10px '+css('--f-mono'); ctx.fillStyle = css('--muted');
+  for(let la=40;la<=65;la+=5){ const [x1,y]=proj(la,-5),[x2]=proj(la,40); ctx.beginPath();ctx.moveTo(x1,y);ctx.lineTo(x2,y);ctx.stroke(); ctx.fillText(la+'°',4,y-3); }
+  for(let lo=-5;lo<=40;lo+=5){ const [x,y1]=proj(66,lo),[,y2]=proj(40,lo); ctx.beginPath();ctx.moveTo(x,y1);ctx.lineTo(x,y2);ctx.stroke(); }
+  const i0 = Math.floor(t), fr = t-i0;
+  ctx.lineCap='round';
+  for(let i=1;i<R.length;i++){
+    const a=proj(R[i-1][2],R[i-1][3]), b=proj(R[i][2],R[i][3]), tr=R[i][5];
+    const past = i<=i0;
+    ctx.setLineDash(dash(tr)); ctx.lineWidth = past?2.5:1.5;
+    ctx.strokeStyle = tr==='water'?css('--sea'):css('--route');
+    ctx.globalAlpha = past?1:.28;
+    ctx.beginPath(); ctx.moveTo(...a); ctx.lineTo(...b); ctx.stroke();
+    if(i===i0+1 && fr>0){ ctx.globalAlpha=1; ctx.lineWidth=2.5; ctx.beginPath(); ctx.moveTo(...a); ctx.lineTo(a[0]+(b[0]-a[0])*fr, a[1]+(b[1]-a[1])*fr); ctx.stroke(); }
+  }
+  ctx.setLineDash([]); ctx.globalAlpha=1;
+  R.forEach((p,i)=>{
+    const [x,y]=proj(p[2],p[3]);
+    ctx.fillStyle = i<=i0?css('--route'):css('--line');
+    ctx.beginPath(); ctx.arc(x,y,LABELS.has(p[0])?3.5:2,0,7); ctx.fill();
+    if(LABELS.has(p[0])){ ctx.fillStyle=css('--ink'); ctx.font='12px '+css('--f-body'); ctx.fillText(p[1],x+6,y-5); }
+  });
+  const a=R[i0], b=R[Math.min(i0+1,R.length-1)];
+  const [ax,ay]=proj(a[2],a[3]),[bx,by]=proj(b[2],b[3]);
+  const px=ax+(bx-ax)*fr, py=ay+(by-ay)*fr;
+  ctx.fillStyle=css('--gold'); ctx.strokeStyle=css('--card'); ctx.lineWidth=2;
+  ctx.beginPath(); ctx.arc(px,py,7,0,7); ctx.fill(); ctx.stroke();
+}
+function panel(){
+  const i = Math.round(t), p = R[i];
+  document.getElementById('p-n').textContent = `Остановка ${i+1} из ${R.length}`;
+  document.getElementById('p-name').textContent = p[1];
+  const d = document.getElementById('p-dates');
+  d.children[0].textContent = p[4] ? fmt(p[4])+' ст. ст.' : 'дата в тексте не указана';
+  d.children[1].textContent = p[4] ? greg(p[4])+' н. ст.' : '';
+  document.getElementById('p-tr').textContent = i===0?'начало пути':TR[p[5]];
+  document.getElementById('p-letter').textContent = 'письмо '+p[6];
+}
+const pos = document.getElementById('pos');
+pos.max = (R.length-1)*10;
+function setT(v){ t=Math.max(0,Math.min(R.length-1,v)); pos.value=Math.round(t*10); draw(); panel(); }
+pos.addEventListener('input',()=>{ stop(); setT(pos.value/10); });
+let raf=null, last=0;
+const playBtn=document.getElementById('play');
+function step(ts){ if(!last) last=ts; const dt=(ts-last)/1000; last=ts; setT(t+dt*1.6); if(t>=R.length-1) return stop(); raf=requestAnimationFrame(step); }
+function stop(){ if(raf) cancelAnimationFrame(raf); raf=null; last=0; playBtn.textContent='▶ Ехать'; playBtn.setAttribute('aria-pressed','false'); }
+playBtn.addEventListener('click',()=>{ if(raf) return stop(); if(t>=R.length-1) setT(0); playBtn.textContent='❚❚ Пауза'; playBtn.setAttribute('aria-pressed','true'); raf=requestAnimationFrame(step); });
+setT(R.findIndex(p=>p[0]==='kaliningrad'));
+addEventListener('resize',draw);
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',draw);
+new MutationObserver(draw).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+document.fonts && document.fonts.ready.then(draw);
+
+/* ribbon: stays between dated stops, julian */
+const day = s=>Date.UTC(...s.split('-').map((v,i)=>i===1?v-1:+v))/864e5;
+const D0 = day('1789-05-18'), D1 = day('1790-07-31'), W = 1000;
+const X = d=>20+(d-D0)/(D1-D0)*(W-40);
+const STAYS = [ // [label, key, from, to, approxEnd]
+  ['Петербург','saint-petersburg','1789-05-21','1789-05-26',1],['Кёнигсберг','kaliningrad','1789-06-18','1789-06-20'],
+  ['Берлин','berlin','1789-06-29','1789-07-11'],['Дрезден','dresden','1789-07-11','1789-07-14'],['Лейпциг','leipzig','1789-07-14','1789-07-19'],
+  ['Франкфурт','frankfurt','1789-07-27','1789-08-01'],['Цюрих','zurich','1789-08-10','1789-08-27'],['Женева','geneva','1789-09-28','1790-03-04'],
+  ['Лион','lyon','1790-03-08','1790-03-23',1],['Париж','paris','1790-03-27','1790-06-28',1],['Лондон','london','1790-07-01','1790-07-20',1]];
+const svg = document.getElementById('ribbon'), NS='http://www.w3.org/2000/svg';
+function el(n,a){ const e=document.createElementNS(NS,n); for(const k in a) e.setAttribute(k,a[k]); svg.appendChild(e); return e; }
+function ribbon(){
+  svg.innerHTML='';
+  const defs=el('defs',{}); const pat=document.createElementNS(NS,'pattern');
+  Object.entries({id:'hatch',width:5,height:5,patternUnits:'userSpaceOnUse',patternTransform:'rotate(45)'}).forEach(([k,v])=>pat.setAttribute(k,v));
+  const pl=document.createElementNS(NS,'line'); Object.entries({x1:0,y1:0,x2:0,y2:5,stroke:css('--route'),'stroke-width':2}).forEach(([k,v])=>pl.setAttribute(k,v));
+  pat.appendChild(pl); defs.appendChild(pat);
+  el('line',{x1:20,x2:W-20,y1:48,y2:48,stroke:css('--line')});
+  for(let y=1789,m=4;y<1790||m<=6;m++){ if(m>11){m=0;y++;} const d=day(`${y}-${String(m+1).padStart(2,'0')}-01`); if(d<D0) continue;
+    el('line',{x1:X(d),x2:X(d),y1:44,y2:52,stroke:css('--muted')});
+    const tx=el('text',{x:X(d)+3,y:66}); tx.textContent=(m===0?y+' ':'')+MON[m].slice(0,3); }
+  STAYS.forEach(([lb,key,a,b,ap],k)=>{
+    const x1=X(day(a)), x2=Math.max(X(day(b)),x1+4), w=x2-x1;
+    const g=el('g',{});
+    const rc=document.createElementNS(NS,'rect'); Object.entries({x:x1,y:38,width:ap?w*.75:w,height:20,fill:css('--route'),class:'stay',tabindex:0}).forEach(([q,v])=>rc.setAttribute(q,v));
+    g.appendChild(rc);
+    if(ap){ const h=document.createElementNS(NS,'rect'); Object.entries({x:x1+w*.75,y:38,width:w*.25,height:20,fill:'url(#hatch)'}).forEach(([q,v])=>h.setAttribute(q,v)); g.appendChild(h); }
+    const tl=document.createElementNS(NS,'text'); Object.entries({x:x1,y:k%2?84:30,class:'lbl'}).forEach(([q,v])=>tl.setAttribute(q,v)); tl.textContent=lb; g.appendChild(tl);
+    const go=()=>{ stop(); setT(R.findIndex(p=>p[0]===key)); document.getElementById('map').scrollIntoView({behavior:'smooth',block:'center'}); };
+    rc.addEventListener('click',go); rc.addEventListener('keydown',e=>{ if(e.key==='Enter') go(); });
+    svg.appendChild(g);
+  });
+}
+ribbon();
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',ribbon);
+new MutationObserver(ribbon).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+
+/* tabs */
+document.querySelectorAll('[role=tab]').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('[role=tab]').forEach(x=>x.setAttribute('aria-selected',x===b));
+  document.querySelectorAll('[data-p]').forEach(p=>p.hidden = p.dataset.p!==b.dataset.t);
+}));
+
+/* shutter */
+const sh=document.getElementById('shutter'), nowP=document.getElementById('now'), hd=document.getElementById('handle');
+function setS(v){ v=Math.max(0,Math.min(100,v)); nowP.style.clipPath=`inset(0 0 0 ${v}%)`; hd.style.left=v+'%'; sh.setAttribute('aria-valuenow',Math.round(v)); sh.dataset.v=v; }
+function fromEv(e){ const r=sh.getBoundingClientRect(); setS((e.clientX-r.left)/r.width*100); }
+sh.addEventListener('pointerdown',e=>{ sh.setPointerCapture(e.pointerId); fromEv(e); });
+sh.addEventListener('pointermove',e=>{ if(sh.hasPointerCapture(e.pointerId)) fromEv(e); });
+sh.addEventListener('keydown',e=>{ const v=+(sh.dataset.v||50); if(e.key==='ArrowLeft') setS(v-5); if(e.key==='ArrowRight') setS(v+5); });
+</script>
