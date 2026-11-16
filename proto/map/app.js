@@ -18,6 +18,7 @@ const STATUS = {
   book_only: ['только книга', 'c-book'], unverified: ['не проверено', 'c-unk'],
   disputed: ['спорно', 'c-bad'], obsolete: ['устарело', 'c-bad'],
 };
+const PRES = {intact: 'сохранилось', rebuilt: 'отстроено заново', altered: 'перестроено', ruin: 'руины', lost: 'утрачено'};
 const POLITY = ['#D9C9A3', '#C7D3B0', '#E0C2B2', '#BFCFD6', '#D8C0D2', '#CFD9C0', '#E3D5A8', '#C9C2DB'];
 const MONTHS = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
 const MONTHS_NOM = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'];
@@ -297,6 +298,18 @@ function renderStop(i) {
     cap.append(el('b', {}, [m.author, m.year].filter(Boolean).join(', ') || 'автор не указан'), ` · ${m.licence}`);
     fig.append(a, cap); md.append(fig);
   });
+
+  const nw = $('s-now'); nw.replaceChildren(); nw.hidden = !s.now?.length;
+  if (s.now?.length) {
+    nw.append(el('span', {class: 'eyebrow'}, 'Сегодня' + (PRES[s.preservation] ? ' · ' + PRES[s.preservation] : '')));
+    s.now.forEach(f => {
+      const [lbl, cls] = STATUS[f.status] || [f.status || '—', 'c-unk'];
+      const pEl = el('p', {}, f.value + ' ');
+      pEl.append(el('span', {class: 'chip ' + cls}, lbl), ' ',
+                 el('a', {href: f.source_url, target: '_blank', rel: 'noopener', title: f.quote || ''}, f.source_title || 'источник'));
+      nw.append(pEl);
+    });
+  }
 
   $('s-note').hidden = !s.note; $('s-note').textContent = s.note ? `Примечание базы: ${s.note}` : '';
 }

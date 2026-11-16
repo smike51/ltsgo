@@ -63,6 +63,11 @@ def main():
             e = ents.get(mt["entity_key"])
             if e and e.get("kind") == "person" and mt["entity_key"] not in people[mt["passage_seq"]]:
                 people[mt["passage_seq"]].append(mt["entity_key"])
+        now = defaultdict(list)  # "what is left today" facts per place
+        for f in rd(os.path.join(m, "facts.jsonl")):
+            if f.get("layer") == "now" and f.get("fact_class") == "preservation" and f.get("source_url"):
+                now[f["entity_key"]].append({"value": f["value"], "status": f.get("status"), "quote": f.get("quote"),
+                                             "source_title": f.get("source_title"), "source_url": f["source_url"]})
         media = defaultdict(list)
         for r in rd(os.path.join(ROOT, "research", f"media-{j['short']}.jsonl")):
             lic = (r.get("licence") or "").strip()
@@ -101,6 +106,7 @@ def main():
                 "people": [{"key": k, "name": ents[k]["name"].get("ru") or ents[k]["name"].get("en"),
                             "wikidata": ents[k].get("wikidata")} for k in people.get(pf, [])[:6]],
                 "media": media.get(e.get("wikidata"), [])[:4],
+                "preservation": e.get("preservation"), "now": now.get(s["place_key"], [])[:3],
             })
         data = {"journey": jkey, **{k: v for k, v in j.items() if k not in ("book", "short")},
                 "stops": stops, "skipped": sorted(set(skipped))}

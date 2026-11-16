@@ -1,7 +1,7 @@
 # Сводка базы (kb/staging)
 
 Сущностей всего: **1480** — person: 643, place: 353, building: 253, artwork: 131, event: 56, organisation: 37, vessel: 7
-С Wikidata: 1097; статусы: verified_wiki: 1065, book_only: 234, unverified: 181
+С Wikidata: 1098; статусы: verified_wiki: 1065, book_only: 234, unverified: 181
 
 ## karamzin-letters
 куски: p001-076, p077-135
@@ -28,7 +28,7 @@
 | stops | 57 |
 | entity_links | 111 |
 | mentions | 563 |
-| facts | 149 |
+| facts | 150 |
 | quotes | 243 |
 | sources | 23 |
 | media (research) | 118 |
