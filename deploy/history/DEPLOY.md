@@ -13,10 +13,11 @@
 ssh starpom-app "mkdir -p /opt/ltsgo/history/site.new"
 scp deploy/history/docker-compose.yml starpom-app:/opt/ltsgo/history/
 tar -C proto/map -cf - . | ssh starpom-app "tar -C /opt/ltsgo/history/site.new -xf -"
-ssh starpom-app "cd /opt/ltsgo/history && { [ -d site ] && mv site site.old; true; } && mv site.new site && docker compose up -d"
+ssh starpom-app "cd /opt/ltsgo/history && rm -rf site.old; [ -d site ] && mv site site.old; mv site.new site && docker compose up -d && docker compose restart"
 ssh starpom-app "docker exec ltsgo-history wget -qO- http://localhost/ | head -c 80"
 ```
-Повторная выкладка — те же шаги (старая версия остаётся в `site.old` для отката).
+Повторная выкладка — те же шаги (старая версия остаётся в `site.old` для отката). `restart` обязателен:
+контейнер держит старую папку, пока его не перезапустить.
 
 ## 3. Адрес в Caddy (Инфра, `/app/aurav/Caddyfile`)
 ```
