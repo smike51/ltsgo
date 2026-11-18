@@ -6,14 +6,15 @@
 <title>LTSGO · карта путешествия (прототип)</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="style.css?v=7">
+<link rel="stylesheet" href="style.css?v=10">
 </head>
 <body>
 <div id="map" aria-label="Карта путешествия"></div>
 
 <aside class="story" id="story">
   <div class="top">
-    <span class="eyebrow">LTSGO · прототип</span>
+    <div class="toprow"><span class="eyebrow">LTSGO · прототип</span>
+      <button class="ghost" id="collapse" type="button" aria-expanded="true" aria-controls="story" title="Свернуть панель">Свернуть</button></div>
     <div class="books" id="books" role="tablist" aria-label="Книга"></div>
     <h1 id="b-title">—</h1>
     <div class="by" id="b-by">—</div>
@@ -49,9 +50,22 @@
   <button id="play" type="button" aria-pressed="false">▶ Ехать</button>
   <button id="prev" type="button" aria-label="Предыдущая остановка">←</button>
   <button id="next" type="button" aria-label="Следующая остановка">→</button>
+  <select id="speed" aria-label="Скорость"><option value="0.5">0,5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option></select>
   <input id="pos" type="range" min="0" max="100" value="0" aria-label="Положение на маршруте">
   <span class="mono" id="pos-lbl">—</span>
+  <button id="list-btn" type="button" aria-expanded="false" aria-controls="list" title="Список остановок (L)">☰ Остановки</button>
+  <button id="fit" type="button" title="Показать весь маршрут (F)">Весь путь</button>
+  <button id="share" type="button" title="Скопировать ссылку на эту остановку">Ссылка</button>
 </div>
+
+<section class="list" id="list" hidden aria-label="Список остановок">
+  <div class="list-head">
+    <input id="q" type="search" placeholder="Остановка, человек, слово из цитаты" aria-label="Поиск по маршруту">
+    <button class="ghost" id="list-close" type="button" aria-label="Закрыть список">✕</button>
+  </div>
+  <ol id="list-items"></ol>
+</section>
+<button class="reopen" id="reopen" type="button" hidden>☰ Панель</button>
 
 <div class="legend">
   <div><svg width="36" height="8"><line x1="0" y1="4" x2="36" y2="4" class="lg-route" stroke-width="3"/></svg>экипаж</div>
@@ -62,6 +76,6 @@
 </div>
 
 <script src="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.js"></script>
-<script src="app.js?v=7"></script>
+<script src="app.js?v=10"></script>
 </body>
 </html>

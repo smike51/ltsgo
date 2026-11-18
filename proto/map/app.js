@@ -25,7 +25,7 @@ const MONTHS_NOM = ['январь', 'февраль', 'март', 'апрель'
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 const $ = id => document.getElementById(id);
-const st = {index: [], j: null, segs: [], t: 0, cur: -1, playing: false, last: 0, bordersCache: {}};
+const st = {index: [], j: null, segs: [], t: 0, cur: -1, playing: false, last: 0, bordersCache: {}, speed: 1};
 
 /* ---------- geometry ---------- */
 const rad = d => d * Math.PI / 180, deg = r => r * 180 / Math.PI;
@@ -143,6 +143,7 @@ const map = new maplibregl.Map({
 });
 map.addControl(new maplibregl.NavigationControl({visualizePitch: true}), 'top-right');
 map.addControl(new maplibregl.ScaleControl({unit: 'metric'}), 'bottom-right');
+map.addControl(new maplibregl.FullscreenControl({container: document.body}), 'top-right');
 
 /* ---------- data loading ---------- */
 async function loadBorders(name) {
@@ -193,16 +194,22 @@ async function openJourney(key, stopIdx = 0) {
   $('pos').max = (j.stops.length - 1) * 100;
   loadBorders(j.borders);
 
-  const b = new maplibregl.LngLatBounds();
-  j.stops.forEach(s => b.extend([s.lon, s.lat]));
-  map.fitBounds(b, {padding: padding(), duration: reduceMotion ? 0 : 1200, maxZoom: 5});
+  fitAll();
+  buildList();
   setT(stopIdx, false);
   history.replaceState(null, '', `#${key}/${stopIdx}`);
 }
 
 function padding() {
-  const narrow = innerWidth < 760;
-  return narrow ? {top: 40, bottom: innerHeight * 0.5, left: 30, right: 30} : {top: 60, bottom: 110, left: 400, right: 80};
+  const narrow = innerWidth < 760, open = !$('story').classList.contains('collapsed');
+  return narrow ? {top: 40, bottom: open ? innerHeight * 0.5 : 130, left: 30, right: 30}
+                : {top: 60, bottom: 110, left: open ? 400 : 60, right: $('list').hidden ? 80 : 400};
+}
+function fitAll() {
+  const b = new maplibregl.LngLatBounds();
+  st.j.stops.forEach(s => b.extend([s.lon, s.lat]));
+  map.setPadding({top: 0, bottom: 0, left: 0, right: 0}); // fitBounds adds to the camera padding left by easeTo
+  map.fitBounds(b, {padding: padding(), duration: reduceMotion ? 0 : 1200, maxZoom: 5});
 }
 
 /* ---------- position ---------- */
@@ -234,6 +241,7 @@ function setT(t, fromPlay) {
       type: 'Feature', properties: {idx: k, name: s.name, state: k === i ? 2 : k < i ? 1 : 0},
       geometry: {type: 'Point', coordinates: [s.lon, s.lat]}}))});
     renderStop(i);
+    markList(i);
     if ($('l-follow').checked) flyToStop(i, fromPlay);
     history.replaceState(null, '', `#${st.j.journey}/${i}`);
   }
@@ -317,7 +325,7 @@ function renderStop(i) {
 /* ---------- playback ---------- */
 function tick(ts) {
   if (!st.playing) return;
-  const dt = Math.min(0.5, (ts - (st.last || ts)) / 1000); st.last = ts;
+  const dt = Math.min(0.5, (ts - (st.last || ts)) / 1000) * st.speed; st.last = ts;
   const i = Math.floor(st.t), seg = st.segs[i];
   // ~1.2 s per short hop, up to ~4 s for an ocean crossing
   const dur = seg ? 1.2 + Math.min(2.8, Math.log10(1 + seg.km / 50)) : 1;
@@ -339,13 +347,74 @@ function stopPlay() {
   $('play').textContent = '▶ Ехать'; $('play').setAttribute('aria-pressed', 'false');
 }
 
+/* ---------- stop list ---------- */
+function buildList() {
+  const ol = $('list-items'); ol.replaceChildren();
+  st.j.stops.forEach((s, k) => {
+    const p = parseDate(s.arrived), b = el('button', {type: 'button', 'data-i': k});
+    b.append(el('span', {class: 'n'}, String(k + 1)), el('span', {}, s.name),
+             el('span', {class: 'd'}, p ? fmt(p) : k === 0 ? 'начало' : ''));
+    b.onclick = () => { stopPlay(); setT(k, false); if (innerWidth < 760) toggleList(false); };
+    s._hay = [s.name, s.name_en, s.heading, ...(s.quotes || []), ...(s.people || []).map(x => x.name)].join(' ').toLowerCase();
+    const li = el('li'); li.append(b); ol.append(li);
+  });
+  filterList();
+}
+function filterList() {
+  if (!st.j) return;
+  const q = $('q').value.trim().toLowerCase();
+  $('list-items').querySelector('.empty')?.remove();
+  let shown = 0;
+  for (const li of $('list-items').children) {
+    const ok = !q || st.j.stops[+li.firstChild.dataset.i]._hay.includes(q);
+    li.hidden = !ok; shown += ok;
+  }
+  if (!shown) $('list-items').append(el('li', {class: 'empty'}, 'Ничего не найдено'));
+}
+function markList(i) {
+  for (const b of $('list-items').querySelectorAll('button')) b.setAttribute('aria-current', +b.dataset.i === i);
+  if (!$('list').hidden) $('list-items').querySelector(`[data-i="${i}"]`)?.scrollIntoView({block: 'nearest'});
+}
+function toggleList(open = $('list').hidden) {
+  if (!st.j) return;
+  $('list').hidden = !open; $('list-btn').setAttribute('aria-expanded', open);
+  if (open) { markList(st.cur); if (innerWidth >= 760) $('q').focus(); }
+}
+function togglePanel(open) {
+  $('story').classList.toggle('collapsed', !open); $('reopen').hidden = open;
+  $('collapse').setAttribute('aria-expanded', open);
+  (open ? $('collapse') : $('reopen')).focus();
+}
+
 /* ---------- controls ---------- */
+$('list-btn').onclick = () => toggleList();
+$('list-close').onclick = () => toggleList(false);
+$('q').oninput = filterList;
+$('q').onkeydown = e => {
+  if (e.key === 'Enter') $('list-items').querySelector('li:not([hidden]) button')?.click();
+  if (e.key === 'Escape') toggleList(false);
+};
+$('fit').onclick = () => { stopPlay(); $('l-follow').checked = false; fitAll(); };
+$('speed').onchange = e => { st.speed = +e.target.value; };
+$('collapse').onclick = () => togglePanel(false);
+$('reopen').onclick = () => togglePanel(true);
+$('share').onclick = async () => {
+  const b = $('share');
+  try { await navigator.clipboard.writeText(location.href); b.textContent = 'Скопировано'; }
+  catch { prompt('Ссылка на остановку:', location.href); }
+  setTimeout(() => { b.textContent = 'Ссылка'; }, 1500);
+};
 $('play').onclick = () => st.playing ? stopPlay() : startPlay();
 $('prev').onclick = () => { stopPlay(); setT(Math.ceil(st.t - 1e-6) - 1, false); };
 $('next').onclick = () => { stopPlay(); setT(Math.floor(st.t + 1e-6) + 1, false); };
 $('pos').oninput = e => { stopPlay(); setT(e.target.value / 100, false); };
 addEventListener('keydown', e => {
-  if (e.target.tagName === 'INPUT' && e.target.type === 'range') return;
+  const tg = e.target.tagName;
+  if ((tg === 'INPUT' && e.target.type !== 'checkbox') || tg === 'SELECT') return;
+  const k = e.key.toLowerCase();
+  if (k === 'l' || k === 'д') { e.preventDefault(); toggleList(); return; }
+  if (k === 'f' || k === 'а') { $('fit').click(); return; }
+  if (e.key === 'Escape' && !$('list').hidden) { toggleList(false); return; }
   if (e.key === 'ArrowRight') $('next').click();
   else if (e.key === 'ArrowLeft') $('prev').click();
   else if (e.key === ' ' && e.target.tagName !== 'BUTTON') { e.preventDefault(); $('play').click(); }
