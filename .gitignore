@@ -1,3 +1,6 @@
 node_modules/
 .env
 *.local
+
+# Natural Earth land (downloaded by tools/route_legs.py)
+kb/staging/_shared/geo/

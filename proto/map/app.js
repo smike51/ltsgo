@@ -93,7 +93,8 @@ const map = new maplibregl.Map({
       route: {type: 'geojson', data: {type: 'FeatureCollection', features: []}},
       now: {type: 'geojson', data: {type: 'FeatureCollection', features: []}},
       stops: {type: 'geojson', data: {type: 'FeatureCollection', features: []}},
-      me: {type: 'geojson', data: {type: 'FeatureCollection', features: []}},
+      wps: {type: 'geojson', data: {type: 'FeatureCollection', features: []}},
+      me:{type: 'geojson', data: {type: 'FeatureCollection', features: []}},
     },
     layers: [
       {id: 'sea', type: 'background', paint: {'background-color': '#AFCBD2'}},
@@ -125,6 +126,11 @@ const map = new maplibregl.Map({
       })),
       {id: 'route-now', type: 'line', source: 'now', layout: {'line-cap': 'round'},
        paint: {'line-color': '#B07D12', 'line-width': ['interpolate', ['linear'], ['zoom'], 2, 2.5, 8, 4.5]}},
+      {id: 'wp-dot', type: 'circle', source: 'wps', minzoom: 1.5,
+       paint: {'circle-radius': ['interpolate', ['linear'], ['zoom'], 2, 2.5, 6, 4.5],
+               'circle-color': ['case', ['get', 'interp'], '#F8F9F5', '#2F7385'],
+               'circle-stroke-color': '#2F7385', 'circle-stroke-width': 1.4,
+               'circle-opacity': ['case', ['get', 'past'], 1, 0.5], 'circle-stroke-opacity': ['case', ['get', 'past'], 1, 0.5]}},
       {id: 'stop-dot', type: 'circle', source: 'stops',
        paint: {'circle-radius': ['case', ['==', ['get', 'state'], 2], 7, ['==', ['get', 'state'], 1], 4, 3],
                'circle-color': ['case', ['==', ['get', 'state'], 2], '#B07D12', ['==', ['get', 'state'], 1], '#22476E', '#F8F9F5'],
@@ -171,7 +177,7 @@ async function loadBorders(name) {
 
 async function openJourney(key, stopIdx = 0) {
   stopPlay();
-  const j = await fetch(`data/${key}.json`).then(r => r.json());
+  const j = await fetch(`data/${key}.json`, {cache: 'no-cache'}).then(r => r.json());
   st.j = j; st.cur = -1;
   $('b-title').textContent = j.title_ru;
   $('b-by').textContent = `${j.author_ru} · ${j.years}`;
@@ -186,8 +192,11 @@ async function openJourney(key, stopIdx = 0) {
   const feats = [];
   for (let i = 1; i < j.stops.length; i++) {
     const a = j.stops[i - 1], b = j.stops[i];
-    const coords = gcLine([a.lon, a.lat], [b.lon, b.lat]);
-    st.segs.push({coords, tr: b.transport, km: gcDist([a.lon, a.lat], [b.lon, b.lat])});
+    // real leg geometry from the build (sea route through text waypoints), else a great circle
+    const coords = b.leg?.length > 1 ? b.leg : gcLine([a.lon, a.lat], [b.lon, b.lat]);
+    let km = 0;
+    for (let k = 1; k < coords.length; k++) km += gcDist(coords[k - 1], coords[k]);
+    st.segs.push({coords, tr: b.transport, km});
     feats.push({type: 'Feature', properties: {idx: i, tr: b.transport}, geometry: {type: 'LineString', coordinates: coords}});
   }
   map.getSource('route').setData({type: 'FeatureCollection', features: feats});
@@ -208,6 +217,7 @@ function padding() {
 function fitAll() {
   const b = new maplibregl.LngLatBounds();
   st.j.stops.forEach(s => b.extend([s.lon, s.lat]));
+  (st.j.waypoints || []).forEach(w => b.extend([w.lon, w.lat]));
   map.setPadding({top: 0, bottom: 0, left: 0, right: 0}); // fitBounds adds to the camera padding left by easeTo
   map.fitBounds(b, {padding: padding(), duration: reduceMotion ? 0 : 1200, maxZoom: 5});
 }
@@ -240,6 +250,9 @@ function setT(t, fromPlay) {
     map.getSource('stops').setData({type: 'FeatureCollection', features: st.j.stops.map((s, k) => ({
       type: 'Feature', properties: {idx: k, name: s.name, state: k === i ? 2 : k < i ? 1 : 0},
       geometry: {type: 'Point', coordinates: [s.lon, s.lat]}}))});
+    map.getSource('wps').setData({type: 'FeatureCollection', features: (st.j.waypoints || []).map((w, k) => ({
+      type: 'Feature', properties: {k, past: w.after < i, interp: !!w.interp},
+      geometry: {type: 'Point', coordinates: [w.lon, w.lat]}}))});
     renderStop(i);
     markList(i);
     if ($('l-follow').checked) flyToStop(i, fromPlay);
@@ -296,6 +309,19 @@ function renderStop(i) {
     ? el('a', {href: `https://www.wikidata.org/wiki/${x.wikidata}`, target: '_blank', rel: 'noopener'}, x.name)
     : el('span', {title: 'нет в Wikidata'}, x.name)));
 
+  // text waypoints on the way to the next stop
+  const wy = $('s-way'), next = (st.j.waypoints || []).map((w, k) => ({...w, k})).filter(w => w.after === i);
+  wy.replaceChildren(); wy.hidden = !next.length;
+  if (next.length) {
+    wy.append(el('span', {class: 'eyebrow'}, `В пути — по тексту (${next.length})`));
+    next.forEach(w => {
+      const b = el('button', {type: 'button'});
+      b.append(el('b', {}, wpHead(w)), el('q', {}, w.quote));
+      b.onclick = () => showWp(w.k, true);
+      wy.append(b);
+    });
+  }
+
   const md = $('s-media'); md.replaceChildren();
   s.media.forEach(m => {
     const fig = el('figure'), a = el('a', {href: m.page || m.src, target: '_blank', rel: 'noopener'});
@@ -321,6 +347,31 @@ function renderStop(i) {
 
   $('s-note').hidden = !s.note; $('s-note').textContent = s.note ? `Примечание базы: ${s.note}` : '';
 }
+
+/* ---------- text waypoints ---------- */
+const ll = (v, pos, neg) => `${Math.abs(v).toFixed(1).replace('.0', '')}° ${v >= 0 ? pos : neg}`;
+function wpHead(w) {
+  const p = parseDate(w.date);
+  return [p ? fmt(p) : 'дата не указана',
+          w.interp === 'lon' ? ll(w.lat, 'с. ш.', 'ю. ш.') : w.interp === 'lat' ? ll(w.lon, 'в. д.', 'з. д.')
+            : `${ll(w.lat, 'с. ш.', 'ю. ш.')}, ${ll(w.lon, 'в. д.', 'з. д.')}`,
+          w.winds?.length ? 'ветер ' + w.winds.join(', ') : ''].filter(Boolean).join(' · ');
+}
+let wpPopup = null;
+function showWp(k, fly) {
+  const w = st.j.waypoints[k], d = el('div', {class: 'wp-pop'});
+  d.append(el('b', {}, wpHead(w)), el('q', {}, w.quote));
+  if (w.interp) d.append(el('small', {}, (w.interp === 'lon' ? 'Долгота' : 'Широта') + ' в тексте не названа — точка поставлена между соседними.'));
+  if (w.note) d.append(el('small', {}, w.note));
+  if (w.people?.length) d.append(el('small', {}, 'Упомянуты здесь: ' + w.people.map(x => x.name).join(', ')));
+  d.append(el('small', {}, (STATUS[w.status] || [w.status])[0] + ` · глава ${w.passage}`));
+  wpPopup?.remove();
+  wpPopup = new maplibregl.Popup({closeButton: true, maxWidth: '280px', offset: 8}).setLngLat([w.lon, w.lat]).setDOMContent(d).addTo(map);
+  if (fly) map.easeTo({center: [w.lon, w.lat], zoom: Math.max(map.getZoom(), 4), padding: padding(), duration: reduceMotion ? 0 : 900});
+}
+map.on('click', 'wp-dot', e => showWp(e.features[0].properties.k, false));
+map.on('mouseenter', 'wp-dot', () => { map.getCanvas().style.cursor = 'pointer'; });
+map.on('mouseleave', 'wp-dot', () => { map.getCanvas().style.cursor = ''; });
 
 /* ---------- playback ---------- */
 function tick(ts) {
@@ -430,7 +481,7 @@ map.on('mouseenter', 'stop-dot', () => { map.getCanvas().style.cursor = 'pointer
 map.on('mouseleave', 'stop-dot', () => { map.getCanvas().style.cursor = ''; });
 
 map.once('style.load', async () => {
-  st.index = await fetch('data/index.json').then(r => r.json());
+  st.index = await fetch('data/index.json', {cache: 'no-cache'}).then(r => r.json());
   for (const x of st.index) {
     const b = el('button', {type: 'button', role: 'tab', 'data-k': x.journey}, x.author_ru.split(' ').pop());
     b.onclick = () => openJourney(x.journey);

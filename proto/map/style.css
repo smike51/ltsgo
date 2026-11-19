@@ -41,6 +41,16 @@ blockquote{margin:0;font-family:var(--f-display);font-style:italic;font-size:1.0
 .media figcaption{font:400 .64rem/1.3 var(--f-mono);color:var(--muted);overflow-wrap:anywhere}
 .media figcaption b{font-weight:500;color:var(--ink)}
 .note{font-size:.78rem;color:var(--muted);margin:0}
+.way{display:flex;flex-direction:column;gap:8px;border-left:2px solid #2F7385;padding-left:12px}
+.way button{all:unset;cursor:pointer;display:block;font-size:.85rem;line-height:1.35}
+.way button:hover q,.way button:focus-visible q{text-decoration:underline}
+.way button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.way b{font:500 .72rem/1.2 var(--f-mono);color:#2F7385;display:block}
+.way q{font-family:var(--f-display);font-style:italic}
+.wp-pop{font:.82rem/1.4 system-ui,sans-serif;max-width:260px;color:#1B2530}
+.wp-pop b{font-family:ui-monospace,monospace;font-size:.72rem;color:#2F7385;display:block;margin-bottom:4px}
+.wp-pop q{font-style:italic}
+.wp-pop small{display:block;color:#5A6670;margin-top:4px}
 .layers{display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--line);padding-top:12px;margin-top:auto;font-size:.85rem}
 .layers label{display:flex;gap:8px;align-items:center;cursor:pointer}
 input[type=checkbox],input[type=range]{accent-color:var(--gold)}
