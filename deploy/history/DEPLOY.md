@@ -39,5 +39,7 @@ history.ltsgo.ru {
 Сайт закрыт паролем (владелец, 18.11.2026: данные не утверждены). Логин, пароль и bcrypt-хеш —
 `_private\ltsgo-history.txt` (в git не класть). `import cf_only` — сайт идёт через Cloudflare.
 
+Сделано 19.11.2026: блок в Caddyfile («Инфра», бэкап `Caddyfile.pre-history-*`), сертификат LE получен.
+
 ## 4. Проверка
 https://history.ltsgo.ru/#goncharov-1852/20 — карта, остановка «Аньер (Анжер)», блок «Сегодня».
