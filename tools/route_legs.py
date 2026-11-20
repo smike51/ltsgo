@@ -132,6 +132,135 @@ def sea_leg(land, a, b):
         return line, "gc-land"
 
 
+ROUTER = "https://routing.openstreetmap.de/routed-{}/route/v1/driving/{},{};{},{}?overview=simplified&geometries=geojson"
+
+
+class Roads:
+    """Land legs along today's roads/paths (OSRM, OpenStreetMap). Old post roads mostly lie under modern roads,
+    so this is a much better guess than a straight line. Results are cached in a committed json file, so the
+    build is reproducible offline. A route that is far longer than the straight line (no road there in fact,
+    e.g. Siberian rivers, the Okhotsk track) is rejected and the leg stays a straight line."""
+
+    def __init__(self, path):
+        self.path = path
+        self.cache = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+        self.dirty = False
+
+    def leg(self, a, b, mode):
+        prof = "foot" if mode == "foot" else "car"
+        key = f"{prof}:{a[0]:.4f},{a[1]:.4f};{b[0]:.4f},{b[1]:.4f}"
+        if key not in self.cache:
+            import time
+            url = ROUTER.format(prof, a[0], a[1], b[0], b[1])
+            try:
+                req = urllib.request.Request(url, headers={"User-Agent": "ltsgo-kb/0.1"})
+                r = json.load(urllib.request.urlopen(req, timeout=30))
+                rt = r["routes"][0] if r.get("code") == "Ok" else None
+                snap = max(w.get("distance", 0) for w in r.get("waypoints", [{}])) if rt else 0
+                self.cache[key] = {"km": round(rt["distance"] / 1000, 1), "snap_m": round(snap),
+                                   "coords": [[round(x, 4), round(y, 4)] for x, y in rt["geometry"]["coordinates"]]} \
+                    if rt else {"km": None}
+            except Exception as e:  # network down: leave uncached, straight line this time
+                print("router:", key, e)
+                return None
+            self.dirty = True
+            time.sleep(1.1)  # public server: max 1 request/second
+        c = self.cache[key]
+        d = gc_dist(a, b)
+        if not c.get("km") or c["snap_m"] > 20000 or c["km"] > 2.2 * d + 25:
+            return None
+        return [list(a)] + c["coords"] + [list(b)]
+
+    def save(self):
+        if self.dirty:
+            os.makedirs(os.path.dirname(self.path), exist_ok=True)
+            with open(self.path, "w", encoding="utf-8", newline="\n") as f:
+                json.dump(self.cache, f, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
+
+
+RIVERS_URL = "https://cdn.jsdelivr.net/gh/nvkelso/natural-earth-vector@v5.1.2/geojson/ne_10m_rivers_lake_centerlines.geojson"
+
+
+class Rivers:
+    """Natural Earth 10m river centrelines as a graph: a boat (or a sledge on winter ice) follows the river
+    between two points instead of cutting across land. Lines that touch (< 2 km) are joined, so a trip can
+    pass from a tributary to the main river (Maya → Aldan → Lena)."""
+
+    def __init__(self, path):
+        if not os.path.exists(path):
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+            urllib.request.urlretrieve(RIVERS_URL, path)
+        self.pts, self.adj, self.grid = [], [], {}
+        idx = {}
+
+        def node(c):
+            k = (round(c[0], 4), round(c[1], 4))
+            if k not in idx:
+                idx[k] = len(self.pts)
+                self.pts.append(k)
+                self.adj.append([])
+                self.grid.setdefault((int(k[0] // 0.5), int(k[1] // 0.5)), []).append(idx[k])
+            return idx[k]
+
+        ends = []
+        for f in json.load(open(path, encoding="utf-8"))["features"]:
+            g = f["geometry"]
+            if not g:
+                continue
+            for line in ([g["coordinates"]] if g["type"] == "LineString" else g["coordinates"]):
+                ids = [node(c) for c in line]
+                for u, v in zip(ids, ids[1:]):
+                    d = gc_dist(self.pts[u], self.pts[v])
+                    self.adj[u].append((v, d))
+                    self.adj[v].append((u, d))
+                ends += [ids[0], ids[-1]]
+        for u in ends:  # join line ends to any vertex within 2 km
+            v, d = self.near(self.pts[u], 2, exclude=u)
+            if v is not None:
+                self.adj[u].append((v, d))
+                self.adj[v].append((u, d))
+
+    def near(self, p, km, exclude=None):
+        gx, gy = int(p[0] // 0.5), int(p[1] // 0.5)
+        best, bd = None, km
+        for dx in (-1, 0, 1):
+            for dy in (-1, 0, 1):
+                for i in self.grid.get((gx + dx, gy + dy), ()):
+                    if i == exclude:
+                        continue
+                    d = gc_dist(p, self.pts[i])
+                    if d < bd:
+                        best, bd = i, d
+        return best, bd
+
+    def leg(self, a, b, snap_km=25):
+        import heapq
+        s, _ = self.near(a, snap_km)
+        t, _ = self.near(b, snap_km)
+        if s is None or t is None or s == t:
+            return None
+        dist, prev, h = {s: 0}, {}, [(0, s)]
+        limit = 2.5 * gc_dist(a, b) + 30
+        while h:
+            d, u = heapq.heappop(h)
+            if u == t:
+                break
+            if d > dist.get(u, 1e18) or d > limit:
+                continue
+            for v, w in self.adj[u]:
+                nd = d + w
+                if nd < dist.get(v, 1e18):
+                    dist[v], prev[v] = nd, u
+                    heapq.heappush(h, (nd, v))
+        if t not in dist or dist[t] > limit:
+            return None
+        path, u = [t], t
+        while u != s:
+            u = prev[u]
+            path.append(u)
+        return [list(a)] + [list(self.pts[i]) for i in reversed(path)] + [list(b)]
+
+
 def unwrap(coords):
     """Keep longitudes continuous so MapLibre does not draw a line across the whole map."""
     out = []

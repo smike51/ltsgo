@@ -90,6 +90,7 @@ const map = new maplibregl.Map({
       borders: {type: 'geojson', data: {type: 'FeatureCollection', features: []},
                 attribution: '<a href="https://github.com/aourednik/historical-basemaps">historical-basemaps</a> (GPL-3.0)'},
       'polity-labels': {type: 'geojson', data: {type: 'FeatureCollection', features: []}},
+      cities: {type: 'geojson', data: {type: 'FeatureCollection', features: []}},
       route: {type: 'geojson', data: {type: 'FeatureCollection', features: []}},
       now: {type: 'geojson', data: {type: 'FeatureCollection', features: []}},
       stops: {type: 'geojson', data: {type: 'FeatureCollection', features: []}},
@@ -115,6 +116,16 @@ const map = new maplibregl.Map({
                 'text-size': ['interpolate', ['linear'], ['zoom'], 3, 9, 7, 13], 'text-letter-spacing': 0.15,
                 'text-max-width': 8, 'symbol-sort-key': ['-', 0, ['get', 'area']]},
        paint: {'text-color': '#6B4A2A', 'text-halo-color': 'rgba(237,240,234,.8)', 'text-halo-width': 1.2}},
+      {id: 'city-dot', type: 'circle', source: 'cities', minzoom: 3,
+       filter: ['step', ['zoom'], ['<=', ['get', 'rank'], 2], 4, ['<=', ['get', 'rank'], 3], 5, ['<=', ['get', 'rank'], 4], 6, true],
+       paint: {'circle-radius': 1.8, 'circle-color': '#5A5148', 'circle-opacity': 0.7}},
+      {id: 'city-label', type: 'symbol', source: 'cities', minzoom: 3,
+       filter: ['step', ['zoom'], ['<=', ['get', 'rank'], 2], 4, ['<=', ['get', 'rank'], 3], 5, ['<=', ['get', 'rank'], 4], 6, true],
+       layout: {'text-field': ['case', ['has', 'now'],
+                  ['format', ['get', 'name'], {}, '\n', {}, ['get', 'now'], {'font-scale': 0.78}], ['get', 'name']],
+                'text-font': ['Noto Sans Regular'], 'text-size': ['interpolate', ['linear'], ['zoom'], 3, 9.5, 7, 12],
+                'text-offset': [0, 0.5], 'text-anchor': 'top', 'text-optional': true, 'symbol-sort-key': ['get', 'rank']},
+       paint: {'text-color': '#4A4038', 'text-halo-color': 'rgba(237,240,234,.85)', 'text-halo-width': 1.2}},
       {id: 'route-future', type: 'line', source: 'route', filter: ['==', ['get', 'idx'], -1],
        layout: {'line-cap': 'round', 'line-join': 'round'},
        paint: {'line-color': '#22476E', 'line-opacity': 0.28, 'line-width': 1.6, 'line-dasharray': [1.5, 1.5]}},
@@ -137,7 +148,8 @@ const map = new maplibregl.Map({
                'circle-stroke-color': '#22476E', 'circle-stroke-width': ['case', ['==', ['get', 'state'], 2], 2.5, 1.2],
                'circle-stroke-opacity': ['case', ['==', ['get', 'state'], 0], 0.5, 1]}},
       {id: 'stop-label', type: 'symbol', source: 'stops', minzoom: 3.5,
-       layout: {'text-field': ['get', 'name'], 'text-font': ['Noto Sans Regular'], 'text-size': 12,
+       layout: {'text-field': ['case', ['has', 'now'], ['format', ['get', 'name'], {}, '\n', {}, ['get', 'now'], {'font-scale': 0.78}], ['get', 'name']],
+                'text-font': ['Noto Sans Regular'], 'text-size': 12,
                 'text-offset': [0, 0.9], 'text-anchor': 'top', 'text-optional': true,
                 'symbol-sort-key': ['-', 2, ['get', 'state']]},
        paint: {'text-color': '#1B2530', 'text-halo-color': '#F8F9F5', 'text-halo-width': 1.5,
@@ -175,10 +187,33 @@ async function loadBorders(name) {
   map.getSource('polity-labels').setData(b.labels);
 }
 
+/* era city names: the name valid in the journey year (Wikidata P1448 dates), hide cities founded later */
+const OK_SCRIPT = /^[\p{Script=Latin}\p{Script=Cyrillic}\s'’.\-]+$/u;
+let citiesP = null;
+async function loadCities(y) {
+  citiesP ??= fetch('data/cities.json').then(r => r.json()).catch(() => []);
+  const C = await citiesP;
+  const ok = n => (n.from == null || n.from <= y) && (n.to == null || n.to >= y) && (n.from != null || n.to != null) && OK_SCRIPT.test(n.n);
+  const feats = [];
+  for (const c of C) {
+    const valid = c.names.filter(ok);
+    const old = c.names.some(n => n.to != null && n.to >= y);
+    if (c.founded != null && c.founded > y && !old) continue;
+    const pick = valid.find(n => n.lang === 'ru') || valid.find(n => n.to != null);
+    const name = pick ? pick.n : c.now;
+    const p = {name, rank: c.rank};
+    if (name !== c.now) p.now = c.now;
+    feats.push({type: 'Feature', properties: p, geometry: {type: 'Point', coordinates: [c.lon, c.lat]}});
+  }
+  if (st.j?.year === y) map.getSource('cities')?.setData({type: 'FeatureCollection', features: feats});
+}
+
 async function openJourney(key, stopIdx = 0) {
   stopPlay();
   const j = await fetch(`data/${key}.json`, {cache: 'no-cache'}).then(r => r.json());
   st.j = j; st.cur = -1;
+  j.year = +((j.years || '').match(/\d{3,4}/) || [1850])[0];
+  loadCities(j.year);
   $('b-title').textContent = j.title_ru;
   $('b-by').textContent = `${j.author_ru} · ${j.years}`;
   $('b-borders').textContent = `карта ${j.borders.replace('world_', '')} г.` + (j.borders === 'world_1815' ? ' (ближайшая к 1852)' : '');
@@ -248,7 +283,7 @@ function setT(t, fromPlay) {
   if (i !== st.cur) {
     st.cur = i;
     map.getSource('stops').setData({type: 'FeatureCollection', features: st.j.stops.map((s, k) => ({
-      type: 'Feature', properties: {idx: k, name: s.name, state: k === i ? 2 : k < i ? 1 : 0},
+      type: 'Feature', properties: {idx: k, name: s.name_then || s.name, ...(s.name_then && s.name_then !== s.name ? {now: s.name} : {}), state: k === i ? 2 : k < i ? 1 : 0},
       geometry: {type: 'Point', coordinates: [s.lon, s.lat]}}))});
     map.getSource('wps').setData({type: 'FeatureCollection', features: (st.j.waypoints || []).map((w, k) => ({
       type: 'Feature', properties: {k, past: w.after < i, interp: !!w.interp},
@@ -280,7 +315,7 @@ function el(tag, attrs = {}, text) {
 function renderStop(i) {
   const s = st.j.stops[i], n = st.j.stops.length;
   $('s-n').textContent = `Остановка ${i + 1} из ${n}`;
-  $('s-name').textContent = s.name;
+  $('s-name').textContent = s.name_then && s.name_then !== s.name ? `${s.name_then} (${s.name})` : s.name;
   $('pos-lbl').textContent = `${i + 1} / ${n}`;
 
   const p = parseDate(s.arrived);

@@ -61,7 +61,7 @@ def person(ents, k):
     return {"key": k, "name": ents[k]["name"].get("ru") or ents[k]["name"].get("en"), "wikidata": ents[k].get("wikidata")}
 
 
-def route(jkey, j, stops, nb, mentions, ents, land):
+def route(jkey, j, stops, nb, mentions, ents, land, roads=None, rivers=None):
     """Waypoints between stops, leg geometry, person mentions tied to date + place. Mutates stops."""
     # 1. stops in book order (passage, offset), kept monotonic along the journey
     last = (0, 0)
@@ -104,13 +104,25 @@ def route(jkey, j, stops, nb, mentions, ents, land):
               [(p["lon"], p["lat"]) for p in [*a["_wps"], b] if p["lat"] is not None and p["lon"] is not None]
         coords, how = [list(pts[0])], set()
         for n, (p, q) in enumerate(zip(pts, pts[1:])):
-            seg, h = rl.sea_leg(land, p, q) if water and not (land_back and n == 0) else (rl.gc_line(p, q), "gc")
+            if water and not (land_back and n == 0):
+                seg, h = rl.sea_leg(land, p, q)
+                if h == "gc-land" and rivers:  # inland water: follow the river
+                    r = rivers.leg(p, q)
+                    seg, h = (r, "river") if r else (seg, h)
+            else:  # by land: a sledge in winter goes on river ice; else roads / paths; else a straight line
+                seg = rivers.leg(p, q) if rivers and b["transport"] == "sledge" else None
+                h = "river"
+                if not seg:
+                    seg = roads.leg(p, q, "foot" if b["transport"] == "foot" else "car") if roads else None
+                    h = "road"
+                if not seg:
+                    seg, h = rl.gc_line(p, q), "gc"
             coords += seg[1:]
             how.add(h)
         if water:
             ship = b
         b["leg"] = rl.unwrap(coords)
-        b["leg_how"] = "searoute" if "searoute" in how else "gc-land" if "gc-land" in how else "gc"
+        b["leg_how"] = next((x for x in ("searoute", "river", "road", "gc-land") if x in how), "gc")
         if water:
             b["transport"] = "water"
     # 4. person mentions → nearest preceding anchor (stop or waypoint) → date + place
@@ -162,6 +174,7 @@ def route(jkey, j, stops, nb, mentions, ents, land):
 def main():
     ents = {e["key"]: e for e in rd(os.path.join(ST, "_shared", "entities.jsonl"))}
     land = rl.Land(os.path.join(ST, "_shared", "geo", "ne_50m_land.geojson"))
+    rivers = rl.Rivers(os.path.join(ST, "_shared", "geo", "ne_10m_rivers.geojson"))
     out_dir = os.path.join(ROOT, "proto", "map", "data")
     os.makedirs(out_dir, exist_ok=True)
     index = []
@@ -208,6 +221,7 @@ def main():
             ps = passages.get(pf, {})
             stops.append({
                 "key": s["place_key"], "name": e["name"].get("ru") or e["name"].get("en"),
+                "name_then": next((n["name"] for n in e.get("names_then") or [] if n.get("lang") == "ru"), None),  # as the author wrote it
                 "name_en": e["name"].get("en"), "lat": s.get("route_lat", e["lat"]), "lon": s.get("route_lon", e["lon"]),  # route point overrides place (river mouth)
                 "wikidata": e.get("wikidata"), "kind": s.get("kind"),
                 "arrived": s.get("arrived"), "date_in_text": s.get("date_in_text"),
@@ -219,7 +233,9 @@ def main():
                 "media": media.get(e.get("wikidata"), [])[:4],
                 "preservation": e.get("preservation"), "now": now.get(s["place_key"], [])[:3],
             })
-        wps = route(jkey, j, stops, nb, mentions, ents, land)
+        roads = rl.Roads(os.path.join(ST, j["book"], "route", "road_legs.json"))
+        wps = route(jkey, j, stops, nb, mentions, ents, land, roads, rivers)
+        roads.save()
         data = {"journey": jkey, **{k: v for k, v in j.items() if k not in ("book", "short")},
                 "stops": stops, "waypoints": wps, "skipped": sorted(set(skipped))}
         with open(os.path.join(out_dir, f"{jkey}.json"), "w", encoding="utf-8", newline="\n") as f:
