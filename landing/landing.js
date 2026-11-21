@@ -23,7 +23,7 @@ const T = {
     p_title: 'Чему можно верить',
     p1: 'У каждого факта есть источник и цитата.', p2: 'Только тексты в общественном достоянии.',
     p3: 'У каждой картинки — автор и лицензия.', p4: 'Даты старого стиля хранятся со своим календарём.',
-    foot: 'Ранний проект. Карты: Natural Earth, общественное достояние. Иллюстрации: Wikimedia Commons, Смитсоновский институт (CC0), Художественные музеи Гарварда, авторы указаны у каждой.',
+    foot: 'Ранний проект. Карты: Natural Earth, общественное достояние. Иллюстрации: Wikimedia Commons, Смитсоновский институт (CC0), Художественные музеи Гарварда, Europeana, авторы указаны у каждой.',
     day: 'День', play: 'Пуск', contact: 'Связаться',
     dress_v: 'Путешественник 1872 года: костюм, багаж, бумаги',
     dress_1789: 'Как путешествовал господин в 1780-е',
@@ -38,7 +38,7 @@ let lbCur = null;
 function lbFill() {
   if (!lbCur) return;
   const x = lbCur, L = lang === 'ru' ? 'ru' : 'en';
-  const lic = { pd: ['Public domain', 'Общественное достояние'], cc0: ['CC0', 'CC0'], 'CC BY 2.0': ['CC BY 2.0', 'CC BY 2.0'], 'CC BY-SA 3.0': ['CC BY-SA 3.0', 'CC BY-SA 3.0'], 'CC BY-SA 4.0': ['CC BY-SA 4.0', 'CC BY-SA 4.0'] }[x.lic] || [x.lic, x.lic];
+  const lic = { pd: ['Public domain', 'Общественное достояние'], cc0: ['CC0', 'CC0'], 'CC BY 2.0': ['CC BY 2.0', 'CC BY 2.0'], 'CC BY-SA 3.0': ['CC BY-SA 3.0', 'CC BY-SA 3.0'], 'CC BY-SA 4.0': ['CC BY-SA 4.0', 'CC BY-SA 4.0'], 'CC BY 4.0': ['CC BY 4.0', 'CC BY 4.0'] }[x.lic] || [x.lic, x.lic];
   document.getElementById('lb-t').textContent = x.t[L];
   document.getElementById('lb-by').textContent = x.by[L];
   const src = document.getElementById('lb-src'); src.textContent = `${lic[L === 'ru' ? 1 : 0]} · `;
@@ -48,7 +48,7 @@ function lbFill() {
 function openLb(x) {
   lbCur = x;
   const img = document.getElementById('lb-img');
-  img.src = x.thumb.replace(/width=\d+/, 'width=1600').replace(/max=\d+/, 'max=1600'); img.alt = x.t.en;
+  img.src = x.big || x.thumb.replace(/width=\d+/, 'width=1600').replace(/max=\d+/, 'max=1600'); img.alt = x.t.en;
   lbFill(); document.getElementById('lb').hidden = false;
 }
 function gallery(id, list) {

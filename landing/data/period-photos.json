@@ -17,6 +17,20 @@
     "src": "Harvard Art Museums"
    },
    {
+    "thumb": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Ffarm8.staticflickr.com%2F7398%2F11204424543_fb6213d13f_o.jpg&type=IMAGE",
+    "page": "https://www.europeana.eu/item/2059209/7398_11204424543_fb6213d13f_o_jpg",
+    "t": {
+     "en": "The Junior Carlton Club, Pall Mall",
+     "ru": "Клуб «Джуниор Карлтон», Пэлл-Мэлл"
+    },
+    "by": {
+     "en": "From “Club-Land, London and Provincial”, 1890; British Library",
+     "ru": "Из книги «Club-Land, London and Provincial», 1890; Британская библиотека"
+    },
+    "lic": "pd",
+    "src": "Europeana"
+   },
+   {
     "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Reform_Club._Upper_level_of_the_saloon._From_London_Interiors_%281841%29.jpg?width=400",
     "page": "https://commons.wikimedia.org/wiki/File:Reform_Club._Upper_level_of_the_saloon._From_London_Interiors_(1841).jpg",
     "t": {
@@ -337,6 +351,21 @@
    }
   ],
   "hongkong": [
+   {
+    "thumb": "https://iiif.wellcomecollection.org/image/V0036674.jpg/full/400,/0/default.jpg",
+    "big": "https://iiif.wellcomecollection.org/image/V0036674.jpg/full/1600,/0/default.jpg",
+    "page": "https://www.europeana.eu/item/9200579/u5kbex9x",
+    "t": {
+     "en": "Queen's Road, Hong Kong, dressed for the Duke of Edinburgh's visit",
+     "ru": "Куинс-роуд в Гонконге, украшенная к визиту герцога Эдинбургского"
+    },
+    "by": {
+     "en": "Photograph by John Thomson, 1869–1870; Wellcome Collection",
+     "ru": "Фотография Джона Томсона, 1869–1870; собрание Wellcome"
+    },
+    "lic": "CC BY 4.0",
+    "src": "Europeana"
+   },
    {
     "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Pedder_Street_1870s.jpg?width=400",
     "page": "https://commons.wikimedia.org/wiki/File:Pedder_Street_1870s.jpg",
@@ -738,6 +767,21 @@
    },
    "lic": "pd",
    "src": "Harvard Art Museums"
+  },
+  {
+   "thumb": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fsammlungenonline.albertina.at%2Finternal%2Fmedia%2Fdispatcher%2F23455&type=IMAGE",
+   "big": "https://sammlungenonline.albertina.at/internal/media/dispatcher/23455",
+   "page": "https://www.europeana.eu/item/15508/https___id_kulturpool_at_0bd73fd3_2c14_4661_aff2_7abe9e3a1c59_cho",
+   "t": {
+    "en": "Lausanne, seen from the Calvary path",
+    "ru": "Лозанна, вид с дороги на Голгофу"
+   },
+   "by": {
+    "en": "Drawing, about 1790; Albertina, Vienna",
+    "ru": "Рисунок, около 1790; Альбертина, Вена"
+   },
+   "lic": "pd",
+   "src": "Europeana"
   }
  ],
  "cevennes": [
