@@ -7,10 +7,17 @@
   "london": {
    "quote": "I shall be due in London in this very room of the Reform Club",
    "img": {
-    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_04.jpg?width=640",
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_04.jpg?width=640",
     "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_04.jpg",
-    "caption": "Frontispiece: Phileas Fogg",
-    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+    "t": {
+     "en": "Frontispiece: Phileas Fogg",
+     "ru": "Фронтиспис: Филеас Фогг"
+    },
+    "by": {
+     "en": "Engraving by Alphonse de Neuville and Léon Benett. Paris: Hetzel, 1873",
+     "ru": "Гравюра Альфонса де Невиля и Леона Бенетта. Париж: Этцель, 1873"
+    },
+    "lic": "pd"
    }
   },
   "dover-calais": {
@@ -31,10 +38,17 @@
   "bombay": {
    "quote": "at half-past four she hauled up at the quays of Bombay",
    "img": {
-    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_07.jpg?width=640",
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_07.jpg?width=640",
     "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_07.jpg",
-    "caption": "A Poor Mendicant",
-    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+    "t": {
+     "en": "A Poor Mendicant",
+     "ru": "Бедный нищий"
+    },
+    "by": {
+     "en": "Engraving by Alphonse de Neuville and Léon Benett. Paris: Hetzel, 1873",
+     "ru": "Гравюра Альфонса де Невиля и Леона Бенетта. Париж: Этцель, 1873"
+    },
+    "lic": "pd"
    }
   },
   "calcutta": {
@@ -46,46 +60,81 @@
   "hongkong": {
    "quote": "The \"Tankadere\" was a neat little craft of twenty tons",
    "img": {
-    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_28.jpg?width=640",
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_28.jpg?width=640",
     "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_28.jpg",
-    "caption": "He Took a Hand at Everything and Astonished the Crew",
-    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+    "t": {
+     "en": "He Took a Hand at Everything and Astonished the Crew",
+     "ru": "Он брался за всё и изумлял команду"
+    },
+    "by": {
+     "en": "Engraving by Alphonse de Neuville and Léon Benett. Paris: Hetzel, 1873",
+     "ru": "Гравюра Альфонса де Невиля и Леона Бенетта. Париж: Этцель, 1873"
+    },
+    "lic": "pd"
    }
   },
   "yokohama": {
    "quote": "entered the port of Yokohama",
    "img": {
-    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_15.jpg?width=640",
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_15.jpg?width=640",
     "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_15.jpg",
-    "caption": "Passepartout Knocked Down Two of His Adversaries",
-    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+    "t": {
+     "en": "Passepartout Knocked Down Two of His Adversaries",
+     "ru": "Паспарту сбил с ног двоих противников"
+    },
+    "by": {
+     "en": "Engraving by Alphonse de Neuville and Léon Benett. Paris: Hetzel, 1873",
+     "ru": "Гравюра Альфонса де Невиля и Леона Бенетта. Париж: Этцель, 1873"
+    },
+    "lic": "pd"
    }
   },
   "sanfrancisco": {
    "quote": "Mr. Fogg had neither gained nor lost a single day.",
    "img": {
-    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_37.jpg?width=640",
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_37.jpg?width=640",
     "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_37.jpg",
-    "caption": "The Monument Collapsed Like a Castle of Cards",
-    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+    "t": {
+     "en": "The Monument Collapsed Like a Castle of Cards",
+     "ru": "Помост рухнул, как карточный домик"
+    },
+    "by": {
+     "en": "Engraving by Alphonse de Neuville and Léon Benett. Paris: Hetzel, 1873",
+     "ru": "Гравюра Альфонса де Невиля и Леона Бенетта. Париж: Этцель, 1873"
+    },
+    "lic": "pd"
    }
   },
   "saltlake": {
    "quote": "the region of the Great Salt Lake, the singular colony of the Mormons",
    "img": {
-    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_44.jpg?width=640",
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_44.jpg?width=640",
     "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_44.jpg",
-    "caption": "The Great Salt Lake",
-    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+    "t": {
+     "en": "The Great Salt Lake",
+     "ru": "Большое Солёное озеро"
+    },
+    "by": {
+     "en": "Engraving by Alphonse de Neuville and Léon Benett. Paris: Hetzel, 1873",
+     "ru": "Гравюра Альфонса де Невиля и Леона Бенетта. Париж: Этцель, 1873"
+    },
+    "lic": "pd"
    }
   },
   "fortkearney": {
    "quote": "Fort Kearney station, where there was a garrison, was only two miles distant",
    "img": {
-    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_42.jpg?width=640",
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_42.jpg?width=640",
     "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_42.jpg",
-    "caption": "A Herd of Buffalo Barred the Track",
-    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+    "t": {
+     "en": "A Herd of Buffalo Barred the Track",
+     "ru": "Стадо бизонов преградило путь"
+    },
+    "by": {
+     "en": "Engraving by Alphonse de Neuville and Léon Benett. Paris: Hetzel, 1873",
+     "ru": "Гравюра Альфонса де Невиля и Леона Бенетта. Париж: Этцель, 1873"
+    },
+    "lic": "pd"
    }
   },
   "newyork": {
@@ -100,18 +149,32 @@
   "kholby": {
    "quote": "they must provide means of transportation for themselves from Kholby to Allahabad",
    "img": {
-    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_18.jpg?width=640",
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_18.jpg?width=640",
     "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_18.jpg",
-    "caption": "Passepartout's Uneasy Ride on the Back of the Elephant",
-    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+    "t": {
+     "en": "Passepartout's Uneasy Ride on the Back of the Elephant",
+     "ru": "Беспокойная поездка Паспарту на спине слона"
+    },
+    "by": {
+     "en": "Engraving by Alphonse de Neuville and Léon Benett. Paris: Hetzel, 1873",
+     "ru": "Гравюра Альфонса де Невиля и Леона Бенетта. Париж: Этцель, 1873"
+    },
+    "lic": "pd"
    }
   },
   "omaha": {
    "img": {
-    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_52.jpg?width=640",
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_52.jpg?width=640",
     "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_52.jpg",
-    "caption": "The Cold and Tremendous Speed Deprived Them of Speech",
-    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+    "t": {
+     "en": "The Cold and Tremendous Speed Deprived Them of Speech",
+     "ru": "От холода и бешеной скорости они лишились дара речи"
+    },
+    "by": {
+     "en": "Engraving by Alphonse de Neuville and Léon Benett. Paris: Hetzel, 1873",
+     "ru": "Гравюра Альфонса де Невиля и Леона Бенетта. Париж: Этцель, 1873"
+    },
+    "lic": "pd"
    }
   }
  }

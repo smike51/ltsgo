@@ -28,6 +28,26 @@ const T = {
   },
 };
 const EN = {};
+// in-page image viewer with a period-style caption in the site language
+let lbCur = null;
+function lbFill() {
+  if (!lbCur) return;
+  const x = lbCur, L = lang === 'ru' ? 'ru' : 'en';
+  const lic = { pd: ['Public domain', 'Общественное достояние'], cc0: ['CC0', 'CC0'] }[x.lic] || [x.lic, x.lic];
+  document.getElementById('lb-t').textContent = x.t[L];
+  document.getElementById('lb-by').textContent = x.by[L];
+  const src = document.getElementById('lb-src'); src.textContent = `${lic[L === 'ru' ? 1 : 0]} · `;
+  const a = document.createElement('a'); a.href = x.page; a.target = '_blank'; a.rel = 'noopener'; a.textContent = 'Wikimedia Commons';
+  src.append(a);
+}
+function openLb(x) {
+  lbCur = x;
+  const img = document.getElementById('lb-img');
+  img.src = x.thumb.replace(/width=\d+/, 'width=1600'); img.alt = x.t.en;
+  lbFill(); document.getElementById('lb').hidden = false;
+}
+function closeLb() { document.getElementById('lb').hidden = true; document.getElementById('lb-img').src = ''; lbCur = null; }
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
 document.querySelectorAll('[data-i]').forEach(el => { EN[el.dataset.i] = el.textContent; });
 EN.day = 'Day';
 let lang = 'en';
@@ -38,6 +58,8 @@ function applyLang() {
   document.querySelectorAll('[data-i]').forEach(el => { el.textContent = t(el.dataset.i); });
   document.getElementById('lang').textContent = lang === 'ru' ? 'EN' : 'RU';
   if (window.verneShow) verneShow(+document.getElementById('v-day').value);
+  document.querySelectorAll('.thumbs img').forEach(im => { if (im._x) im.alt = im._x.t[lang === 'ru' ? 'ru' : 'en']; });
+  lbFill();
 }
 document.getElementById('lang').onclick = () => {
   lang = lang === 'ru' ? 'en' : 'ru';
@@ -160,7 +182,7 @@ function baseMap(el, projection, land, borders) {
       $('vc-quote').textContent = st.quote ? `“${st.quote}”` : '';
       $('vc-fact').textContent = st.fact ? st.fact[ru ? 'ru' : 'en'] : '';
       $('vc-fig').hidden = !st.img;
-      if (st.img) { $('vc-img').src = st.img.url; $('vc-img').alt = st.img.caption || ''; $('vc-cap').textContent = [st.img.caption, st.img.credit].filter(Boolean).join(' — '); }
+      if (st.img) { const L = lang === 'ru' ? 'ru' : 'en'; $('vc-img').src = st.img.thumb; $('vc-img').alt = st.img.t[L]; $('vc-cap').textContent = st.img.t[L]; $('vc-img').onclick = () => openLb(st.img); }
     };
     const input = $('v-day');
     input.oninput = () => verneShow(+input.value);
@@ -204,9 +226,9 @@ function baseMap(el, projection, land, borders) {
       const box = document.getElementById(id);
       (list || []).forEach(x => {
         const a = document.createElement('a');
-        a.href = x.page; a.target = '_blank'; a.rel = 'noopener'; a.title = `${x.title} — ${x.credit}`;
+        a.href = x.page; a.onclick = ev => { ev.preventDefault(); openLb(x); };
         const img = document.createElement('img');
-        img.src = x.thumb; img.alt = x.title; img.loading = 'lazy';
+        img.src = x.thumb; img.alt = x.t.en; img._x = x;
         a.append(img); box.append(a);
       });
     });
