@@ -113,3 +113,6 @@ figcaption{font:400 .64rem/1.35 var(--f-mono);color:var(--muted);margin-top:4px;
 .lb .lb-src{display:block;font:400 .66rem/1.4 var(--f-mono);font-style:normal;color:#8A7C66;margin-top:6px;letter-spacing:.04em}
 .lb .lb-src a{color:inherit}
 .lb-x{position:absolute;top:12px;right:16px;background:none;border:0;color:#F4EDDD;font:400 2rem/1 'Old Standard TT',serif;cursor:pointer}
+.foot .contact{margin-top:6px}
+.foot .contact a{color:var(--ink,inherit)}
+.foot .edu{margin-top:6px;font-style:italic}
