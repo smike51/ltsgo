@@ -7,7 +7,7 @@
 <meta name="description" content="A book laid on the map of time, joined with an encyclopedia and a library: the journey comes alive in time and space.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="landing.css?v=9">
+<link rel="stylesheet" href="landing.css?v=10">
 </head>
 <body>
 <header class="bar">
@@ -62,6 +62,8 @@
       <input id="v-day" type="range" min="0" max="80" value="0" step="0.25" aria-label="Day">
       <span class="mono" id="v-daylab">Day 0</span>
     </div>
+    <h4 class="dress-h" data-i="dress_v">The traveller of 1872: dress, luggage, papers</h4>
+    <div class="thumbs" id="dress-verne"></div>
   </section>
 
   <section id="journeys" class="journeys">
@@ -74,6 +76,8 @@
         <h3 data-i="j1_t">A traveller in 1789: across Switzerland</h3>
         <p data-i="j1_p">Basel, Zurich, Bern, Geneva — on the eve of the Revolution, by coach and on foot, with the engravings the traveller could have bought on the way.</p>
         <div class="thumbs" id="thumbs-1789"></div>
+        <h4 class="dress-h" data-i="dress_1789">How a gentleman travelled in the 1780s</h4>
+        <div class="thumbs" id="dress-1789"></div>
       </article>
       <article class="journey">
         <div class="jmap" id="map-1878"></div>
@@ -81,6 +85,8 @@
         <h3 data-i="j2_t">Twelve days with a donkey in the Cévennes</h3>
         <p data-i="j2_p">Robert Louis Stevenson and Modestine, from Le Monastier to Saint-Jean-du-Gard: about 200 km, a route people still walk today.</p>
         <div class="thumbs" id="thumbs-1878"></div>
+        <h4 class="dress-h" data-i="dress_1878">A walker of the 1870s: kit and companions</h4>
+        <div class="thumbs" id="dress-1878"></div>
       </article>
     </div>
   </section>
@@ -108,6 +114,6 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
-<script src="landing.js?v=11"></script>
+<script src="landing.js?v=12"></script>
 </body>
 </html>

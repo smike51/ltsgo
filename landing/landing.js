@@ -25,6 +25,9 @@ const T = {
     p3: 'У каждой картинки — автор и лицензия.', p4: 'Даты старого стиля хранятся со своим календарём.',
     foot: 'Ранний проект. Карты: Natural Earth, общественное достояние. Иллюстрации: Wikimedia Commons, авторы указаны у каждой.',
     day: 'День', play: 'Пуск', contact: 'Связаться',
+    dress_v: 'Путешественник 1872 года: костюм, багаж, бумаги',
+    dress_1789: 'Как путешествовал господин в 1780-е',
+    dress_1878: 'Пешеход 1870-х: снаряжение и спутники',
     edu: 'Образовательный некоммерческий проект о литературе путешествий, истории и географии.',
   },
 };
@@ -34,7 +37,7 @@ let lbCur = null;
 function lbFill() {
   if (!lbCur) return;
   const x = lbCur, L = lang === 'ru' ? 'ru' : 'en';
-  const lic = { pd: ['Public domain', 'Общественное достояние'], cc0: ['CC0', 'CC0'] }[x.lic] || [x.lic, x.lic];
+  const lic = { pd: ['Public domain', 'Общественное достояние'], cc0: ['CC0', 'CC0'], 'CC BY 2.0': ['CC BY 2.0', 'CC BY 2.0'] }[x.lic] || [x.lic, x.lic];
   document.getElementById('lb-t').textContent = x.t[L];
   document.getElementById('lb-by').textContent = x.by[L];
   const src = document.getElementById('lb-src'); src.textContent = `${lic[L === 'ru' ? 1 : 0]} · `;
@@ -220,20 +223,19 @@ function baseMap(el, projection, land, borders) {
   let cev = CEVENNES;
   try { cev = await topo('data/cevennes-1878.json'); } catch (e) {}
   journeyMap('map-1878', cev, ['Le Monastier', 'Langogne', 'Le Pont-de-Montvert', 'Florac', 'Saint-Jean-du-Gard']);
-  // period engravings, prints and postcards for each small journey (data/journey-images.json)
-  try {
-    const gal = await topo('data/journey-images.json');
-    [['thumbs-1789', gal.ch1789], ['thumbs-1878', gal.cevennes]].forEach(([id, list]) => {
-      const box = document.getElementById(id);
-      (list || []).forEach(x => {
-        const a = document.createElement('a');
-        a.href = x.page; a.onclick = ev => { ev.preventDefault(); openLb(x); };
-        const img = document.createElement('img');
-        img.src = x.thumb; img.alt = x.t.en; img._x = x;
-        a.append(img); box.append(a);
-      });
+  // period engravings and postcards (journey-images.json), traveller's dress and kit (traveller-dress.json)
+  function gallery(id, list) {
+    const box = document.getElementById(id);
+    (list || []).forEach(x => {
+      const a = document.createElement('a');
+      a.href = x.page; a.onclick = ev => { ev.preventDefault(); openLb(x); };
+      const img = document.createElement('img');
+      img.src = x.thumb; img.alt = x.t[lang === 'ru' ? 'ru' : 'en']; img._x = x;
+      a.append(img); box.append(a);
     });
-  } catch (e) {}
+  }
+  try { const g = await topo('data/journey-images.json'); gallery('thumbs-1789', g.ch1789); gallery('thumbs-1878', g.cevennes); } catch (e) {}
+  try { const g = await topo('data/traveller-dress.json'); gallery('dress-verne', g.verne); gallery('dress-1789', g.ch1789); gallery('dress-1878', g.cevennes); } catch (e) {}
 })();
 
 /* Stevenson, Travels with a Donkey in the Cévennes, 22 Sep – 3 Oct 1878. DRAFT coordinates; research file replaces. */

@@ -1,0 +1,256 @@
+{
+ "note": "Period dress and kit of a traveller; research commit 8c9cbca (landing/research/traveller-dress.json). Titles RU by Claude.",
+ "verne": [
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mens_Coats_1872_Fashion_Plate.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Mens_Coats_1872_Fashion_Plate.jpg",
+   "t": {
+    "en": "Men's coats: a fashion plate of 1872",
+    "ru": "Мужские пальто: модная картинка 1872 года"
+   },
+   "by": {
+    "en": "Unknown artist, 1872",
+    "ru": "Неизвестный художник, 1872"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Victorian_Men.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Victorian_Men.jpg",
+   "t": {
+    "en": "Gentlemen's dress of the 1870s",
+    "ru": "Мужской костюм 1870-х годов"
+   },
+   "by": {
+    "en": "Il Giornale dei Sarti, a tailors' journal, 1870s",
+    "ru": "Il Giornale dei Sarti, журнал портных, 1870-е"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Standing_Man_in_Evening_Dress%2C_Holding_his_Top_Hat_in_his_Right_Hand_LACMA_M.79.5.73.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Standing_Man_in_Evening_Dress,_Holding_his_Top_Hat_in_his_Right_Hand_LACMA_M.79.5.73.jpg",
+   "t": {
+    "en": "A man in evening dress with his top hat",
+    "ru": "Мужчина во фраке с цилиндром в руке"
+   },
+   "by": {
+    "en": "Cham (Amédée de Noé), 1871–1872. Los Angeles County Museum of Art",
+    "ru": "Шам (Амеде де Ноэ), 1871–1872. Музей искусств округа Лос-Анджелес"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Coldrey_Man_Port.tif?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Coldrey_Man_Port.tif",
+   "t": {
+    "en": "A gentleman's carte-de-visite portrait",
+    "ru": "Портрет джентльмена, визитная фотокарточка"
+   },
+   "by": {
+    "en": "Photograph by Frederick Henry Coldrey, early 1870s",
+    "ru": "Фотография Фредерика Генри Колдри, начало 1870-х"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_a_young_man_holding_a_cane_by_Gebr%C3%BCder_Festge_%28c.1870s%29_%2815261613658%29.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_young_man_holding_a_cane_by_Gebrüder_Festge_(c.1870s)_(15261613658).jpg",
+   "t": {
+    "en": "A young man with a cane",
+    "ru": "Молодой человек с тростью"
+   },
+   "by": {
+    "en": "Photograph by Gebrüder Festge, 1870s; scan by pellethepoet",
+    "ru": "Фотография ателье братьев Фестге, 1870-е; скан pellethepoet"
+   },
+   "lic": "CC BY 2.0"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Carpet_Bag_%28USA%29%2C_1860%E2%80%9369_%28CH_18408269%29.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Carpet_Bag_(USA),_1860–69_(CH_18408269).jpg",
+   "t": {
+    "en": "A carpet-bag, Fogg's only luggage",
+    "ru": "Саквояж из ковровой ткани — единственный багаж Фогга"
+   },
+   "by": {
+    "en": "USA, 1860–1869. Cooper Hewitt, Smithsonian Design Museum",
+    "ru": "США, 1860–1869. Музей дизайна Купер-Хьюитт"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Alligator_Leather_Gladstone.png?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Alligator_Leather_Gladstone.png",
+   "t": {
+    "en": "A Gladstone bag",
+    "ru": "Саквояж «гладстон»"
+   },
+   "by": {
+    "en": "Trade catalogue, 1883",
+    "ru": "Торговый каталог, 1883"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Bradshaw%27s_railway_map_of_Britian_and_Ireland_1870.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Bradshaw's_railway_map_of_Britian_and_Ireland_1870.jpg",
+   "t": {
+    "en": "Bradshaw's railway map of Britain and Ireland",
+    "ru": "Железнодорожная карта Брэдшоу: Британия и Ирландия"
+   },
+   "by": {
+    "en": "Bradshaw's Railway Guide, 1870",
+    "ru": "Железнодорожный справочник Брэдшоу, 1870"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/1875_-_CRRNJ_-_Railway_Ticket_-_Allentown_PA.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:1875_-_CRRNJ_-_Railway_Ticket_-_Allentown_PA.jpg",
+   "t": {
+    "en": "An American railway ticket",
+    "ru": "Американский железнодорожный билет"
+   },
+   "by": {
+    "en": "Central Railroad of New Jersey, 1875",
+    "ru": "Центральная железная дорога Нью-Джерси, 1875"
+   },
+   "lic": "pd"
+  }
+ ],
+ "ch1789": [
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Deutscher_Elegant_1789.JPG?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Deutscher_Elegant_1789.JPG",
+   "t": {
+    "en": "A young man of fashion, June 1789",
+    "ru": "Молодой щёголь, июнь 1789 года"
+   },
+   "by": {
+    "en": "Journal des Luxus und der Moden, Weimar, 1789",
+    "ru": "Журнал роскоши и мод, Веймар, 1789"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_a_gentleman_holding_a_tricorn_hat_and_gloves_%28by_Alessandro_Longhi%29.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_gentleman_holding_a_tricorn_hat_and_gloves_(by_Alessandro_Longhi).jpg",
+   "t": {
+    "en": "A gentleman with a tricorn hat and gloves",
+    "ru": "Господин с треуголкой и перчатками"
+   },
+   "by": {
+    "en": "Alessandro Longhi, 1780s",
+    "ru": "Алессандро Лонги, 1780-е"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Gentleman-Gainsborough.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Gentleman-Gainsborough.jpg",
+   "t": {
+    "en": "Portrait of a gentleman",
+    "ru": "Портрет господина"
+   },
+   "by": {
+    "en": "Thomas Gainsborough, 1782",
+    "ru": "Томас Гейнсборо, 1782"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Francis_Wheatley_-_A_Gentleman_and_his_Dog_in_a_Landscape_-_Google_Art_Project.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Francis_Wheatley_-_A_Gentleman_and_his_Dog_in_a_Landscape_-_Google_Art_Project.jpg",
+   "t": {
+    "en": "A gentleman and his dog in a landscape",
+    "ru": "Господин с собакой на прогулке"
+   },
+   "by": {
+    "en": "Francis Wheatley, about 1780",
+    "ru": "Фрэнсис Уитли, около 1780"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Philipp_Jakob_Loutherbourg_d._J._-_Travellers_at_a_Well_-_WGA13734.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Philipp_Jakob_Loutherbourg_d._J._-_Travellers_at_a_Well_-_WGA13734.jpg",
+   "t": {
+    "en": "Travellers at a well",
+    "ru": "Путники у колодца"
+   },
+   "by": {
+    "en": "Philip James de Loutherbourg, 1769",
+    "ru": "Филипп Якоб Лутербург, 1769"
+   },
+   "lic": "pd"
+  }
+ ],
+ "cevennes": [
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Louis_Stevenson%2C_Knox_Series.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Robert_Louis_Stevenson,_Knox_Series.jpg",
+   "t": {
+    "en": "Robert Louis Stevenson, two years after the walk",
+    "ru": "Роберт Льюис Стивенсон через два года после похода"
+   },
+   "by": {
+    "en": "Knox Series photograph, 1880",
+    "ru": "Фотография серии Нокса, 1880"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/19th_century_knowledge_hiking_and_camping_sheepskin_knapsack_sleeping_bag.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:19th_century_knowledge_hiking_and_camping_sheepskin_knapsack_sleeping_bag.jpg",
+   "t": {
+    "en": "A sheepskin knapsack that unrolls into a sleeping bag",
+    "ru": "Заплечный мешок из овчины, он же спальный мешок"
+   },
+   "by": {
+    "en": "Francis Galton, The Art of Travel, 1872",
+    "ru": "Фрэнсис Гальтон, «Искусство путешествовать», 1872"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/19th_century_knowledge_hiking_and_camping_tent_pitched_over_an_excavation_or_hole.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:19th_century_knowledge_hiking_and_camping_tent_pitched_over_an_excavation_or_hole.jpg",
+   "t": {
+    "en": "A camp tent pitched over a hollow",
+    "ru": "Походная палатка над ямой"
+   },
+   "by": {
+    "en": "Francis Galton, The Art of Travel, 1872",
+    "ru": "Фрэнсис Гальтон, «Искусство путешествовать», 1872"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Muletiers_espagnols_-_Fonds_Trutat_-_MHNT.PHa.659.L.107.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Muletiers_espagnols_-_Fonds_Trutat_-_MHNT.PHa.659.L.107.jpg",
+   "t": {
+    "en": "Muleteers with pack animals in the Pyrenees",
+    "ru": "Погонщики с вьючными мулами в Пиренеях"
+   },
+   "by": {
+    "en": "Photograph by Eugène Trutat, 5 July 1899",
+    "ru": "Фотография Эжена Трюта, 5 июля 1899"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Cevenol_Peasant_-_A_book_of_the_Cevennes.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Cevenol_Peasant_-_A_book_of_the_Cevennes.jpg",
+   "t": {
+    "en": "A peasant of the Cévennes",
+    "ru": "Крестьянин из Севенн"
+   },
+   "by": {
+    "en": "Sabine Baring-Gould, A Book of the Cevennes, 1907",
+    "ru": "Сабин Бэринг-Гулд, «Книга о Севеннах», 1907"
+   },
+   "lic": "pd"
+  }
+ ]
+}
