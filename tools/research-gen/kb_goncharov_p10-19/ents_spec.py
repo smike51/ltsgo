@@ -12,7 +12,6 @@ E('krone',P,'Q4241807','Александр Кроун','Alexander Krone',names_t
 E('unkovsky',P,'Q2025113','Иван Унковский','Ivan Unkovsky',born='1822',died='1886')
 E('peshchurov',P,'Q2834370','Алексей Пещуров','Aleksey Peshchurov')
 E('zelenoy',P,'Q15066993','Александр Зеленой','Alexander Zelenoy')
-E('kridener',P,None,'барон Криднер (Крюднер)','Baron Krüdener',status='unverified',names_then=[NT('Криднер'),NT('барон Крюднер')],meta={'note':'офицер фрегата; в Wikidata не найден'})
 E('savich',P,None,'Савич','Savich',meta={'note':'офицер фрегата'})
 E('losev',P,None,'Лосев','Losev',meta={'note':'офицер фрегата'})
 E('nazimov',P,None,'Назимов','Nazimov',meta={'note':'командир корвета «Оливуца»'})

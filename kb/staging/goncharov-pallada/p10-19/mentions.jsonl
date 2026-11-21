@@ -8,7 +8,7 @@
 {"passage_seq": 10, "entity_key": "goshkevich", "surface": "О.А. Гошкевич"}
 {"passage_seq": 10, "entity_key": "iojima", "surface": "Ивосима"}
 {"passage_seq": 10, "entity_key": "kichibe", "surface": "Кичибе"}
-{"passage_seq": 10, "entity_key": "kridener", "surface": "Криднер"}
+{"passage_seq": 10, "entity_key": "krudener", "surface": "Криднер"}
 {"passage_seq": 10, "entity_key": "losev", "surface": "Лосев"}
 {"passage_seq": 10, "entity_key": "manila", "surface": "Манила"}
 {"passage_seq": 10, "entity_key": "mizuno-chikugo", "surface": "Мизно Чикогоно-ками"}
@@ -40,7 +40,7 @@
 {"passage_seq": 11, "entity_key": "furuhjelm", "surface": "капитан Фуругельм"}
 {"passage_seq": 11, "entity_key": "goshkevich", "surface": "О.А. Гошкевич"}
 {"passage_seq": 11, "entity_key": "gutzlaff", "surface": "Гуцла"}
-{"passage_seq": 11, "entity_key": "kridener", "surface": "Криднер"}
+{"passage_seq": 11, "entity_key": "krudener", "surface": "Криднер"}
 {"passage_seq": 11, "entity_key": "krone", "surface": "А.Е. Кроун"}
 {"passage_seq": 11, "entity_key": "nagasaki", "surface": "Нагасаки"}
 {"passage_seq": 11, "entity_key": "nagasaki-bugyo", "surface": "нагасакскому губернатор"}
@@ -65,7 +65,7 @@
 {"passage_seq": 12, "entity_key": "goshkevich", "surface": "О.А. Гошкевич"}
 {"passage_seq": 12, "entity_key": "kawaji-toshiakira", "surface": "Кавадзи Сойемон"}
 {"passage_seq": 12, "entity_key": "kichibe", "surface": "Кичибе"}
-{"passage_seq": 12, "entity_key": "kridener", "surface": "барон Крюднер"}
+{"passage_seq": 12, "entity_key": "krudener", "surface": "барон Крюднер"}
 {"passage_seq": 12, "entity_key": "losev", "surface": "Лосев"}
 {"passage_seq": 12, "entity_key": "manila", "surface": "Манила"}
 {"passage_seq": 12, "entity_key": "mizuno-chikugo", "surface": "Мизно"}
@@ -119,7 +119,7 @@
 {"passage_seq": 14, "entity_key": "demien", "surface": "Демьен"}
 {"passage_seq": 14, "entity_key": "faddeyev", "surface": "Фаддеев"}
 {"passage_seq": 14, "entity_key": "goshkevich", "surface": "Гошкевич"}
-{"passage_seq": 14, "entity_key": "kridener", "surface": "барон Крюднер"}
+{"passage_seq": 14, "entity_key": "krudener", "surface": "барон Крюднер"}
 {"passage_seq": 14, "entity_key": "losev", "surface": "Лосев"}
 {"passage_seq": 14, "entity_key": "manila", "surface": "Манила"}
 {"passage_seq": 14, "entity_key": "naha", "surface": "Напа"}
@@ -135,7 +135,7 @@
 {"passage_seq": 15, "entity_key": "frigate-pallada", "surface": "\"Паллад"}
 {"passage_seq": 15, "entity_key": "goshkevich", "surface": "О.А. Гошкевич"}
 {"passage_seq": 15, "entity_key": "kichibe", "surface": "Кичибе"}
-{"passage_seq": 15, "entity_key": "kridener", "surface": "Крюднер"}
+{"passage_seq": 15, "entity_key": "krudener", "surface": "Крюднер"}
 {"passage_seq": 15, "entity_key": "manila", "surface": "Манил"}
 {"passage_seq": 15, "entity_key": "mizuno-chikugo", "surface": "Мизно"}
 {"passage_seq": 15, "entity_key": "moriyama-einosuke", "surface": "Эйноске"}
@@ -169,7 +169,7 @@
 {"passage_seq": 16, "entity_key": "innocent-of-alaska", "surface": "преосвященный Иннокентий"}
 {"passage_seq": 16, "entity_key": "irkutsk", "surface": "Иркутск"}
 {"passage_seq": 16, "entity_key": "ivan-grigoryev", "surface": "Иван Григорьев"}
-{"passage_seq": 16, "entity_key": "kridener", "surface": "Крюднер"}
+{"passage_seq": 16, "entity_key": "krudener", "surface": "Крюднер"}
 {"passage_seq": 16, "entity_key": "lena-river", "surface": "Лены"}
 {"passage_seq": 16, "entity_key": "maya-river", "surface": "река Мая"}
 {"passage_seq": 16, "entity_key": "muravyov-amursky", "surface": "генерал-губернатор Восточной Сибири"}

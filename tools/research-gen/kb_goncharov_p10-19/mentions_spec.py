@@ -1,6 +1,6 @@
 EXTRA={'putyatin':['адмирал'],'muravyov-amursky':['генерал-губернатор Восточной Сибири','Муравьев'],'kichibe':['Кичибе'],'moriyama-einosuke':['Эйноске'],
  'tsutsui-masanori':['Тсутсуй'],'kawaji-toshiakira':['Кавадзи'],'posyet':['Посьет'],'goshkevich':['Гошкевич'],'avvakum-chestnoy':['Аввакум'],
- 'tikhmenev':['Тихменев'],'kridener':['Криднер','Крюднер'],'faddeyev':['Фаддеев'],'obolensky':['Оболенск'],'savich':['Савич'],'losev':['Лосев'],
+ 'tikhmenev':['Тихменев'],'krudener':['Криднер','Крюднер'],'faddeyev':['Фаддеев'],'obolensky':['Оболенск'],'savich':['Савич'],'losev':['Лосев'],
  'nazimov':['Назимов'],'shlippenbakh':['Шлипенбах'],'zelenoy':['Зелен[ыо]й\\b'],'peshchurov':['Пещуров'],'unkovsky':['Унковск'],'furuhjelm':['Фуругельм'],
  'krone':['Кроун'],'schwarz':['Шварц'],'cunningham':['Каннингам'],'bettelheim':['Беттельгейм'],'perry':['Перри'],'abello':['Абелло'],'demien':['Демьен'],
  'innocent-of-alaska':['Иннокенти'],'dionisy-khitrov':['Хитров'],'zavoyko':['Завойк'],'volkonsky-ms':['Волконск'],'osawa-bungo':['Овосава'],

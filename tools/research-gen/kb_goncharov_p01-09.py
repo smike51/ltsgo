@@ -85,7 +85,7 @@ ent('schlippenbach', P, 'Q28358711', 'Александр Егорович Шли
 ent('kolokoltsov', P, 'Q4228284', 'Александр Александрович Колокольцов', 'Alexander Kolokoltsov', born='1833-09-15', died='1904-10-01',
     then=['Колокольцев'])
 ent('tikhmenev', P, None, 'Пётр Александрович Тихменев', 'Pyotr Tikhmenev', meta={'role': 'officer, mess manager'})
-ent('krudener', P, None, 'барон Криднер', 'Baron Krüdener', meta={'role': 'officer'})
+ent('krudener', P, None, 'барон Николай Александрович Криднер (Крюднер)', 'Baron Nikolai Alexandrovich Krüdener', status='verified_source', then=['Криднер', 'барон Крюднер'], meta={'role': 'officer', 'rank': 'лейтенант', 'note': 'гвардейский экипаж, флигель-адъютант великого князя Константина Николаевича; в Wikidata нет; не путать с генералом Николаем Павловичем Криденером (Q2471459)', 'source': 'Гончаров И. А. ПСС, т. 3 (СПб., 2000), примечания к «Фрегату „Паллада“», с. 429', 'source_url': 'http://feb-web.ru/feb/gonchar/texts/gon97/g03/g03-391-.htm', 'source_quote': 'барон Николай Александрович Крюднер (Криднер)'})
 ent('boltin', P, None, 'мичман Болтин', 'Midshipman Boltin')
 ent('losev', P, None, 'капитан Лосев', 'Captain Losev')
 ent('savich', P, None, 'Н.Н. Савич', 'N. N. Savich', meta={'role': 'lieutenant'})
