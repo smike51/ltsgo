@@ -47,33 +47,34 @@ document.getElementById('lang').onclick = () => {
 
 /* day = days since departure, 2 Oct 1872 20:45 (London). how = transport of the leg INTO this stop. */
 const VERNE = [
-  { en: 'London', ru: 'Лондон', lon: -0.13, lat: 51.51, day: 0, date: '2 Oct 1872', how: null,
+  { id: 'london', en: 'London', ru: 'Лондон', lon: -0.13, lat: 51.51, day: 0, date: '2 Oct 1872', how: null,
     fact: { en: 'Reform Club, Pall Mall: the wager of twenty thousand pounds.', ru: 'Реформ-клуб на Пэлл-Мэлл: пари на двадцать тысяч фунтов.' } },
-  { en: 'Paris', ru: 'Париж', lon: 2.35, lat: 48.86, day: 0.5, date: '3 Oct', how: 'rail' },
-  { en: 'Turin', ru: 'Турин', lon: 7.69, lat: 45.07, day: 1.6, date: '4 Oct', how: 'rail',
+  { id: 'paris', en: 'Paris', ru: 'Париж', lon: 2.35, lat: 48.86, day: 0.5, date: '3 Oct', how: 'rail' },
+  { id: 'turin', en: 'Turin', ru: 'Турин', lon: 7.69, lat: 45.07, day: 1.6, date: '4 Oct', how: 'rail',
     fact: { en: 'Through the Mont Cenis tunnel, opened in 1871.', ru: 'Через тоннель Мон-Сени, открытый в 1871 году.' } },
-  { en: 'Brindisi', ru: 'Бриндизи', lon: 17.94, lat: 40.64, day: 2.8, date: '5 Oct', how: 'rail' },
-  { en: 'Suez', ru: 'Суэц', lon: 32.55, lat: 29.97, day: 6.6, date: '9 Oct', how: 'sea',
+  { id: 'brindisi', en: 'Brindisi', ru: 'Бриндизи', lon: 17.94, lat: 40.64, day: 2.8, date: '5 Oct', how: 'rail' },
+  { id: 'suez', en: 'Suez', ru: 'Суэц', lon: 32.55, lat: 29.97, day: 6.6, date: '9 Oct', how: 'sea',
     fact: { en: 'The Suez Canal had been open for only three years.', ru: 'Суэцкий канал был открыт всего три года назад.' } },
   { en: 'Aden', ru: 'Аден', lon: 45.03, lat: 12.8, day: 11.6, date: '14 Oct', how: 'sea', via: [[38.9, 20.5]] },
-  { en: 'Bombay', ru: 'Бомбей', lon: 72.83, lat: 18.94, day: 17.6, date: '20 Oct', how: 'sea' },
-  { en: 'Kholby', ru: 'Холби', lon: 77.5, lat: 23.2, day: 19.6, date: '22 Oct', how: 'rail',
+  { id: 'bombay', en: 'Bombay', ru: 'Бомбей', lon: 72.83, lat: 18.94, day: 17.6, date: '20 Oct', how: 'sea' },
+  { id: 'kholby', en: 'Kholby', ru: 'Холби', lon: 77.5, lat: 23.2, day: 19.6, date: '22 Oct', how: 'rail',
     fact: { en: 'The railway was unfinished here: Fogg bought an elephant.', ru: 'Здесь железная дорога обрывалась — Фогг купил слона.' } },
-  { en: 'Allahabad', ru: 'Аллахабад', lon: 81.85, lat: 25.44, day: 21.1, date: '23 Oct', how: 'elephant' },
-  { en: 'Calcutta', ru: 'Калькутта', lon: 88.36, lat: 22.57, day: 22.6, date: '25 Oct', how: 'rail' },
-  { en: 'Singapore', ru: 'Сингапур', lon: 103.85, lat: 1.29, day: 28.6, date: '31 Oct', how: 'sea', via: [[91.5, 15], [97.5, 6.5]] },
-  { en: 'Hong Kong', ru: 'Гонконг', lon: 114.16, lat: 22.28, day: 34.6, date: '6 Nov', how: 'sea' },
-  { en: 'Yokohama', ru: 'Иокогама', lon: 139.64, lat: 35.44, day: 42.6, date: '14 Nov', how: 'sea', via: [[121.5, 26], [129.5, 30.5]] },
-  { en: 'San Francisco', ru: 'Сан-Франциско', lon: -122.42, lat: 37.77, day: 61.6, date: '3 Dec', how: 'sea',
+  { id: 'allahabad', en: 'Allahabad', ru: 'Аллахабад', lon: 81.85, lat: 25.44, day: 21.1, date: '23 Oct', how: 'elephant' },
+  { id: 'calcutta', en: 'Calcutta', ru: 'Калькутта', lon: 88.36, lat: 22.57, day: 22.6, date: '25 Oct', how: 'rail' },
+  { id: 'singapore', en: 'Singapore', ru: 'Сингапур', lon: 103.85, lat: 1.29, day: 28.6, date: '31 Oct', how: 'sea', via: [[91.5, 15], [97.5, 6.5]] },
+  { id: 'hongkong', en: 'Hong Kong', ru: 'Гонконг', lon: 114.16, lat: 22.28, day: 34.6, date: '6 Nov', how: 'sea' },
+  { id: 'yokohama', en: 'Yokohama', ru: 'Иокогама', lon: 139.64, lat: 35.44, day: 42.6, date: '14 Nov', how: 'sea', via: [[121.5, 26], [129.5, 30.5]] },
+  { id: 'sanfrancisco', en: 'San Francisco', ru: 'Сан-Франциско', lon: -122.42, lat: 37.77, day: 61.6, date: '3 Dec', how: 'sea',
     fact: { en: 'The first transcontinental railroad was barely three years old.', ru: 'Первой трансконтинентальной железной дороге было едва три года.' } },
-  { en: 'Fort Kearney', ru: 'Форт-Керни', lon: -99.0, lat: 40.65, day: 66.1, date: '8 Dec', how: 'rail' },
-  { en: 'Omaha', ru: 'Омаха', lon: -95.94, lat: 41.26, day: 67.1, date: '9 Dec', how: 'sledge',
+  { id: 'saltlake', en: 'Salt Lake City', ru: 'Солт-Лейк-Сити', lon: -111.89, lat: 40.76, day: 63.6, date: '5 Dec', how: 'rail' },
+  { id: 'fortkearney', en: 'Fort Kearney', ru: 'Форт-Керни', lon: -99.0, lat: 40.65, day: 66.1, date: '8 Dec', how: 'rail' },
+  { id: 'omaha', en: 'Omaha', ru: 'Омаха', lon: -95.94, lat: 41.26, day: 67.1, date: '9 Dec', how: 'sledge',
     fact: { en: 'Across the frozen prairie on a sledge with a sail.', ru: 'Через замёрзшую прерию на санях под парусом.' } },
-  { en: 'New York', ru: 'Нью-Йорк', lon: -74.0, lat: 40.71, day: 69.1, date: '11 Dec', how: 'rail' },
-  { en: 'Queenstown', ru: 'Квинстаун', lon: -8.29, lat: 51.85, day: 78.1, date: '20 Dec', how: 'sea',
+  { id: 'newyork', en: 'New York', ru: 'Нью-Йорк', lon: -74.0, lat: 40.71, day: 69.1, date: '11 Dec', how: 'rail' },
+  { id: 'queenstown', en: 'Queenstown', ru: 'Квинстаун', lon: -8.29, lat: 51.85, day: 77.1, date: '19 Dec', how: 'sea',
     fact: { en: 'The Henrietta ran out of coal; Fogg burned her woodwork.', ru: 'На «Генриетте» кончился уголь — Фогг сжёг её деревянные части.' } },
   { en: 'Dublin', ru: 'Дублин', lon: -6.26, lat: 53.35, day: 78.6, date: '21 Dec', how: 'rail' },
-  { en: 'Liverpool', ru: 'Ливерпуль', lon: -2.98, lat: 53.41, day: 79.6, date: '21 Dec', how: 'sea' },
+  { id: 'liverpool', en: 'Liverpool', ru: 'Ливерпуль', lon: -2.98, lat: 53.41, day: 79.6, date: '21 Dec', how: 'sea' },
   { en: 'London', ru: 'Лондон', lon: -0.13, lat: 51.51, day: 80, date: '21 Dec', how: 'rail',
     fact: { en: 'Five minutes late — or so he thought. The date line had given him a day.', ru: 'Опоздал на пять минут — так он думал. Линия перемены дат подарила ему день.' } },
 ];
@@ -101,6 +102,10 @@ function baseMap(el, projection, land, borders) {
   const world = await topo('data/countries-110m.json');
   const land = topojson.merge(world, world.objects.countries.geometries);
   const borders = topojson.mesh(world, world.objects.countries, (a, b) => a !== b);
+  try { // verified quotes and period engravings from landing research (data/verne.json)
+    const extra = (await topo('data/verne.json')).stops;
+    VERNE.forEach(st => Object.assign(st, extra[st.id] || {}));
+  } catch (e) {}
   const route = lineOf(VERNE);
 
   // hero: whole route drawn once
@@ -150,11 +155,12 @@ function baseMap(el, projection, land, borders) {
       $('vc-day').textContent = `${t('day')} ${Math.floor(st.day)}`;
       $('vc-place').textContent = ru ? st.ru : st.en;
       const how = s.moving && s.moving.how ? ` · ${HOW[s.moving.how][ru ? 1 : 0]} → ${ru ? s.moving.ru : s.moving.en}` : '';
-      $('vc-date').textContent = st.date + how;
-      $('vc-quote').textContent = (st.quote && st.quote.en) || '';
+      const date = ru ? st.date.replace('Oct', 'окт.').replace('Nov', 'нояб.').replace('Dec', 'дек.') : st.date;
+      $('vc-date').textContent = date + how;
+      $('vc-quote').textContent = st.quote ? `“${st.quote}”` : '';
       $('vc-fact').textContent = st.fact ? st.fact[ru ? 'ru' : 'en'] : '';
       $('vc-fig').hidden = !st.img;
-      if (st.img) { $('vc-img').src = st.img.url; $('vc-img').alt = st.img.caption || ''; $('vc-cap').textContent = st.img.credit || ''; }
+      if (st.img) { $('vc-img').src = st.img.url; $('vc-img').alt = st.img.caption || ''; $('vc-cap').textContent = [st.img.caption, st.img.credit].filter(Boolean).join(' — '); }
     };
     const input = $('v-day');
     input.oninput = () => verneShow(+input.value);

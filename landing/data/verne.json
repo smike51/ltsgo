@@ -1,0 +1,118 @@
+{
+ "source": {
+  "quotes": "Verne, Around the World in Eighty Days, tr. G. Towle (1873), Project Gutenberg #103",
+  "research": "branch claude/landing-research-9597ee b2e78a4, landing/research/verne-80days.json"
+ },
+ "stops": {
+  "london": {
+   "quote": "I shall be due in London in this very room of the Reform Club",
+   "img": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_04.jpg?width=640",
+    "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_04.jpg",
+    "caption": "Frontispiece: Phileas Fogg",
+    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+   }
+  },
+  "dover-calais": {
+   "quote": "We start for Dover and Calais in ten minutes."
+  },
+  "paris": {
+   "quote": "it would do his eyes good to see Paris once more"
+  },
+  "turin": {
+   "quote": "Reached Turin by Mont Cenis, Friday, October 4th, at 6.35 a.m."
+  },
+  "brindisi": {
+   "quote": "Arrived at Brindisi, Saturday, October 5th, at 4 p.m."
+  },
+  "suez": {
+   "quote": "English ships daily passing to and fro on the great canal"
+  },
+  "bombay": {
+   "quote": "at half-past four she hauled up at the quays of Bombay",
+   "img": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_07.jpg?width=640",
+    "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_07.jpg",
+    "caption": "A Poor Mendicant",
+    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+   }
+  },
+  "calcutta": {
+   "quote": "the steamer which left Calcutta the next day, October 25th, at noon, for Hong Kong"
+  },
+  "singapore": {
+   "quote": "weighed anchor at Singapore the next day at four a.m."
+  },
+  "hongkong": {
+   "quote": "The \"Tankadere\" was a neat little craft of twenty tons",
+   "img": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_28.jpg?width=640",
+    "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_28.jpg",
+    "caption": "He Took a Hand at Everything and Astonished the Crew",
+    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+   }
+  },
+  "yokohama": {
+   "quote": "entered the port of Yokohama",
+   "img": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_15.jpg?width=640",
+    "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_15.jpg",
+    "caption": "Passepartout Knocked Down Two of His Adversaries",
+    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+   }
+  },
+  "sanfrancisco": {
+   "quote": "Mr. Fogg had neither gained nor lost a single day.",
+   "img": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_37.jpg?width=640",
+    "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_37.jpg",
+    "caption": "The Monument Collapsed Like a Castle of Cards",
+    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+   }
+  },
+  "saltlake": {
+   "quote": "the region of the Great Salt Lake, the singular colony of the Mormons",
+   "img": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_44.jpg?width=640",
+    "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_44.jpg",
+    "caption": "The Great Salt Lake",
+    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+   }
+  },
+  "fortkearney": {
+   "quote": "Fort Kearney station, where there was a garrison, was only two miles distant",
+   "img": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_42.jpg?width=640",
+    "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_42.jpg",
+    "caption": "A Herd of Buffalo Barred the Track",
+    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+   }
+  },
+  "newyork": {
+   "quote": "The \"China,\" for Liverpool, had started three-quarters of an hour before!"
+  },
+  "queenstown": {
+   "quote": "By ten in the evening they were passing Queenstown."
+  },
+  "liverpool": {
+   "quote": "I arrest you in the Queen's name!"
+  },
+  "kholby": {
+   "quote": "they must provide means of transportation for themselves from Kholby to Allahabad",
+   "img": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_18.jpg?width=640",
+    "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_18.jpg",
+    "caption": "Passepartout's Uneasy Ride on the Back of the Elephant",
+    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+   }
+  },
+  "omaha": {
+   "img": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Around_the_World_in_Eighty_Days%27_by_Neuville_and_Benett_52.jpg?width=640",
+    "page": "https://commons.wikimedia.org/wiki/File:'Around_the_World_in_Eighty_Days'_by_Neuville_and_Benett_52.jpg",
+    "caption": "The Cold and Tremendous Speed Deprived Them of Speech",
+    "credit": "Alphonse de Neuville & Léon Benett, Hetzel 1873 · public domain · Wikimedia Commons"
+   }
+  }
+ }
+}
