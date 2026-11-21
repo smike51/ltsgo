@@ -117,6 +117,48 @@
     "ru": "Центральная железная дорога Нью-Джерси, 1875"
    },
    "lic": "pd"
+  },
+  {
+   "thumb": "https://ids.si.edu/ids/deliveryService?id=CHSDM-63A86D3D1AC02-000001&max=400",
+   "page": "https://collection.cooperhewitt.org/view/objects/asitem/id/128483",
+   "t": {
+    "en": "Portrait of Lord Beauclerk: top hat, tailcoat, cane",
+    "ru": "Портрет лорда Боклерка: цилиндр, фрак, трость"
+   },
+   "by": {
+    "en": "Richard Dighton, 1870–80. Cooper Hewitt, Smithsonian Design Museum",
+    "ru": "Ричард Дайтон, 1870–80. Музей дизайна Купер-Хьюитт, Смитсоновский институт"
+   },
+   "lic": "cc0",
+   "src": "Smithsonian Open Access"
+  },
+  {
+   "thumb": "https://ids.si.edu/ids/deliveryService?id=CHSDM-EB8C8393E3192-000001&max=400",
+   "page": "https://collection.cooperhewitt.org/view/objects/asitem/id/128480",
+   "t": {
+    "en": "A gentleman in an overcoat and top hat",
+    "ru": "Джентльмен в пальто и цилиндре"
+   },
+   "by": {
+    "en": "Richard Dighton, 1870–80. Cooper Hewitt, Smithsonian Design Museum",
+    "ru": "Ричард Дайтон, 1870–80. Музей дизайна Купер-Хьюитт, Смитсоновский институт"
+   },
+   "lic": "cc0",
+   "src": "Smithsonian Open Access"
+  },
+  {
+   "thumb": "https://ids.si.edu/ids/deliveryService?id=CHSDM-B997A55A17B32-000001&max=400",
+   "page": "https://collection.cooperhewitt.org/view/objects/asitem/id/114325",
+   "t": {
+    "en": "Carpet bag",
+    "ru": "Ковровый саквояж"
+   },
+   "by": {
+    "en": "1860s. Cooper Hewitt, Smithsonian Design Museum",
+    "ru": "1860-е. Музей дизайна Купер-Хьюитт, Смитсоновский институт"
+   },
+   "lic": "cc0",
+   "src": "Smithsonian Open Access"
   }
  ],
  "ch1789": [

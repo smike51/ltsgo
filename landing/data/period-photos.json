@@ -428,6 +428,20 @@
      "ru": "Фотография Эндрю Рассела, 1868. Библиотека Конгресса"
     },
     "lic": "pd"
+   },
+   {
+    "thumb": "https://ids.si.edu/ids/deliveryService?id=SAAM-1994.91.165_1&max=400",
+    "page": "https://americanart.si.edu/collections/search/artwork/?id=34383",
+    "t": {
+     "en": "Weber Canyon from a thousand feet, on the Union Pacific",
+     "ru": "Каньон Вебер с высоты тысячи футов, на линии «Юнион Пасифик»"
+    },
+    "by": {
+     "en": "Photograph by Andrew J. Russell, 1869. Smithsonian American Art Museum",
+     "ru": "Фотография Эндрю Рассела, 1869. Смитсоновский музей американского искусства"
+    },
+    "lic": "cc0",
+    "src": "Smithsonian Open Access"
    }
   ],
   "fortkearney": [
@@ -471,6 +485,20 @@
      "ru": "Стереоскопический снимок, 1870-е. Собрание Роберта Денниса, Нью-Йоркская публичная библиотека"
     },
     "lic": "pd"
+   },
+   {
+    "thumb": "https://ids.si.edu/ids/deliveryService?id=CHSDM-A1F09F4BF3392-000001&max=400",
+    "page": "https://collection.cooperhewitt.org/view/objects/asitem/id/51551",
+    "t": {
+     "en": "Broadway near Wall Street, with a proposed arcade railway below",
+     "ru": "Бродвей у Уолл-стрит с проектом подземной аркадной дороги"
+    },
+    "by": {
+     "en": "Lithograph, about 1870. Cooper Hewitt, Smithsonian Design Museum",
+     "ru": "Литография, около 1870. Музей дизайна Купер-Хьюитт, Смитсоновский институт"
+    },
+    "lic": "cc0",
+    "src": "Smithsonian Open Access"
    }
   ],
   "queenstown": [
