@@ -1,0 +1,630 @@
+{
+ "note": "Period photographs and prints per stop; research commit a49d2ad (landing/research/period-photos.json). Dropped: misdated or duplicates. RU titles by Claude.",
+ "verne": {
+  "london": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Reform_Club._Upper_level_of_the_saloon._From_London_Interiors_%281841%29.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Reform_Club._Upper_level_of_the_saloon._From_London_Interiors_(1841).jpg",
+    "t": {
+     "en": "The Reform Club: upper level of the saloon",
+     "ru": "Реформ-клуб: верхняя галерея салона"
+    },
+    "by": {
+     "en": "London Interiors, 1841",
+     "ru": "«Лондонские интерьеры», 1841"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/London_Cabmen.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:London_Cabmen.jpg",
+    "t": {
+     "en": "London cabmen",
+     "ru": "Лондонские извозчики"
+    },
+    "by": {
+     "en": "Photograph by John Thomson, Street Life in London, 1877",
+     "ru": "Фотография Джона Томсона, «Уличная жизнь Лондона», 1877"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Seller_of_Shell-Fish_by_John_Thomson.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Seller_of_Shell-Fish_by_John_Thomson.jpg",
+    "t": {
+     "en": "A seller of shell-fish",
+     "ru": "Продавец моллюсков"
+    },
+    "by": {
+     "en": "Photograph by John Thomson, Street Life in London, 1877",
+     "ru": "Фотография Джона Томсона, «Уличная жизнь Лондона», 1877"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/London_Nomades.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:London_Nomades.jpg",
+    "t": {
+     "en": "London street nomads",
+     "ru": "Лондонские уличные кочевники"
+    },
+    "by": {
+     "en": "Photograph by John Thomson, Street Life in London, 1877",
+     "ru": "Фотография Джона Томсона, «Уличная жизнь Лондона», 1877"
+    },
+    "lic": "pd"
+   }
+  ],
+  "paris": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Marville%2C_Place_de_l%27%C3%89toile%2C_ca._1877.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Charles_Marville,_Place_de_l'Étoile,_ca._1877.jpg",
+    "t": {
+     "en": "Place de l’Étoile",
+     "ru": "Площадь Звезды"
+    },
+    "by": {
+     "en": "Photograph by Charles Marville, about 1877",
+     "ru": "Фотография Шарля Марвиля, около 1877"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Marville%2C_Place_de_l%27Op%C3%A9ra%2C_1878.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Charles_Marville,_Place_de_l'Opéra,_1878.jpg",
+    "t": {
+     "en": "Place de l’Opéra",
+     "ru": "Площадь Оперы"
+    },
+    "by": {
+     "en": "Photograph by Charles Marville, 1878",
+     "ru": "Фотография Шарля Марвиля, 1878"
+    },
+    "lic": "pd"
+   }
+  ],
+  "turin": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Station_de_Grand_Croix.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Station_de_Grand_Croix.jpg",
+    "t": {
+     "en": "Grand-Croix station on the Mont Cenis railway",
+     "ru": "Станция Гран-Круа на дороге через Мон-Сени"
+    },
+    "by": {
+     "en": "Photograph by Giacomo Brogi, 1871",
+     "ru": "Фотография Джакомо Броджи, 1871"
+    },
+    "lic": "pd"
+   }
+  ],
+  "brindisi": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Brindisi_stazione_ferr_1870.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Brindisi_stazione_ferr_1870.jpg",
+    "t": {
+     "en": "Brindisi railway station",
+     "ru": "Вокзал Бриндизи"
+    },
+    "by": {
+     "en": "Unknown photographer, about 1870",
+     "ru": "Неизвестный фотограф, около 1870"
+    },
+    "lic": "pd"
+   }
+  ],
+  "suez": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/L%27inauguration_du_canal_de_Suez%2C_17_November_1869_Gal18_riou_001f.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:L'inauguration_du_canal_de_Suez,_17_November_1869_Gal18_riou_001f.jpg",
+    "t": {
+     "en": "Opening of the Suez Canal, 17 November 1869",
+     "ru": "Открытие Суэцкого канала, 17 ноября 1869"
+    },
+    "by": {
+     "en": "Engraving by Édouard Riou, 1869",
+     "ru": "Гравюра Эдуара Риу, 1869"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/COLLECTIE_TROPENMUSEUM_Het_Suezkanaal_bij_Port_Said._TMnr_60002279.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Het_Suezkanaal_bij_Port_Said._TMnr_60002279.jpg",
+    "t": {
+     "en": "The Suez Canal at Port Said",
+     "ru": "Суэцкий канал у Порт-Саида"
+    },
+    "by": {
+     "en": "Unknown photographer, about 1870. Tropenmuseum, Amsterdam",
+     "ru": "Неизвестный фотограф, около 1870. Тропенмузеум, Амстердам"
+    },
+    "lic": "CC BY-SA 3.0"
+   }
+  ],
+  "bombay": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Bombay_Harbour_Docks_in_the_1870s.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Bombay_Harbour_Docks_in_the_1870s.jpg",
+    "t": {
+     "en": "Bombay harbour docks",
+     "ru": "Доки Бомбейской гавани"
+    },
+    "by": {
+     "en": "Unknown photographer, 1870s",
+     "ru": "Неизвестный фотограф, 1870-е"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Elphinstone_Circle%2C_Bombay_in_the_1870s_%281%29.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Elphinstone_Circle,_Bombay_in_the_1870s_(1).jpg",
+    "t": {
+     "en": "Elphinstone Circle, Bombay",
+     "ru": "Элфинстон-серкл, Бомбей"
+    },
+    "by": {
+     "en": "Unknown photographer, 1870s",
+     "ru": "Неизвестный фотограф, 1870-е"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Albumen_photograph_of_two_girls_from_Bombay_in_1870.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Albumen_photograph_of_two_girls_from_Bombay_in_1870.jpg",
+    "t": {
+     "en": "Two girls from Bombay",
+     "ru": "Две девочки из Бомбея"
+    },
+    "by": {
+     "en": "Unknown photographer, 1870",
+     "ru": "Неизвестный фотограф, 1870"
+    },
+    "lic": "pd"
+   }
+  ],
+  "allahabad": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Khusru_Bagh%2C_Allahabad%2C_1870s.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Khusru_Bagh,_Allahabad,_1870s.jpg",
+    "t": {
+     "en": "Khusro Bagh, Allahabad",
+     "ru": "Хусро-Багх, Аллахабад"
+    },
+    "by": {
+     "en": "Photograph by Bourne & Shepherd, 1870s",
+     "ru": "Фотография ателье «Борн и Шепард», 1870-е"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Allahabad_railwaybridge1870.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Allahabad_railwaybridge1870.jpg",
+    "t": {
+     "en": "The railway bridge at Allahabad",
+     "ru": "Железнодорожный мост в Аллахабаде"
+    },
+    "by": {
+     "en": "Unknown photographer, about 1870",
+     "ru": "Неизвестный фотограф, около 1870"
+    },
+    "lic": "pd"
+   }
+  ],
+  "calcutta": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Custom_House_Ghat%2C_Calcutta_at_low_tide_%28c._1860s%29.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Custom_House_Ghat,_Calcutta_at_low_tide_(c._1860s).jpg",
+    "t": {
+     "en": "Custom House Ghat, Calcutta, at low tide",
+     "ru": "Таможенная пристань в Калькутте во время отлива"
+    },
+    "by": {
+     "en": "Photograph by Samuel Bourne, 1860s",
+     "ru": "Фотография Сэмюэла Борна, 1860-е"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Dalhousie_Square%2C_Calcutta_%28c._1870s%29.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Dalhousie_Square,_Calcutta_(c._1870s).jpg",
+    "t": {
+     "en": "Dalhousie Square, Calcutta",
+     "ru": "Площадь Далхаузи, Калькутта"
+    },
+    "by": {
+     "en": "Photograph by A. De Hone, about 1870",
+     "ru": "Фотография А. де Хоуна, около 1870"
+    },
+    "lic": "pd"
+   }
+  ],
+  "singapore": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Singapore_January_20_1866_Frederick_Grosse.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Singapore_January_20_1866_Frederick_Grosse.jpg",
+    "t": {
+     "en": "Singapore",
+     "ru": "Сингапур"
+    },
+    "by": {
+     "en": "Photograph by Frederick Grosse, 20 January 1866",
+     "ru": "Фотография Фредерика Гроссе, 20 января 1866"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/KITLV_-_29175_-_View_of_the_harbor_of_Singapore_-_1860.tif?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:KITLV_-_29175_-_View_of_the_harbor_of_Singapore_-_1860.tif",
+    "t": {
+     "en": "The harbour of Singapore",
+     "ru": "Гавань Сингапура"
+    },
+    "by": {
+     "en": "Unknown photographer, 1860",
+     "ru": "Неизвестный фотограф, 1860"
+    },
+    "lic": "pd"
+   }
+  ],
+  "hongkong": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Pedder_Street_1870s.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Pedder_Street_1870s.jpg",
+    "t": {
+     "en": "Pedder Street, Hong Kong",
+     "ru": "Педдер-стрит, Гонконг"
+    },
+    "by": {
+     "en": "Photograph by John Thomson, published 1873–1874",
+     "ru": "Фотография Джона Томсона, опубликована в 1873–1874"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Cochrane_Street_in_1870s.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Cochrane_Street_in_1870s.jpg",
+    "t": {
+     "en": "Cochrane Street, Hong Kong",
+     "ru": "Кокрейн-стрит, Гонконг"
+    },
+    "by": {
+     "en": "Photograph by John Thomson, about 1870",
+     "ru": "Фотография Джона Томсона, около 1870"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Hong_Kong%2C_Entrance_to_the_port_by_Lai_Afong_c1880.JPG?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Hong_Kong,_Entrance_to_the_port_by_Lai_Afong_c1880.JPG",
+    "t": {
+     "en": "Entrance to the port of Hong Kong",
+     "ru": "Вход в гонконгский порт"
+    },
+    "by": {
+     "en": "Photograph by Lai Afong, about 1880",
+     "ru": "Фотография Лай Афона, около 1880"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Group_of_Men_at_Dinner._Shanghai%2C_China%2C_1874_WDL1920.png?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Group_of_Men_at_Dinner._Shanghai,_China,_1874_WDL1920.png",
+    "t": {
+     "en": "Men at dinner, Shanghai",
+     "ru": "Обед, Шанхай"
+    },
+    "by": {
+     "en": "Photograph by Adolf Boyarsky, 1874",
+     "ru": "Фотография Адольфа Боярского, 1874"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Troupe_of_Musicians_Playing_Traditional_Chinese_Instruments._Shanghai%2C_China%2C_1874_WDL1919.png?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Troupe_of_Musicians_Playing_Traditional_Chinese_Instruments._Shanghai,_China,_1874_WDL1919.png",
+    "t": {
+     "en": "Musicians, Shanghai",
+     "ru": "Музыканты, Шанхай"
+    },
+    "by": {
+     "en": "Photograph by Adolf Boyarsky, 1874",
+     "ru": "Фотография Адольфа Боярского, 1874"
+    },
+    "lic": "pd"
+   }
+  ],
+  "yokohama": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Felice_Beato_Palanquin.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Felice_Beato_Palanquin.jpg",
+    "t": {
+     "en": "A palanquin, Japan",
+     "ru": "Паланкин, Япония"
+    },
+    "by": {
+     "en": "Photograph by Felice Beato, 1863–1877",
+     "ru": "Фотография Феличе Беато, 1863–1877"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/45_Yokohama_crosssection.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:45_Yokohama_crosssection.jpg",
+    "t": {
+     "en": "Panorama of Yokohama",
+     "ru": "Панорама Иокогамы"
+    },
+    "by": {
+     "en": "Photograph by Felice Beato, 1860s – early 1870s",
+     "ru": "Фотография Феличе Беато, 1860-е — начало 1870-х"
+    },
+    "lic": "pd"
+   }
+  ],
+  "sanfrancisco": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Muybridge_SF_pan_1878_portion_showing_spite_fence.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Muybridge_SF_pan_1878_portion_showing_spite_fence.jpg",
+    "t": {
+     "en": "Panorama of San Francisco",
+     "ru": "Панорама Сан-Франциско"
+    },
+    "by": {
+     "en": "Photograph by Eadweard Muybridge, 1878",
+     "ru": "Фотография Эдварда Мейбриджа, 1878"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/From_Pine_and_Dupont%2C_July_4th%2C_1862%2C_by_Watkins%2C_Carleton_E.%2C_1829-1916.png?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:From_Pine_and_Dupont,_July_4th,_1862,_by_Watkins,_Carleton_E.,_1829-1916.png",
+    "t": {
+     "en": "San Francisco",
+     "ru": "Сан-Франциско"
+    },
+    "by": {
+     "en": "Photograph by Carleton E. Watkins, 1861–1873",
+     "ru": "Фотография Карлтона Уоткинса, 1861–1873"
+    },
+    "lic": "pd"
+   }
+  ],
+  "saltlake": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Salt_Lake_City._Salt_Lake_County%2C_Utah_-_NARA_-_516648.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Great_Salt_Lake_City._Salt_Lake_County,_Utah_-_NARA_-_516648.jpg",
+    "t": {
+     "en": "Salt Lake City",
+     "ru": "Солт-Лейк-Сити"
+    },
+    "by": {
+     "en": "Photograph by William Henry Jackson, 1869. U.S. National Archives",
+     "ru": "Фотография Уильяма Генри Джексона, 1869. Национальный архив США"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Tabernacle._Great_Salt_Lake_City._Salt_Lake_County%2C_Utah._-_NARA_-_516649.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Tabernacle._Great_Salt_Lake_City._Salt_Lake_County,_Utah._-_NARA_-_516649.jpg",
+    "t": {
+     "en": "The Tabernacle, Salt Lake City",
+     "ru": "Табернакль, Солт-Лейк-Сити"
+    },
+    "by": {
+     "en": "Photograph by William Henry Jackson, 1869. U.S. National Archives",
+     "ru": "Фотография Уильяма Генри Джексона, 1869. Национальный архив США"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Salt_Lake_City_-_Camp_Douglas_and_Wasatch_Mountains_in_the_background_LCCN2003668256.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City_-_Camp_Douglas_and_Wasatch_Mountains_in_the_background_LCCN2003668256.jpg",
+    "t": {
+     "en": "Camp Douglas near Salt Lake City",
+     "ru": "Кэмп-Дуглас близ Солт-Лейк-Сити"
+    },
+    "by": {
+     "en": "Photograph by Andrew J. Russell, 1868. Library of Congress",
+     "ru": "Фотография Эндрю Рассела, 1868. Библиотека Конгресса"
+    },
+    "lic": "pd"
+   }
+  ],
+  "fortkearney": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/East_and_West_Shaking_hands_at_the_laying_of_last_rail_Union_Pacific_Railroad.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:East_and_West_Shaking_hands_at_the_laying_of_last_rail_Union_Pacific_Railroad.jpg",
+    "t": {
+     "en": "Laying the last rail of the Union Pacific, 10 May 1869",
+     "ru": "Укладка последнего рельса «Юнион Пасифик», 10 мая 1869"
+    },
+    "by": {
+     "en": "Photograph by Andrew J. Russell, 1869",
+     "ru": "Фотография Эндрю Рассела, 1869"
+    },
+    "lic": "pd"
+   },
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Dale_Creek_Bridge_Union_Pacific_Railroad_Company_by_Andrew_J_Russell.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Dale_Creek_Bridge_Union_Pacific_Railroad_Company_by_Andrew_J_Russell.jpg",
+    "t": {
+     "en": "Dale Creek Bridge on the Union Pacific",
+     "ru": "Мост через Дейл-Крик на «Юнион Пасифик»"
+    },
+    "by": {
+     "en": "Photograph by Andrew J. Russell, about 1868",
+     "ru": "Фотография Эндрю Рассела, около 1868"
+    },
+    "lic": "pd"
+   }
+  ],
+  "newyork": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Broadway_%26_Union_Square%2C_New_York%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Broadway_&_Union_Square,_New_York,_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg",
+    "t": {
+     "en": "Broadway at Union Square",
+     "ru": "Бродвей у Юнион-сквер"
+    },
+    "by": {
+     "en": "Stereoscopic view, 1870s. Robert N. Dennis collection, New York Public Library",
+     "ru": "Стереоскопический снимок, 1870-е. Собрание Роберта Денниса, Нью-Йоркская публичная библиотека"
+    },
+    "lic": "pd"
+   }
+  ],
+  "queenstown": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Lowe_Stopford_-_Panoramic_View_of_Queenstown%2C_1877.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:Robert_Lowe_Stopford_-_Panoramic_View_of_Queenstown,_1877.jpg",
+    "t": {
+     "en": "Panoramic view of Queenstown",
+     "ru": "Панорама Квинстауна"
+    },
+    "by": {
+     "en": "Robert Lowe Stopford, 1877",
+     "ru": "Роберт Лоу Стопфорд, 1877"
+    },
+    "lic": "pd"
+   }
+  ],
+  "liverpool": [
+   {
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Luke%27s_church_overlooking_Bold_Street%2C_Liverpool%2C_1865.jpg?width=400",
+    "page": "https://commons.wikimedia.org/wiki/File:St_Luke's_church_overlooking_Bold_Street,_Liverpool,_1865.jpg",
+    "t": {
+     "en": "Bold Street, Liverpool",
+     "ru": "Болд-стрит, Ливерпуль"
+    },
+    "by": {
+     "en": "Unknown photographer, 1865",
+     "ru": "Неизвестный фотограф, 1865"
+    },
+    "lic": "pd"
+   }
+  ]
+ },
+ "people": [
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Turkey._Constantinople._Hamal_or_porter_with_baggage%2C_Istanbul%2C_by_G._Berggren%2C_c._1875%2C_from_the_Digital_Commonwealth_-_commonwealth_tt44s7413.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Turkey._Constantinople._Hamal_or_porter_with_baggage,_Istanbul,_by_G._Berggren,_c._1875,_from_the_Digital_Commonwealth_-_commonwealth_tt44s7413.jpg",
+   "t": {
+    "en": "A porter with baggage, Constantinople",
+    "ru": "Носильщик с багажом, Константинополь"
+   },
+   "by": {
+    "en": "Photograph by Guillaume Berggren, about 1875",
+    "ru": "Фотография Гийома Берггрена, около 1875"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/A_dhobie_%28washerman%29_ironing_in_the_early_1870s.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:A_dhobie_(washerman)_ironing_in_the_early_1870s.jpg",
+   "t": {
+    "en": "A washerman ironing, India",
+    "ru": "Индийский прачечник за глажкой"
+   },
+   "by": {
+    "en": "Photograph by Bourne & Shepherd, early 1870s",
+    "ru": "Фотография ателье «Борн и Шепард», начало 1870-х"
+   },
+   "lic": "pd"
+  }
+ ],
+ "ch1789": [
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/CH-NB_-_Trachten_Bern_-_Collection_Gugelmann_-_GS-GUGE-ABERLI-7a-1.tif?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:CH-NB_-_Trachten_Bern_-_Collection_Gugelmann_-_GS-GUGE-ABERLI-7a-1.tif",
+   "t": {
+    "en": "Bernese costume",
+    "ru": "Бернский костюм"
+   },
+   "by": {
+    "en": "Johann Ludwig Aberli, 1775. Gugelmann Collection, Swiss National Library",
+    "ru": "Иоганн Людвиг Аберли, 1775. Собрание Гугельмана, Швейцарская национальная библиотека"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/CH-NB_-_Bern%2C_von_Norden_-_Collection_Gugelmann_-_GS-GUGE-ABERLI-C-2.tif?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:CH-NB_-_Bern,_von_Norden_-_Collection_Gugelmann_-_GS-GUGE-ABERLI-C-2.tif",
+   "t": {
+    "en": "Bern from the north",
+    "ru": "Берн с севера"
+   },
+   "by": {
+    "en": "Johann Ludwig Aberli, 1765–1770. Gugelmann Collection, Swiss National Library",
+    "ru": "Иоганн Людвиг Аберли, 1765–1770. Собрание Гугельмана, Швейцарская национальная библиотека"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Johann_Jakob_Schalch_Der_Rheinfall_vom_Z%C3%BCrcher_Ufer_aus.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Johann_Jakob_Schalch_Der_Rheinfall_vom_Zürcher_Ufer_aus.jpg",
+   "t": {
+    "en": "The Rhine Falls from the Zurich bank",
+    "ru": "Рейнский водопад с цюрихского берега"
+   },
+   "by": {
+    "en": "Johann Jakob Schalch, about 1780",
+    "ru": "Иоганн Якоб Шальх, около 1780"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Firmin_Massot%2C_Ludwig_von_B%C3%BCren_und_seine_Familie%2C_1796.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Firmin_Massot,_Ludwig_von_Büren_und_seine_Familie,_1796.jpg",
+   "t": {
+    "en": "Ludwig von Büren and his family, Bern",
+    "ru": "Людвиг фон Бюрен с семьёй, Берн"
+   },
+   "by": {
+    "en": "Firmin Massot, 1796",
+    "ru": "Фирмен Массо, 1796"
+   },
+   "lic": "CC BY-SA 4.0"
+  }
+ ],
+ "cevennes": [
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Gezicht_op_Le_Puy-en-Velay%2C_RP-F-F19872.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Gezicht_op_Le_Puy-en-Velay,_RP-F-F19872.jpg",
+   "t": {
+    "en": "View of Le Puy-en-Velay",
+    "ru": "Вид на Ле-Пюи-ан-Веле"
+   },
+   "by": {
+    "en": "Unknown photographer, 1880–1945. Rijksmuseum",
+    "ru": "Неизвестный фотограф, 1880–1945. Рейксмузеум"
+   },
+   "lic": "cc0"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Pionni%C3%A8re_Langogne.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Pionnière_Langogne.jpg",
+   "t": {
+    "en": "Langogne",
+    "ru": "Ланьонь"
+   },
+   "by": {
+    "en": "Postcard, about 1900",
+    "ru": "Открытка, около 1900"
+   },
+   "lic": "pd"
+  },
+  {
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Le_Bouchet_Saint_Nicolas_2.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Le_Bouchet_Saint_Nicolas_2.jpg",
+   "t": {
+    "en": "Le Bouchet-Saint-Nicolas",
+    "ru": "Ле-Буше-Сен-Николя"
+   },
+   "by": {
+    "en": "Postcard, about 1900",
+    "ru": "Открытка, около 1900"
+   },
+   "lic": "CC BY-SA 4.0"
+  }
+ ]
+}

@@ -28,6 +28,7 @@ const T = {
     dress_v: 'Путешественник 1872 года: костюм, багаж, бумаги',
     dress_1789: 'Как путешествовал господин в 1780-е',
     dress_1878: 'Пешеход 1870-х: снаряжение и спутники',
+    photos_h: 'Фотографии того времени',
     edu: 'Образовательный некоммерческий проект о литературе путешествий, истории и географии.',
   },
 };
@@ -37,7 +38,7 @@ let lbCur = null;
 function lbFill() {
   if (!lbCur) return;
   const x = lbCur, L = lang === 'ru' ? 'ru' : 'en';
-  const lic = { pd: ['Public domain', 'Общественное достояние'], cc0: ['CC0', 'CC0'], 'CC BY 2.0': ['CC BY 2.0', 'CC BY 2.0'] }[x.lic] || [x.lic, x.lic];
+  const lic = { pd: ['Public domain', 'Общественное достояние'], cc0: ['CC0', 'CC0'], 'CC BY 2.0': ['CC BY 2.0', 'CC BY 2.0'], 'CC BY-SA 3.0': ['CC BY-SA 3.0', 'CC BY-SA 3.0'], 'CC BY-SA 4.0': ['CC BY-SA 4.0', 'CC BY-SA 4.0'] }[x.lic] || [x.lic, x.lic];
   document.getElementById('lb-t').textContent = x.t[L];
   document.getElementById('lb-by').textContent = x.by[L];
   const src = document.getElementById('lb-src'); src.textContent = `${lic[L === 'ru' ? 1 : 0]} · `;
@@ -49,6 +50,16 @@ function openLb(x) {
   const img = document.getElementById('lb-img');
   img.src = x.thumb.replace(/width=\d+/, 'width=1600'); img.alt = x.t.en;
   lbFill(); document.getElementById('lb').hidden = false;
+}
+function gallery(id, list) {
+  const box = document.getElementById(id);
+  (list || []).forEach(x => {
+    const a = document.createElement('a');
+    a.href = x.page; a.onclick = ev => { ev.preventDefault(); openLb(x); };
+    const img = document.createElement('img');
+    img.src = x.thumb; img.alt = x.t[lang === 'ru' ? 'ru' : 'en']; img._x = x;
+    a.append(img); box.append(a);
+  });
 }
 function closeLb() { document.getElementById('lb').hidden = true; document.getElementById('lb-img').src = ''; lbCur = null; }
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
@@ -132,6 +143,8 @@ function baseMap(el, projection, land, borders) {
     const extra = (await topo('data/verne.json')).stops;
     VERNE.forEach(st => Object.assign(st, extra[st.id] || {}));
   } catch (e) {}
+  let PP = {};
+  try { PP = await topo('data/period-photos.json'); window.PHOTOS = PP.verne; } catch (e) {}
   const route = lineOf(VERNE);
 
   // hero: whole route drawn once
@@ -185,6 +198,9 @@ function baseMap(el, projection, land, borders) {
       $('vc-date').textContent = date + how;
       $('vc-quote').textContent = st.quote ? `“${st.quote}”` : '';
       $('vc-fact').textContent = st.fact ? st.fact[ru ? 'ru' : 'en'] : '';
+      const ph = (window.PHOTOS || {})[st.id] || [], pbox = $('vc-photos');
+      $('vc-photos-box').hidden = !ph.length;
+      if (pbox._stop !== st.id) { pbox._stop = st.id; pbox.textContent = ''; gallery('vc-photos', ph); }
       $('vc-fig').hidden = !st.img;
       if (st.img) { const L = lang === 'ru' ? 'ru' : 'en'; $('vc-img').src = st.img.thumb; $('vc-img').alt = st.img.t[L]; $('vc-cap').textContent = st.img.t[L]; $('vc-img').onclick = () => openLb(st.img); }
     };
@@ -224,18 +240,9 @@ function baseMap(el, projection, land, borders) {
   try { cev = await topo('data/cevennes-1878.json'); } catch (e) {}
   journeyMap('map-1878', cev, ['Le Monastier', 'Langogne', 'Le Pont-de-Montvert', 'Florac', 'Saint-Jean-du-Gard']);
   // period engravings and postcards (journey-images.json), traveller's dress and kit (traveller-dress.json)
-  function gallery(id, list) {
-    const box = document.getElementById(id);
-    (list || []).forEach(x => {
-      const a = document.createElement('a');
-      a.href = x.page; a.onclick = ev => { ev.preventDefault(); openLb(x); };
-      const img = document.createElement('img');
-      img.src = x.thumb; img.alt = x.t[lang === 'ru' ? 'ru' : 'en']; img._x = x;
-      a.append(img); box.append(a);
-    });
-  }
   try { const g = await topo('data/journey-images.json'); gallery('thumbs-1789', g.ch1789); gallery('thumbs-1878', g.cevennes); } catch (e) {}
-  try { const g = await topo('data/traveller-dress.json'); gallery('dress-verne', g.verne); gallery('dress-1789', g.ch1789); gallery('dress-1878', g.cevennes); } catch (e) {}
+  gallery('thumbs-1789', PP.ch1789); gallery('thumbs-1878', PP.cevennes);
+  try { const g = await topo('data/traveller-dress.json'); gallery('dress-verne', [...g.verne, ...(PP.people || [])]); gallery('dress-1789', g.ch1789); gallery('dress-1878', g.cevennes); } catch (e) {}
 })();
 
 /* Stevenson, Travels with a Donkey in the Cévennes, 22 Sep – 3 Oct 1878. DRAFT coordinates; research file replaces. */
