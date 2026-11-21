@@ -3,6 +3,20 @@
  "verne": {
   "london": [
    {
+    "thumb": "https://nrs.harvard.edu/urn-3:HUAM:INV102983_dynmc?width=400",
+    "page": "https://www.harvardartmuseums.org/collections/object/71484",
+    "t": {
+     "en": "The club houses in Pall Mall, with the Reform Club",
+     "ru": "Клубы на Пэлл-Мэлл, среди них Реформ-клуб"
+    },
+    "by": {
+     "en": "Lithograph by Thomas Shotter Boys, 1842. Harvard Art Museums",
+     "ru": "Литография Томаса Шоттера Бойса, 1842. Harvard Art Museums"
+    },
+    "lic": "pd",
+    "src": "Harvard Art Museums"
+   },
+   {
     "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Reform_Club._Upper_level_of_the_saloon._From_London_Interiors_%281841%29.jpg?width=400",
     "page": "https://commons.wikimedia.org/wiki/File:Reform_Club._Upper_level_of_the_saloon._From_London_Interiors_(1841).jpg",
     "t": {
@@ -53,6 +67,20 @@
      "ru": "Фотография Джона Томсона, «Уличная жизнь Лондона», 1877"
     },
     "lic": "pd"
+   },
+   {
+    "thumb": "https://nrs.harvard.edu/urn-3:HUAM:61278_dynmc?width=400",
+    "page": "https://www.harvardartmuseums.org/collections/object/298006",
+    "t": {
+     "en": "A London dray driver",
+     "ru": "Лондонский ломовой извозчик"
+    },
+    "by": {
+     "en": "Gustave Doré, 1880. Harvard Art Museums",
+     "ru": "Гюстав Доре, 1880. Harvard Art Museums"
+    },
+    "lic": "pd",
+    "src": "Harvard Art Museums"
    }
   ],
   "paris": [
@@ -139,6 +167,20 @@
      "ru": "Неизвестный фотограф, около 1870. Тропенмузеум, Амстердам"
     },
     "lic": "CC BY-SA 3.0"
+   },
+   {
+    "thumb": "https://nrs.harvard.edu/urn-3:HUAM:792271?width=400",
+    "page": "https://www.harvardartmuseums.org/collections/object/330530",
+    "t": {
+     "en": "Aden, the Royal Artillery mess house, on the way from Suez to Bombay",
+     "ru": "Аден, офицерское собрание артиллеристов, на пути из Суэца в Бомбей"
+    },
+    "by": {
+     "en": "Watercolour by Frederica Louisa Bayly, 1866. Harvard Art Museums",
+     "ru": "Акварель Фредерики Луизы Бейли, 1866. Harvard Art Museums"
+    },
+    "lic": "pd",
+    "src": "Harvard Art Museums"
    }
   ],
   "bombay": [
@@ -180,6 +222,20 @@
      "ru": "Неизвестный фотограф, 1870"
     },
     "lic": "pd"
+   },
+   {
+    "thumb": "https://nrs.harvard.edu/urn-3:HUAM:INV012997_dynmc?width=400",
+    "page": "https://www.harvardartmuseums.org/collections/object/143283",
+    "t": {
+     "en": "Bombay, the Esplanade",
+     "ru": "Бомбей, Эспланада"
+    },
+    "by": {
+     "en": "Photograph by Francis Frith & Co., 1860s. Harvard Art Museums",
+     "ru": "Фотография ателье Фрэнсиса Фрита, 1860-е. Harvard Art Museums"
+    },
+    "lic": "pd",
+    "src": "Harvard Art Museums"
    }
   ],
   "allahabad": [
@@ -236,6 +292,20 @@
      "ru": "Фотография А. де Хоуна, около 1870"
     },
     "lic": "pd"
+   },
+   {
+    "thumb": "https://nrs.harvard.edu/urn-3:HUAM:VRS89051_dynmc?width=400",
+    "page": "https://www.harvardartmuseums.org/collections/object/285739",
+    "t": {
+     "en": "Calcutta, the Esplanade and Government House",
+     "ru": "Калькутта, Эспланада и Дом правительства"
+    },
+    "by": {
+     "en": "Photograph by Samuel Bourne, 1867. Harvard Art Museums",
+     "ru": "Фотография Сэмюэла Борна, 1867. Harvard Art Museums"
+    },
+    "lic": "pd",
+    "src": "Harvard Art Museums"
    }
   ],
   "singapore": [
@@ -359,6 +429,34 @@
      "ru": "Фотография Феличе Беато, 1860-е — начало 1870-х"
     },
     "lic": "pd"
+   },
+   {
+    "thumb": "https://nrs.harvard.edu/urn-3:HUAM:DDC238457_dynmc?width=400",
+    "page": "https://www.harvardartmuseums.org/collections/object/282255",
+    "t": {
+     "en": "Oebashi bridge, Yokohama",
+     "ru": "Мост Оэбаси, Иокогама"
+    },
+    "by": {
+     "en": "Unknown photographer, about 1870–1890. Harvard Art Museums",
+     "ru": "Неизвестный фотограф, около 1870–1890. Harvard Art Museums"
+    },
+    "lic": "pd",
+    "src": "Harvard Art Museums"
+   },
+   {
+    "thumb": "https://nrs.harvard.edu/urn-3:HUAM:INV118782_dynmc?width=400",
+    "page": "https://www.harvardartmuseums.org/collections/object/318741",
+    "t": {
+     "en": "Foreigners at leisure in Yokohama",
+     "ru": "Развлечения иностранцев в Иокогаме"
+    },
+    "by": {
+     "en": "Woodblock print by Utagawa Yoshitora, 1861. Harvard Art Museums",
+     "ru": "Гравюра Утагавы Ёситоры, 1861. Harvard Art Museums"
+    },
+    "lic": "pd",
+    "src": "Harvard Art Museums"
    }
   ],
   "sanfrancisco": [
@@ -442,6 +540,20 @@
     },
     "lic": "cc0",
     "src": "Smithsonian Open Access"
+   },
+   {
+    "thumb": "https://nrs.harvard.edu/urn-3:HUAM:INV047196_dynmc?width=400",
+    "page": "https://www.harvardartmuseums.org/collections/object/155559",
+    "t": {
+     "en": "Beacon Rocks in Echo Canyon, by the Union Pacific line, after snow",
+     "ru": "Скалы Бикон в Эхо-каньоне у линии «Юнион Пасифик», после снегопада"
+    },
+    "by": {
+     "en": "Photograph by Eadweard Muybridge, about 1875. Harvard Art Museums",
+     "ru": "Фотография Эдварда Мейбриджа, около 1875. Harvard Art Museums"
+    },
+    "lic": "pd",
+    "src": "Harvard Art Museums"
    }
   ],
   "fortkearney": [
@@ -612,6 +724,20 @@
     "ru": "Фирмен Массо, 1796"
    },
    "lic": "CC BY-SA 4.0"
+  },
+  {
+   "thumb": "https://nrs.harvard.edu/urn-3:HUAM:INV156288_dynmc?width=400",
+   "page": "https://www.harvardartmuseums.org/collections/object/246882",
+   "t": {
+    "en": "The monument to Salomon Gessner at Zurich",
+    "ru": "Памятник Соломону Гесснеру в Цюрихе"
+   },
+   "by": {
+    "en": "Etching by Wilhelm Friedrich Gmelin after Johann Heinrich Wüest, 1791. Harvard Art Museums",
+    "ru": "Офорт Вильгельма Фридриха Гмелина по Иоганну Генриху Вюсту, 1791. Harvard Art Museums"
+   },
+   "lic": "pd",
+   "src": "Harvard Art Museums"
   }
  ],
  "cevennes": [
