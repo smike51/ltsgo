@@ -6,6 +6,12 @@
       "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "8217", "--bind", "127.0.0.1", "--directory", "proto/map"],
       "port": 8217
+    },
+    {
+      "name": "ltsgo-landing",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8218", "--bind", "127.0.0.1", "--directory", "landing"],
+      "port": 8218
     }
   ]
 }

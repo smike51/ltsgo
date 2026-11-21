@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Travel Books on the Map of Time</title>
+<meta name="description" content="A book laid on the map of time, joined with an encyclopedia and a library: the journey comes alive in time and space.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="landing.css?v=2">
+</head>
+<body>
+<header class="bar">
+  <a class="logo" href="#top">Books&nbsp;<i>that</i>&nbsp;Travel</a>
+  <nav>
+    <a href="#how" data-i="nav_how">How it works</a>
+    <a href="#verne" data-i="nav_example">Example</a>
+    <a href="#journeys" data-i="nav_journeys">Journeys</a>
+  </nav>
+  <button id="lang" class="lang" aria-label="Language">RU</button>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <p class="eyebrow" data-i="hero_eyebrow">A literary travel atlas</p>
+    <h1 data-i="hero_title">Put a book on the map of time</h1>
+    <p class="lead" data-i="hero_lead">Every travel book is a journey that really happened somewhere, at some time. We lay the text on a map of its own era, join it with an encyclopedia and a library — and the journey comes alive in time and space.</p>
+    <div class="hero-map" id="hero-map" aria-hidden="true"></div>
+    <p class="hero-cap mono" data-i="hero_cap">Phileas Fogg’s route, 2 October – 21 December 1872</p>
+  </section>
+
+  <section id="how" class="how">
+    <p class="eyebrow" data-i="how_eyebrow">How it works</p>
+    <h2 data-i="how_title">Four layers, one journey</h2>
+    <ol class="layers">
+      <li><span class="num">I</span><h3 data-i="l1_t">The book</h3><p data-i="l1_p">The full text, chapter by chapter. Every stop, date and person is anchored to a verbatim quote.</p></li>
+      <li><span class="num">II</span><h3 data-i="l2_t">The map of time</h3><p data-i="l2_p">Borders, city names and roads as they were in that year. Königsberg, not Kaliningrad; Edo, not Tokyo.</p></li>
+      <li><span class="num">III</span><h3 data-i="l3_t">The encyclopedia</h3><p data-i="l3_p">Who the people really were, checked against encyclopedias in several languages. Where they disagree, we show both.</p></li>
+      <li><span class="num">IV</span><h3 data-i="l4_t">The library</h3><p data-i="l4_p">Engravings, early photographs, postcards and maps of the period — each with its author and licence.</p></li>
+    </ol>
+  </section>
+
+  <section id="verne" class="example">
+    <div class="ex-head">
+      <p class="eyebrow" data-i="v_eyebrow">Example · Jules Verne, 1872</p>
+      <h2 data-i="v_title">Around the World in Eighty Days</h2>
+      <p class="lead" data-i="v_lead">Drag the day. Watch the wager unfold: trains, steamers, an elephant and a sledge with a sail.</p>
+    </div>
+    <div class="ex-body">
+      <div class="ex-map" id="verne-map"></div>
+      <aside class="ex-card" id="verne-card" aria-live="polite">
+        <p class="eyebrow mono" id="vc-day"></p>
+        <h3 id="vc-place"></h3>
+        <p class="mono vc-date" id="vc-date"></p>
+        <blockquote id="vc-quote"></blockquote>
+        <p class="vc-fact" id="vc-fact"></p>
+        <figure id="vc-fig" hidden><img id="vc-img" alt=""><figcaption id="vc-cap"></figcaption></figure>
+      </aside>
+    </div>
+    <div class="scrub">
+      <button id="v-play" class="play" aria-label="Play">▶</button>
+      <input id="v-day" type="range" min="0" max="80" value="0" step="0.25" aria-label="Day">
+      <span class="mono" id="v-daylab">Day 0</span>
+    </div>
+  </section>
+
+  <section id="journeys" class="journeys">
+    <p class="eyebrow" data-i="j_eyebrow">First journeys</p>
+    <h2 data-i="j_title">Small journeys, close up</h2>
+    <div class="jgrid">
+      <article class="journey">
+        <div class="jmap" id="map-1789"></div>
+        <p class="eyebrow mono">1789</p>
+        <h3 data-i="j1_t">A traveller in 1789: across Switzerland</h3>
+        <p data-i="j1_p">Basel, Zurich, Bern, Geneva — on the eve of the Revolution, by coach and on foot, with the engravings the traveller could have bought on the way.</p>
+        <div class="thumbs" id="thumbs-1789"></div>
+      </article>
+      <article class="journey">
+        <div class="jmap" id="map-1878"></div>
+        <p class="eyebrow mono">1878</p>
+        <h3 data-i="j2_t">Twelve days with a donkey in the Cévennes</h3>
+        <p data-i="j2_p">Robert Louis Stevenson and Modestine, from Le Monastier to Saint-Jean-du-Gard: about 200 km, a route people still walk today.</p>
+        <div class="thumbs" id="thumbs-1878"></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="principles">
+    <h2 data-i="p_title">What you can trust</h2>
+    <ul>
+      <li data-i="p1">Every fact has a source and a quote.</li>
+      <li data-i="p2">Only public-domain texts.</li>
+      <li data-i="p3">Every image has an author and a licence.</li>
+      <li data-i="p4">Old style dates keep their calendar.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="foot">
+  <p data-i="foot">An early project. Maps: Natural Earth, public domain. Illustrations: Wikimedia Commons, credited on each image.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script src="landing.js?v=4"></script>
+</body>
+</html>
