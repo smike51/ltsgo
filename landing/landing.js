@@ -194,7 +194,23 @@ function baseMap(el, projection, land, borders) {
   }
   const ch = (await (await fetch('data/europe-1789.json')).json()).slice(0, 28);
   journeyMap('map-1789', ch, ['Basel', 'Zurich', 'Bern', 'Grindelwald', 'Lausanne', 'Geneva']);
-  journeyMap('map-1878', CEVENNES, ['Le Monastier', 'Langogne', 'Le Pont-de-Montvert', 'Florac', 'Saint-Jean-du-Gard']);
+  let cev = CEVENNES;
+  try { cev = await topo('data/cevennes-1878.json'); } catch (e) {}
+  journeyMap('map-1878', cev, ['Le Monastier', 'Langogne', 'Le Pont-de-Montvert', 'Florac', 'Saint-Jean-du-Gard']);
+  // period engravings, prints and postcards for each small journey (data/journey-images.json)
+  try {
+    const gal = await topo('data/journey-images.json');
+    [['thumbs-1789', gal.ch1789], ['thumbs-1878', gal.cevennes]].forEach(([id, list]) => {
+      const box = document.getElementById(id);
+      (list || []).forEach(x => {
+        const a = document.createElement('a');
+        a.href = x.page; a.target = '_blank'; a.rel = 'noopener'; a.title = `${x.title} — ${x.credit}`;
+        const img = document.createElement('img');
+        img.src = x.thumb; img.alt = x.title; img.loading = 'lazy';
+        a.append(img); box.append(a);
+      });
+    });
+  } catch (e) {}
 })();
 
 /* Stevenson, Travels with a Donkey in the Cévennes, 22 Sep – 3 Oct 1878. DRAFT coordinates; research file replaces. */

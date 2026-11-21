@@ -1,0 +1,100 @@
+[
+ {
+  "id": "monastier",
+  "en": "Le Monastier",
+  "lon": 3.9953,
+  "lat": 44.9392,
+  "date": "1878-09-22"
+ },
+ {
+  "id": "bouchet",
+  "en": "Le Bouchet-Saint-Nicolas",
+  "lon": 3.7892,
+  "lat": 44.8903,
+  "date": "1878-09-22"
+ },
+ {
+  "id": "pradelles",
+  "en": "Pradelles",
+  "lon": 3.8822,
+  "lat": 44.7694,
+  "date": "1878-09-23"
+ },
+ {
+  "id": "langogne",
+  "en": "Langogne",
+  "lon": 3.855,
+  "lat": 44.7267,
+  "date": "1878-09-23"
+ },
+ {
+  "id": "mercoire",
+  "en": "Forest of Mercoire",
+  "lon": 3.7833,
+  "lat": 44.6167,
+  "date": "1878-09-24"
+ },
+ {
+  "id": "cheylard",
+  "en": "Cheylard-l’Évêque",
+  "lon": 3.8028,
+  "lat": 44.6478,
+  "date": "1878-09-25"
+ },
+ {
+  "id": "luc",
+  "en": "Luc",
+  "lon": 3.8908,
+  "lat": 44.6503,
+  "date": "1878-09-25"
+ },
+ {
+  "id": "ndn",
+  "en": "Our Lady of the Snows",
+  "lon": 3.9333,
+  "lat": 44.6004,
+  "date": "1878-09-26"
+ },
+ {
+  "id": "bleymard",
+  "en": "Le Bleymard",
+  "lon": 3.735,
+  "lat": 44.4864,
+  "date": "1878-09-27"
+ },
+ {
+  "id": "lozere",
+  "en": "Mont Lozère",
+  "lon": 3.7367,
+  "lat": 44.4272,
+  "date": "1878-09-28"
+ },
+ {
+  "id": "montvert",
+  "en": "Le Pont-de-Montvert",
+  "lon": 3.7436,
+  "lat": 44.3633,
+  "date": "1878-09-29"
+ },
+ {
+  "id": "florac",
+  "en": "Florac",
+  "lon": 3.5931,
+  "lat": 44.3261,
+  "date": "1878-09-30"
+ },
+ {
+  "id": "cassagnas",
+  "en": "Cassagnas",
+  "lon": 3.7464,
+  "lat": 44.2708,
+  "date": "1878-10-02"
+ },
+ {
+  "id": "stjean",
+  "en": "Saint-Jean-du-Gard",
+  "lon": 3.8861,
+  "lat": 44.1047,
+  "date": "1878-10-03"
+ }
+]

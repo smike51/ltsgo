@@ -1,0 +1,111 @@
+{
+ "cevennes": [
+  {
+   "stop": "monastier",
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Travels_with_a_Donkey_in_the_C%C3%A9vennes_-_frontispiece.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Travels_with_a_Donkey_in_the_Cévennes_-_frontispiece.jpg",
+   "title": "Frontispiece by Walter Crane, 1879",
+   "credit": "Walter Crane, 1879 · Public domain"
+  },
+  {
+   "stop": "ndn",
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Abbaye_Notre-Dame-des-Neiges_%28affiche_publicitaire%2C_1862%29.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Abbaye_Notre-Dame-des-Neiges_(affiche_publicitaire,_1862).jpg",
+   "title": "The Trappist abbey Our Lady of the Snows, 1862 poster",
+   "credit": "Imprimerie Rouchon, Paris, 1862 · Public domain"
+  },
+  {
+   "stop": "florac",
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Florac.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Florac.jpg",
+   "title": "Souvenir of Florac, about 1900",
+   "credit": "L. Bouvière, circa 1900 · Public domain"
+  },
+  {
+   "stop": "florac",
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Gare_de_Florac_carte_postale_1.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Gare_de_Florac_carte_postale_1.jpg",
+   "title": "Florac station, early 20th-century postcard",
+   "credit": "Archives départementales de la Lozère, early 1900s · Public domain"
+  },
+  {
+   "stop": "montvert",
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Entrevue_Cavalier_et_Viillars.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Entrevue_Cavalier_et_Viillars.jpg",
+   "title": "Camisard leader Cavalier meets Marshal Villars (c. 1865 engraving): the war Stevenson writes about",
+   "credit": "Jules Salles, circa 1865 · Public domain"
+  }
+ ],
+ "ch1789": [
+  {
+   "stop": "bern",
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/CH-NB_-_Bern%2C_Ratsprozession_am_Ostermontag_1789%2C_auf_der_M%C3%BCnsterplattform%2C_Feste%2C_fand_in_dieser_Form_von_1720-1797_statt_-_Collection_Gugelmann_-_GS-GUGE-LUTZ-A-1.tif?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:CH-NB_-_Bern,_Ratsprozession_am_Ostermontag_1789,_auf_der_Münsterplattform,_Feste,_fand_in_dieser_Form_von_1720-1797_statt_-_Collection_Gugelmann_-_GS-GUGE-LUTZ-A-1.tif",
+   "title": "Bern, Ratsprozession am Ostermontag 1789, auf der Münsterplattform, Feste, fand in dieser Form von 1720-1797 statt",
+   "credit": "Johann Jakob Lutz · Public domain"
+  },
+  {
+   "stop": "bern",
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/CH-NB_-_Bern%2C_von_S%C3%BCden_-_Collection_Gugelmann_-_GS-GUGE-EDER-E-1.tif?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:CH-NB_-_Bern,_von_Süden_-_Collection_Gugelmann_-_GS-GUGE-EDER-E-1.tif",
+   "title": "Bern, von Süden",
+   "credit": "Joseph Eder (18. Jh.) · Public domain"
+  },
+  {
+   "stop": "lauterbrunnen",
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Fran%C3%A7ois_Janinet_after_Caspar_Wolf%2C_Chute_de_Staubbach%2C_dans_la_Vall%C3%A9e_de_Lauterbrunnen_%28Falls_at_Staubbach_in_the_Lauterbrunnen_Valley%29%2C_probably_1776%2C_NGA_30857.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Jean-François_Janinet_after_Caspar_Wolf,_Chute_de_Staubbach,_dans_la_Vallée_de_Lauterbrunnen_(Falls_at_Staubbach_in_the_Lauterbrunnen_Valley),_probably_1776,_NGA_30857.jpg",
+   "title": "Jean-François Janinet after Caspar Wolf, Chute de Staubbach, dans la Vallée de Lauterbrunnen (Falls at Staubbach in the Lauterbrunnen Valley), probably 1776, NGA 30857",
+   "credit": "Jean-François Janinet after Caspar Wolf · CC0"
+  },
+  {
+   "stop": "lauterbrunnen",
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/CH-NB_-_Breithorngletscher_gegen_das_Lauterbrunnental_-_Collection_Gugelmann_-_GS-GUGE-WOLF-2-9.tif?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:CH-NB_-_Breithorngletscher_gegen_das_Lauterbrunnental_-_Collection_Gugelmann_-_GS-GUGE-WOLF-2-9.tif",
+   "title": "Breithorngletscher gegen das Lauterbrunnental",
+   "credit": "Caspar Wolf / Caspar Leontius Wyss · Public domain"
+  },
+  {
+   "stop": "grindelwald",
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Caspar_Wolf_-_Der_Untere_Grindelwaldgletscher_mit_L%C3%BCtschine_und_dem_Mettenberg_%281774%29.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Caspar_Wolf_-_Der_Untere_Grindelwaldgletscher_mit_Lütschine_und_dem_Mettenberg_(1774).jpg",
+   "title": "Caspar Wolf - Der Untere Grindelwaldgletscher mit Lütschine und dem Mettenberg (1774)",
+   "credit": "Caspar Wolf · Public domain"
+  },
+  {
+   "stop": "grindelwald",
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles-Melchior_Descourtis_after_Caspar_Wolf%2C_La_Lutschinen_sortant_du_Glacier_inf%C3%A9rieur_du_Grindelwald%2C_1785%2C_NGA_134206.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:Charles-Melchior_Descourtis_after_Caspar_Wolf,_La_Lutschinen_sortant_du_Glacier_inférieur_du_Grindelwald,_1785,_NGA_134206.jpg",
+   "title": "Charles-Melchior Descourtis after Caspar Wolf, La Lutschinen sortant du Glacier inférieur du Grindelwald, 1785, NGA 134206",
+   "credit": "Charles-Melchior Descourtis after Caspar Wolf · CC0"
+  },
+  {
+   "stop": "thun",
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/CH-NB_-_Thun%2C_Teilansicht_vom_Schloss_gegen_den_See_-_Collection_Gugelmann_-_GS-GUGE-ABERLI-C-10.tif?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:CH-NB_-_Thun,_Teilansicht_vom_Schloss_gegen_den_See_-_Collection_Gugelmann_-_GS-GUGE-ABERLI-C-10.tif",
+   "title": "Thun, Teilansicht vom Schloss gegen den See",
+   "credit": "Johann Ludwig Aberli · Public domain"
+  },
+  {
+   "stop": "geneva",
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/DrTheodoreTronchin.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:DrTheodoreTronchin.jpg",
+   "title": "Dr Théodore Tronchin, the Geneva physician",
+   "credit": "René Gaillard / After Jean-Étienne Liotard · Public domain"
+  },
+  {
+   "stop": "geneva",
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/CH-NB_-_Genf%2C_von_Nordwesten_-_Collection_Gugelmann_-_GS-GUGE-BIEDERMANN-B-14.tif?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:CH-NB_-_Genf,_von_Nordwesten_-_Collection_Gugelmann_-_GS-GUGE-BIEDERMANN-B-14.tif",
+   "title": "Genf, von Nordwesten",
+   "credit": "Johann Jakob Biedermann / Gabriel Lory · Public domain"
+  },
+  {
+   "stop": "lausanne",
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/JJ_Rousseau_par_Briceau_1791.jpg?width=400",
+   "page": "https://commons.wikimedia.org/wiki/File:JJ_Rousseau_par_Briceau_1791.jpg",
+   "title": "Jean-Jacques Rousseau, print of 1791",
+   "credit": "Angelique Allais · Public domain"
+  }
+ ]
+}
